@@ -1,0 +1,210 @@
+---
+/**
+ * Per-domain favicon page, rendered on demand at the edge.
+ * Curated popular domains are indexable; any other valid domain gets a
+ * working page marked noindex to keep the index high-quality.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import PlainCode from '../../../components/PlainCode.astro';
+import SiteTile from '../../../components/SiteTile.astro';
+import FaviconLookup from '../../../components/FaviconLookup.astro';
+import Icon from '../../../components/Icon.astro';
+import { LOCALES, absoluteUrl, fmt, localeFromParam, localizePath, regionName, useTranslations } from '../../../i18n';
+import { normalizeDomain } from '../../../lib/domain';
+import { categoryOf, isPopular, relatedDomains, siteName } from '../../../data/popular';
+import { SITE_URL } from '../../../site.config';
+
+export const prerender = false;
+
+const locale = localeFromParam(Astro.params.lang);
+if (!locale) return new Response(null, { status: 404 });
+
+const raw = Astro.params.domain ?? '';
+const normalized = normalizeDomain(raw);
+if (!normalized.ok) return new Response(null, { status: 404 });
+
+const { domain, display, tld } = normalized;
+const path = `/site/${domain}/`;
+if (raw !== domain || !Astro.url.pathname.endsWith('/')) {
+	return Astro.redirect(localizePath(locale, path) + Astro.url.search, 301);
+}
+
+const t = useTranslations(locale);
+const s = t.site;
+const popular = isPopular(domain);
+const category = categoryOf(domain);
+const name = popular ? siteName(domain) : display;
+const sizes = [16, 32, 48, 64, 128, 256];
+const iconUrl = `${SITE_URL}/${domain}`;
+const related = relatedDomains(domain, 12);
+const country = tld.cc ? regionName(tld.cc, locale) : '';
+const breadcrumbs = [
+	{ name: t.nav.popular, path: '/popular/' },
+	{ name: display, path },
+];
+const snippets = [
+	{ title: t.common.html, code: `<img src="${iconUrl}" width="32" height="32" alt="${display} favicon">` },
+	{ title: `${t.common.html} · ${t.common.highRes}`, code: `<img src="${iconUrl}?larger=true" width="64" height="64" alt="${display} favicon">` },
+	{ title: t.common.markdown, code: `![${display} favicon](${iconUrl})` },
+	{ title: t.common.url, code: `${iconUrl}?size=64` },
+];
+const image = {
+	'@type': 'ImageObject',
+	'@id': `${absoluteUrl(localizePath(locale, path))}#icon`,
+	name: fmt(s.title, { domain: display }),
+	description: fmt(s.subtitle, { domain: display }),
+	contentUrl: `${iconUrl}?larger=true`,
+	thumbnailUrl: `${iconUrl}?size=64`,
+	width: 256,
+	height: 256,
+	inLanguage: LOCALES[locale].htmlLang,
+	about: { '@type': 'WebSite', name, url: `https://${domain}/` },
+	creditText: name,
+	copyrightNotice: s.trademark,
+	acquireLicensePage: absoluteUrl(localizePath(locale, '/terms/')),
+};
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
+---
+
+<BaseLayout
+	locale={locale}
+	title={fmt(s.metaTitle, { domain: display })}
+	description={fmt(s.metaDescription, { domain: display })}
+	path={path}
+	noindex={!popular}
+	breadcrumbs={breadcrumbs}
+	jsonLd={[image]}
+>
+	<section class="relative overflow-hidden border-b border-slate-200/70 dark:border-white/10">
+		<div class="bg-grid pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_75%)]"></div>
+		<div class="pointer-events-none absolute -top-40 left-1/2 h-80 w-[48rem] -translate-x-1/2 rounded-full bg-brand-400/20 blur-3xl dark:bg-brand-500/15"></div>
+		<div class="container-page relative py-12 sm:py-16">
+			<Breadcrumbs locale={locale} items={breadcrumbs} />
+			<div class="mt-8 flex flex-col gap-8 sm:flex-row sm:items-center">
+				<div class="icon-tile size-32 shrink-0 rounded-3xl shadow-xl sm:size-40">
+					<img src={`/${domain}?larger=true`} alt={`${display} favicon`} width="96" height="96" class="size-20 sm:size-24" fetchpriority="high" />
+				</div>
+				<div class="min-w-0">
+					<h1 class="text-4xl font-extrabold tracking-tight break-words sm:text-5xl">{fmt(s.title, { domain: display })}</h1>
+					<p class="mt-3 text-lg text-slate-600 dark:text-slate-400">{fmt(s.subtitle, { domain: display })}</p>
+					<div class="mt-5 flex flex-wrap gap-2">
+						<a href={`https://${domain}/`} class="chip px-3 py-1 text-sm hover:text-slate-900 dark:hover:text-white" rel="noopener nofollow">
+							<Icon name="external" class="size-3.5" />
+							{display}
+						</a>
+						<span class="chip px-3 py-1 text-sm">.{tld.tld} · {t.tlds.types[tld.type]}</span>
+						{category && <a href={`${localizePath(locale, '/popular/')}#${category}`} class="chip px-3 py-1 text-sm hover:text-slate-900 dark:hover:text-white">{t.popular.categories[category]}</a>}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container-page grid gap-12 py-12 lg:grid-cols-[minmax(0,1fr)_20rem]">
+		<div class="min-w-0 space-y-14">
+			<section>
+				<h2 class="text-2xl font-bold tracking-tight">{s.sizesTitle}</h2>
+				<div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-6">
+					{
+						sizes.map((px) => (
+							<div class="card flex flex-col items-center p-4">
+								<div class="flex h-24 items-center justify-center">
+									<img
+										src={`/${domain}?size=${px}`}
+										alt={`${display} favicon ${px}×${px}`}
+										width={Math.min(px, 64)}
+										height={Math.min(px, 64)}
+										style={`width:${Math.min(px, 64)}px;height:${Math.min(px, 64)}px`}
+										loading="lazy"
+									/>
+								</div>
+								<p class="mt-2 text-sm font-semibold text-slate-900 dark:text-white">{px}×{px}</p>
+								<a href={`/${domain}?size=${px}&download=1`} download class="mt-3 inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-brand-700 hover:bg-brand-50 dark:text-brand-300 dark:hover:bg-brand-500/10" rel="nofollow">
+									<Icon name="download" class="size-3.5" />
+									{t.common.download}
+								</a>
+							</div>
+						))
+					}
+				</div>
+			</section>
+
+			<section>
+				<h2 class="text-2xl font-bold tracking-tight">{fmt(s.embedTitle, { domain: display })}</h2>
+				<p class="mt-2 text-slate-600 dark:text-slate-400">{fmt(s.embedDescription, { domain: display })}</p>
+				<div class="mt-5 grid gap-4">
+					{snippets.map((snippet) => <PlainCode code={snippet.code} title={snippet.title} copyLabel={t.common.copy} copiedLabel={t.common.copied} />)}
+				</div>
+			</section>
+
+			<section>
+				<h2 class="text-2xl font-bold tracking-tight">{s.aboutTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{fmt(s.about, { domain: display })}</p>
+				<p class="mt-3 text-sm text-slate-500 dark:text-slate-500">{s.trademark}</p>
+			</section>
+
+			<section>
+				<h2 class="text-2xl font-bold tracking-tight">{s.relatedTitle}</h2>
+				<div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
+					{related.map((item) => <SiteTile locale={locale} domain={item} />)}
+				</div>
+			</section>
+		</div>
+
+		<aside class="space-y-6">
+			<div class="card p-6">
+				<h2 class="text-base font-semibold">{s.infoTitle}</h2>
+				<dl class="mt-4 space-y-3 text-sm">
+					<div>
+						<dt class="text-slate-500 dark:text-slate-400">{s.info.domain}</dt>
+						<dd class="mt-0.5 font-mono font-medium break-all text-slate-900 dark:text-white">{domain}</dd>
+					</div>
+					{
+						display !== domain && (
+							<div>
+								<dt class="text-slate-500 dark:text-slate-400">{s.info.unicode}</dt>
+								<dd class="mt-0.5 font-medium break-all text-slate-900 dark:text-white">{display}</dd>
+							</div>
+						)
+					}
+					<div>
+						<dt class="text-slate-500 dark:text-slate-400">{s.info.tld}</dt>
+						<dd class="mt-0.5 font-mono font-medium text-slate-900 dark:text-white">
+							<a href={localizePath(locale, '/tlds/')} class="hover:text-brand-600 dark:hover:text-brand-400">.{tld.tld}</a>
+						</dd>
+					</div>
+					<div>
+						<dt class="text-slate-500 dark:text-slate-400">{s.info.tldType}</dt>
+						<dd class="mt-0.5 font-medium text-slate-900 dark:text-white">{t.tlds.types[tld.type]}{tld.brand && ` · ${t.tlds.brand}`}</dd>
+					</div>
+					{
+						tld.manager && (
+							<div>
+								<dt class="text-slate-500 dark:text-slate-400">{s.info.manager}</dt>
+								<dd class="mt-0.5 font-medium text-slate-900 dark:text-white">{tld.manager}</dd>
+							</div>
+						)
+					}
+					{
+						country && (
+							<div>
+								<dt class="text-slate-500 dark:text-slate-400">{s.info.country}</dt>
+								<dd class="mt-0.5 font-medium text-slate-900 dark:text-white">{country}</dd>
+							</div>
+						)
+					}
+				</dl>
+				<a href={`${localizePath(locale, '/checker/')}?domain=${encodeURIComponent(domain)}`} class="btn-ghost mt-6 w-full text-center">
+					<Icon name="scan" class="size-4 shrink-0" />
+					<span>{fmt(s.inspectCta, { domain: display })}</span>
+				</a>
+			</div>
+			<div class="card p-6">
+				<h2 class="mb-3 text-base font-semibold">{s.otherSite}</h2>
+				<FaviconLookup locale={locale} mode="navigate" size="md" />
+			</div>
+		</aside>
+	</div>
+</BaseLayout>

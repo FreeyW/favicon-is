@@ -1,0 +1,42 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from './PageHeader.astro';
+import Icon from './Icon.astro';
+import { fmt, formatDate, useTranslations, type Locale } from '../i18n';
+import { getLegalPage } from '../lib/content';
+import { CONTACT_EMAIL } from '../site.config';
+
+interface Props {
+	locale: Locale;
+	slug: 'about' | 'privacy' | 'terms';
+	navLabel: string;
+}
+
+const { locale, slug, navLabel } = Astro.props;
+const t = useTranslations(locale);
+const page = await getLegalPage(locale, slug);
+if (!page) throw new Error(`Missing page content: ${slug}`);
+const { Content } = await render(page);
+const path = `/${slug}/`;
+const [before, after] = t.legal.contactText.split('{email}');
+---
+
+<BaseLayout locale={locale} title={`${page.data.title} | Favicon.is`} description={page.data.description} path={path} breadcrumbs={[{ name: navLabel, path }]}>
+	<PageHeader locale={locale} title={page.data.title} breadcrumbs={[{ name: navLabel, path }]}>
+		<p class="mt-4 text-sm text-slate-500 dark:text-slate-400">
+			<time datetime={page.data.updated.toISOString().slice(0, 10)}>{fmt(t.common.updated, { date: formatDate(page.data.updated, locale) })}</time>
+		</p>
+	</PageHeader>
+	<div class="container-page py-12">
+		<div class="prose-site max-w-3xl">
+			<Content />
+		</div>
+		<section class="card mt-12 max-w-3xl p-6" id="contact">
+			<h2 class="flex items-center gap-2 text-lg font-semibold"><Icon name="mail" class="size-5 text-brand-500" />{t.legal.contactTitle}</h2>
+			<p class="mt-2 text-slate-600 dark:text-slate-400">
+				{before}<a href={`mailto:${CONTACT_EMAIL}`} class="font-medium text-brand-600 hover:underline dark:text-brand-400">{CONTACT_EMAIL}</a>{after}
+			</p>
+		</section>
+	</div>
+</BaseLayout>

@@ -1,0 +1,248 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import CodeBlock from '../../components/CodeBlock.astro';
+import Icon from '../../components/Icon.astro';
+import { LOCALES, absoluteUrl, localeStaticPaths, localizePath, useTranslations, type Locale } from '../../i18n';
+import { SITE_URL } from '../../site.config';
+
+export function getStaticPaths() {
+	return localeStaticPaths();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const d = t.docs;
+const l = (path: string) => localizePath(locale, path);
+const copy = { copyLabel: t.common.copy, copiedLabel: t.common.copied };
+
+const toc = [
+	{ id: 'endpoint', label: d.endpointTitle },
+	{ id: 'parameters', label: d.paramsTitle },
+	{ id: 'input', label: d.inputTitle },
+	{ id: 'tlds', label: d.tldTitle },
+	{ id: 'response', label: d.responseTitle },
+	{ id: 'headers', label: d.headersTitle },
+	{ id: 'caching', label: d.cachingTitle },
+	{ id: 'default-icon', label: d.fallbackTitle },
+	{ id: 'inspect', label: d.inspectTitle },
+	{ id: 'fair-use', label: d.limitsTitle },
+];
+
+const params = [
+	{ name: 'size', type: 'integer', def: '128', description: d.params.size, example: '?size=64' },
+	{ name: 'larger', type: 'boolean', def: 'false', description: d.params.larger, example: '?larger=true' },
+	{ name: 'original', type: 'boolean', def: 'false', description: d.params.original, example: '?original=true' },
+	{ name: 'download', type: 'boolean', def: 'false', description: d.params.download, example: '?download=1' },
+];
+
+const headers = [
+	{ name: 'Content-Type', description: d.headers.contentType },
+	{ name: 'Cache-Control', description: d.headers.cacheControl },
+	{ name: 'X-Source', description: d.headers.source },
+	{ name: 'X-Reason', description: d.headers.reason },
+	{ name: 'X-Response-Time', description: d.headers.responseTime },
+	{ name: 'Access-Control-Allow-Origin', description: d.headers.cors },
+];
+
+const inputExamples = `${SITE_URL}/github.com
+${SITE_URL}/docs.github.com
+${SITE_URL}/https://github.com/features/actions
+${SITE_URL}/WWW.GitHub.com:443
+${SITE_URL}/bücher.de
+${SITE_URL}/例子.中国`;
+
+const responseExample = `$ curl -I ${SITE_URL}/github.com
+
+HTTP/2 200
+content-type: image/png
+cache-control: public, max-age=86400, stale-while-revalidate=604800
+access-control-allow-origin: *
+etag: "8c1f3b6a2d4e5f60718293a4"
+x-source: cache-r2
+x-response-time: 3ms`;
+
+const defaultExample = `$ curl -I ${SITE_URL}/example.invalid
+
+HTTP/2 200
+content-type: image/svg+xml
+x-source: default
+x-reason: unsupported-tld`;
+
+const inspectExample = `GET ${SITE_URL}/api/inspect?domain=github.com
+
+{
+  "domain": "github.com",
+  "url": "https://github.com/",
+  "title": "GitHub · Build and ship software on a single, collaborative platform",
+  "reachable": true,
+  "icons": [
+    {
+      "href": "https://github.githubassets.com/favicons/favicon.svg",
+      "rel": "icon",
+      "type": "image/svg+xml",
+      "source": "link",
+      "ok": true,
+      "contentType": "image/svg+xml",
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "manifest": { "href": "https://github.com/manifest.json", "ok": true, "icons": [ … ] },
+  "checks": { "ico": true, "svg": true, "appleTouch": true, "manifest": true, "large": true }
+}`;
+
+const techArticle = {
+	'@type': 'TechArticle',
+	'@id': `${absoluteUrl(l('/docs/'))}#article`,
+	headline: d.title,
+	description: d.metaDescription,
+	inLanguage: LOCALES[locale].htmlLang,
+	url: absoluteUrl(l('/docs/')),
+	author: { '@id': `${SITE_URL}/#organization` },
+	publisher: { '@id': `${SITE_URL}/#organization` },
+	dateModified: '2026-11-22',
+};
+---
+
+<BaseLayout locale={locale} title={d.metaTitle} description={d.metaDescription} path="/docs/" breadcrumbs={[{ name: t.nav.docs, path: '/docs/' }]} jsonLd={[techArticle]}>
+	<PageHeader locale={locale} title={d.title} intro={d.intro} breadcrumbs={[{ name: t.nav.docs, path: '/docs/' }]} />
+
+	<div class="container-page grid gap-12 py-12 lg:grid-cols-[14rem_minmax(0,1fr)]">
+		<aside class="hidden lg:block">
+			<nav class="sticky top-24" aria-label={t.common.onThisPage}>
+				<p class="text-xs font-semibold tracking-wide text-slate-500 uppercase dark:text-slate-400">{t.common.onThisPage}</p>
+				<ul class="mt-3 space-y-1 border-l border-slate-200 text-sm dark:border-white/10">
+					{
+						toc.map((item) => (
+							<li>
+								<a href={`#${item.id}`} class="-ml-px block border-l border-transparent py-1 pl-4 text-slate-600 hover:border-slate-400 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
+									{item.label}
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</nav>
+		</aside>
+
+		<article class="min-w-0 space-y-16">
+			<section id="endpoint" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.endpointTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{d.endpointDescription}</p>
+				<div class="mt-5 flex flex-wrap items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4 font-mono text-sm dark:border-white/10 dark:bg-slate-900">
+					<span class="rounded-md bg-emerald-100 px-2 py-0.5 text-xs font-bold text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300">GET</span>
+					<code class="text-slate-900 dark:text-white">{SITE_URL}/<span class="text-brand-600 dark:text-brand-400">{'{domain}'}</span></code>
+				</div>
+				<div class="mt-5 grid gap-4 sm:grid-cols-[1fr_auto]">
+					<CodeBlock code={`<img src="${SITE_URL}/github.com" width="32" height="32" alt="GitHub">`} lang="html" title={t.common.example} {...copy} />
+					<div class="card flex items-center justify-center gap-4 px-6 py-4">
+						<img src="/github.com" width="32" height="32" alt="GitHub favicon" class="size-8" loading="lazy" />
+						<img src="/github.com?larger=true" width="64" height="64" alt="GitHub favicon (256 px)" class="size-16" loading="lazy" />
+					</div>
+				</div>
+			</section>
+
+			<section id="parameters" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.paramsTitle}</h2>
+				<div class="mt-5 overflow-x-auto rounded-xl border border-slate-200 dark:border-white/10">
+					<table class="w-full min-w-[36rem] text-left text-sm">
+						<thead class="bg-slate-50 text-xs text-slate-500 uppercase dark:bg-white/5 dark:text-slate-400">
+							<tr>
+								<th class="px-4 py-3 font-semibold">{d.paramsHeaders.name}</th>
+								<th class="px-4 py-3 font-semibold">{d.paramsHeaders.type}</th>
+								<th class="px-4 py-3 font-semibold">{d.paramsHeaders.defaultValue}</th>
+								<th class="px-4 py-3 font-semibold">{d.paramsHeaders.description}</th>
+							</tr>
+						</thead>
+						<tbody class="divide-y divide-slate-200 dark:divide-white/10">
+							{
+								params.map((param) => (
+									<tr class="align-top">
+										<td class="px-4 py-3 font-mono font-semibold text-slate-900 dark:text-white">{param.name}</td>
+										<td class="px-4 py-3 font-mono text-slate-500">{param.type}</td>
+										<td class="px-4 py-3 font-mono text-slate-500">{param.def}</td>
+										<td class="px-4 py-3 text-slate-600 dark:text-slate-400">
+											{param.description}
+											<code class="mt-1 block font-mono text-xs text-brand-700 dark:text-brand-300">{param.example}</code>
+										</td>
+									</tr>
+								))
+							}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<section id="input" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.inputTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{d.inputDescription}</p>
+				<CodeBlock code={inputExamples} lang="plaintext" title={t.common.example} class="mt-5" {...copy} />
+			</section>
+
+			<section id="tlds" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.tldTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{d.tldDescription}</p>
+				<a href={l('/tlds/')} class="mt-4 inline-flex items-center gap-1 font-medium text-brand-600 hover:underline dark:text-brand-400">
+					{d.tldLink}
+					<Icon name="arrowRight" class="size-4" />
+				</a>
+			</section>
+
+			<section id="response" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.responseTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{d.responseDescription}</p>
+				<CodeBlock code={responseExample} lang="http" title="cURL" class="mt-5" {...copy} />
+			</section>
+
+			<section id="headers" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.headersTitle}</h2>
+				<dl class="mt-5 divide-y divide-slate-200 rounded-xl border border-slate-200 dark:divide-white/10 dark:border-white/10">
+					{
+						headers.map((header) => (
+							<div class="grid gap-1 px-4 py-3 sm:grid-cols-[16rem_1fr] sm:gap-4">
+								<dt class="font-mono text-sm font-semibold text-slate-900 dark:text-white">{header.name}</dt>
+								<dd class="text-sm text-slate-600 dark:text-slate-400">{header.description}</dd>
+							</div>
+						))
+					}
+				</dl>
+			</section>
+
+			<section id="caching" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.cachingTitle}</h2>
+				<div class="mt-3 space-y-3 leading-relaxed text-slate-600 dark:text-slate-400">
+					{d.caching.map((paragraph) => <p>{paragraph}</p>)}
+				</div>
+			</section>
+
+			<section id="default-icon" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.fallbackTitle}</h2>
+				<div class="mt-4 flex flex-col gap-5 sm:flex-row sm:items-start">
+					<span class="icon-tile size-20 shrink-0">
+						<img src="/default-favicon.svg" width="48" height="48" alt="" class="size-12" />
+					</span>
+					<div class="min-w-0 flex-1">
+						<p class="leading-relaxed text-slate-600 dark:text-slate-400">{d.fallbackDescription}</p>
+						<CodeBlock code={defaultExample} lang="http" title="cURL" class="mt-4" {...copy} />
+					</div>
+				</div>
+			</section>
+
+			<section id="inspect" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.inspectTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{d.inspectDescription}</p>
+				<CodeBlock code={inspectExample} lang="json" title="JSON" class="mt-5" {...copy} />
+				<a href={l('/checker/')} class="mt-4 inline-flex items-center gap-1 font-medium text-brand-600 hover:underline dark:text-brand-400">
+					{t.nav.checker}
+					<Icon name="arrowRight" class="size-4" />
+				</a>
+			</section>
+
+			<section id="fair-use" class="scroll-mt-24">
+				<h2 class="text-2xl font-bold tracking-tight">{d.limitsTitle}</h2>
+				<p class="mt-3 leading-relaxed text-slate-600 dark:text-slate-400">{d.limitsDescription}</p>
+			</section>
+		</article>
+	</div>
+</BaseLayout>

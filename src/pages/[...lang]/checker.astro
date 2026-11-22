@@ -1,0 +1,260 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import Icon from '../../components/Icon.astro';
+import { LOCALES, absoluteUrl, localeStaticPaths, localizePath, useTranslations, type Locale } from '../../i18n';
+import { SITE_URL } from '../../site.config';
+
+export function getStaticPaths() {
+	return localeStaticPaths();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const c = t.checker;
+const messages = {
+	checking: c.checking,
+	summaryTitle: c.summaryTitle,
+	iconsFound: c.iconsFound,
+	noIcons: c.noIcons,
+	columns: c.columns,
+	statusOk: c.statusOk,
+	statusError: c.statusError,
+	checks: c.checks,
+	checksTitle: c.checksTitle,
+	unreachable: c.unreachable,
+	rateLimited: c.rateLimited,
+	error: c.error,
+	invalid: t.common.invalidDomain,
+	unsupported: t.common.unsupportedTld,
+	pageTitle: c.pageTitle,
+	viewPage: c.viewPage,
+	sitePath: localizePath(locale, '/site/{domain}/'),
+};
+const app = {
+	'@type': 'WebApplication',
+	name: `${c.title} – Favicon.is`,
+	url: absoluteUrl(localizePath(locale, '/checker/')),
+	description: c.metaDescription,
+	applicationCategory: 'DeveloperApplication',
+	operatingSystem: 'Any',
+	isAccessibleForFree: true,
+	inLanguage: LOCALES[locale].htmlLang,
+	offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+	publisher: { '@id': `${SITE_URL}/#organization` },
+};
+---
+
+<BaseLayout locale={locale} title={c.metaTitle} description={c.metaDescription} path="/checker/" breadcrumbs={[{ name: t.nav.checker, path: '/checker/' }]} jsonLd={[app]}>
+	<PageHeader locale={locale} title={c.title} intro={c.subtitle} breadcrumbs={[{ name: t.nav.checker, path: '/checker/' }]}>
+		<form id="checker-form" class="mt-8 max-w-2xl" novalidate>
+			<label for="checker-input" class="sr-only">{t.common.inputLabel}</label>
+			<div class="flex items-center gap-2 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/5 focus-within:border-brand-400 focus-within:ring-4 focus-within:ring-brand-500/15 dark:border-white/10 dark:bg-slate-900">
+				<Icon name="scan" class="ml-2 size-5 shrink-0 text-slate-400" />
+				<input
+					id="checker-input"
+					name="domain"
+					type="text"
+					placeholder={t.common.inputPlaceholder}
+					autocomplete="off"
+					autocapitalize="off"
+					spellcheck="false"
+					inputmode="url"
+					enterkeyhint="go"
+					required
+					class="min-w-0 flex-1 bg-transparent py-2 text-base font-medium text-slate-900 outline-none placeholder:font-normal placeholder:text-slate-400 dark:text-white"
+				/>
+				<button type="submit" class="btn-brand shrink-0">{c.button}</button>
+			</div>
+		</form>
+	</PageHeader>
+
+	<div class="container-page py-12">
+		<div id="checker-output" class="hidden" aria-live="polite" data-i18n={JSON.stringify(messages)}></div>
+
+		<section class="mt-4 grid gap-8 lg:grid-cols-2" id="checker-about">
+			<div class="card p-6 sm:p-8">
+				<h2 class="text-xl font-bold tracking-tight">{c.aboutTitle}</h2>
+				<ul class="mt-5 space-y-3 text-slate-600 dark:text-slate-400">
+					{
+						c.about.map((item) => (
+							<li class="flex gap-3">
+								<Icon name="checkCircle" class="mt-0.5 size-5 shrink-0 text-brand-500" />
+								<span>{item}</span>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+			<div class="card p-6 sm:p-8">
+				<h2 class="text-xl font-bold tracking-tight">{c.checksTitle}</h2>
+				<ul class="mt-5 space-y-3 text-slate-600 dark:text-slate-400">
+					{
+						Object.values(c.checks).map((check) => (
+							<li class="flex gap-3">
+								<Icon name="check" class="mt-0.5 size-5 shrink-0 text-emerald-500" />
+								<span>{check.pass}</span>
+							</li>
+						))
+					}
+				</ul>
+				<a href={localizePath(locale, '/guides/how-to-add-a-favicon/')} class="mt-6 inline-flex items-center gap-1 font-medium text-brand-600 hover:underline dark:text-brand-400">
+					{t.nav.guides}
+					<Icon name="arrowRight" class="size-4" />
+				</a>
+			</div>
+		</section>
+	</div>
+</BaseLayout>
+
+<script>
+	import { extractHost } from '../../lib/host';
+
+	interface Icon {
+		href: string;
+		rel: string;
+		sizes?: string;
+		type?: string;
+		source: string;
+		ok?: boolean;
+		contentType?: string;
+		bytes?: number;
+		width?: number;
+		height?: number;
+	}
+	interface Report {
+		domain: string;
+		display: string;
+		url: string | null;
+		title?: string;
+		reachable: boolean;
+		icons: Icon[];
+		checks: Record<'ico' | 'svg' | 'appleTouch' | 'manifest' | 'large', boolean>;
+	}
+
+	const form = document.querySelector<HTMLFormElement>('#checker-form')!;
+	const input = form.querySelector('input')!;
+	const output = document.querySelector<HTMLElement>('#checker-output')!;
+	const m = JSON.parse(output.dataset.i18n ?? '{}');
+
+	const esc = (value: string) => value.replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]!);
+	const fill = (template: string, values: Record<string, string | number>) => template.replace(/\{(\w+)\}/g, (_, k) => String(values[k] ?? ''));
+	const card = (html: string) => `<div class="card p-6 sm:p-8">${html}</div>`;
+	const notice = (text: string, tone: 'error' | 'info' = 'error') =>
+		`<div class="flex items-start gap-3 rounded-xl border p-4 text-sm ${tone === 'error' ? 'border-rose-200 bg-rose-50 text-rose-700 dark:border-rose-500/30 dark:bg-rose-500/10 dark:text-rose-300' : 'border-slate-200 bg-slate-50 text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-300'}">${esc(text)}</div>`;
+
+	function formatOf(icon: Icon): string {
+		const type = icon.contentType ?? icon.type ?? '';
+		return type.replace('image/', '').replace('x-icon', 'ico').replace('vnd.microsoft.icon', 'ico').replace('svg+xml', 'svg').toUpperCase() || '—';
+	}
+
+	function render(report: Report) {
+		const checks = (Object.keys(m.checks) as (keyof Report['checks'])[])
+			.map((key) => {
+				const pass = report.checks[key];
+				return `<li class="flex gap-3">${
+					pass
+						? '<svg class="mt-0.5 size-5 shrink-0 text-emerald-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>'
+						: '<svg class="mt-0.5 size-5 shrink-0 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'
+				}<span class="${pass ? '' : 'text-slate-900 dark:text-white'}">${esc(pass ? m.checks[key].pass : m.checks[key].fail)}</span></li>`;
+			})
+			.join('');
+
+		const rows = report.icons
+			.map(
+				(icon) => `<tr class="align-middle">
+					<td class="px-4 py-3"><span class="icon-tile size-12">${
+						icon.ok === false
+							? '<span class="text-xs text-slate-400">—</span>'
+							: `<img src="${esc(icon.href)}" alt="" class="max-h-8 max-w-8" loading="lazy" referrerpolicy="no-referrer">`
+					}</span></td>
+					<td class="px-4 py-3"><span class="font-mono text-xs font-semibold text-slate-900 dark:text-white">${esc(icon.rel)}</span>
+						<a href="${esc(icon.href)}" class="mt-1 block max-w-xs truncate text-xs text-slate-500 hover:text-brand-600 sm:max-w-md" rel="noopener nofollow" target="_blank">${esc(icon.href.startsWith('data:') ? 'data:…' : icon.href)}</a></td>
+					<td class="px-4 py-3 font-mono text-xs">${esc(icon.sizes ?? '—')}</td>
+					<td class="px-4 py-3 font-mono text-xs">${icon.width ? `${icon.width}×${icon.height}` : '—'}</td>
+					<td class="px-4 py-3 font-mono text-xs">${esc(formatOf(icon))}</td>
+					<td class="px-4 py-3 text-xs">${
+						icon.ok === undefined
+							? '—'
+							: icon.ok
+								? `<span class="rounded-full bg-emerald-100 px-2 py-0.5 font-semibold text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300">${esc(m.statusOk)}</span>`
+								: `<span class="rounded-full bg-rose-100 px-2 py-0.5 font-semibold text-rose-700 dark:bg-rose-500/15 dark:text-rose-300">${esc(m.statusError)}</span>`
+					}</td>
+				</tr>`,
+			)
+			.join('');
+
+		const declared = report.icons.filter((icon) => icon.source !== 'root').length;
+		const sitePath = m.sitePath.replace('{domain}', encodeURIComponent(report.domain));
+
+		output.innerHTML = `
+			<div class="grid gap-6 lg:grid-cols-3">
+				${card(`
+					<div class="flex items-center gap-4">
+						<span class="icon-tile size-16 shrink-0"><img src="/${encodeURIComponent(report.domain)}?size=64" alt="" class="size-10"></span>
+						<div class="min-w-0">
+							<h2 class="text-xl font-bold tracking-tight break-words">${esc(fill(m.summaryTitle, { domain: report.display }))}</h2>
+							<p class="mt-1 text-sm text-slate-500 dark:text-slate-400">${esc(fill(m.iconsFound, { n: declared }))}</p>
+						</div>
+					</div>
+					${report.title ? `<p class="mt-5 text-xs font-semibold tracking-wide text-slate-500 uppercase">${esc(m.pageTitle)}</p><p class="mt-1 text-sm text-slate-700 dark:text-slate-300">${esc(report.title)}</p>` : ''}
+					<a href="${sitePath}" class="btn-ghost mt-6 w-full">${esc(m.viewPage)}</a>
+				`)}
+				<div class="lg:col-span-2">${card(`<h2 class="text-lg font-bold">${esc(m.checksTitle)}</h2><ul class="mt-4 space-y-3 text-sm text-slate-600 dark:text-slate-400">${checks}</ul>`)}</div>
+			</div>
+			${report.reachable ? '' : `<div class="mt-6">${notice(fill(m.unreachable, { domain: report.display }))}</div>`}
+			${report.reachable && declared === 0 ? `<div class="mt-6">${notice(m.noIcons, 'info')}</div>` : ''}
+			<div class="mt-6 overflow-x-auto rounded-2xl border border-slate-200 bg-white dark:border-white/10 dark:bg-slate-900/60">
+				<table class="w-full min-w-[44rem] text-left text-sm">
+					<thead class="bg-slate-50 text-xs text-slate-500 uppercase dark:bg-white/5 dark:text-slate-400"><tr>
+						<th class="px-4 py-3 font-semibold">${esc(m.columns.preview)}</th>
+						<th class="px-4 py-3 font-semibold">${esc(m.columns.rel)}</th>
+						<th class="px-4 py-3 font-semibold">${esc(m.columns.sizes)}</th>
+						<th class="px-4 py-3 font-semibold">${esc(m.columns.actual)}</th>
+						<th class="px-4 py-3 font-semibold">${esc(m.columns.format)}</th>
+						<th class="px-4 py-3 font-semibold">${esc(m.columns.status)}</th>
+					</tr></thead>
+					<tbody class="divide-y divide-slate-200 dark:divide-white/10">${rows}</tbody>
+				</table>
+			</div>`;
+	}
+
+	async function check(raw: string) {
+		const host = extractHost(raw);
+		output.classList.remove('hidden');
+		if (!host || !host.includes('.')) {
+			output.innerHTML = notice(m.invalid);
+			return;
+		}
+		output.innerHTML = card(`<p class="flex items-center gap-3 text-slate-600 dark:text-slate-400"><span class="size-4 animate-spin rounded-full border-2 border-brand-500 border-t-transparent"></span>${esc(fill(m.checking, { domain: host }))}</p>`);
+		try {
+			history.replaceState(null, '', `?domain=${encodeURIComponent(host)}`);
+		} catch {
+			// ignore
+		}
+		try {
+			const response = await fetch(`/api/inspect?domain=${encodeURIComponent(host)}`);
+			const data = (await response.json()) as Report & { error?: string; tld?: string };
+			if (response.status === 429) return void (output.innerHTML = notice(m.rateLimited));
+			if (response.status === 400) {
+				output.innerHTML = notice(data.error === 'unsupported-tld' ? fill(m.unsupported, { tld: data.tld ?? '' }) : m.invalid);
+				return;
+			}
+			if (!response.ok) throw new Error(String(response.status));
+			render(data as Report);
+		} catch {
+			output.innerHTML = notice(m.error);
+		}
+	}
+
+	form.addEventListener('submit', (event) => {
+		event.preventDefault();
+		void check(input.value);
+	});
+
+	const initial = new URLSearchParams(location.search).get('domain');
+	if (initial) {
+		input.value = initial;
+		void check(initial);
+	}
+</script>

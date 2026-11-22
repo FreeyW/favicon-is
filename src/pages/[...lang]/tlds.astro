@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import Icon from '../../components/Icon.astro';
+import { LOCALES, absoluteUrl, fmt, formatDate, formatNumber, localeStaticPaths, localizePath, regionName, useTranslations, type Locale } from '../../i18n';
+import { TLD_DATA, TLD_TYPES, type TldType } from '../../lib/tlds';
+
+export function getStaticPaths() {
+	return localeStaticPaths();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const s = t.tlds;
+const total = TLD_DATA.count;
+const counts = TLD_DATA.tlds.reduce<Record<string, number>>((acc, entry) => ((acc[entry.type] = (acc[entry.type] ?? 0) + 1), acc), {});
+const types = TLD_TYPES.filter((type) => counts[type]);
+const n = formatNumber(total, locale);
+const sourceName = TLD_DATA.source === 'iana' ? 'IANA Root Zone Database' : 'IANA Root Zone Database (via global-tld-list)';
+const generated = formatDate(new Date(`${TLD_DATA.generatedAt}T00:00:00Z`), locale);
+const rows = TLD_DATA.tlds.map((entry) => {
+	const country = entry.cc ? regionName(entry.cc, locale) : '';
+	return { ...entry, country, search: `${entry.tld} ${entry.ascii} ${entry.manager} ${country}`.toLowerCase() };
+});
+const dataset = {
+	'@type': 'Dataset',
+	name: s.title,
+	description: fmt(s.metaDescription, { n }),
+	inLanguage: LOCALES[locale].htmlLang,
+	url: absoluteUrl(localizePath(locale, '/tlds/')),
+	isBasedOn: 'https://www.iana.org/domains/root/db',
+	dateModified: TLD_DATA.generatedAt,
+	creator: { '@type': 'Organization', name: 'IANA', url: 'https://www.iana.org/' },
+	license: 'https://www.iana.org/help/licensing-terms',
+};
+---
+
+<BaseLayout locale={locale} title={fmt(s.metaTitle, { n })} description={fmt(s.metaDescription, { n })} path="/tlds/" breadcrumbs={[{ name: t.nav.tlds, path: '/tlds/' }]} jsonLd={[dataset]}>
+	<PageHeader locale={locale} title={s.title} intro={s.intro} breadcrumbs={[{ name: t.nav.tlds, path: '/tlds/' }]}>
+		<p class="mt-4 text-sm text-slate-500 dark:text-slate-400">
+			{fmt(s.source, { source: sourceName, date: generated })}
+			<a href="https://www.iana.org/domains/root/db" class="ml-1 inline-flex items-center gap-1 font-medium text-brand-600 hover:underline dark:text-brand-400" rel="noopener">
+				iana.org
+				<Icon name="external" class="size-3.5" />
+			</a>
+		</p>
+	</PageHeader>
+
+	<div class="container-page py-12">
+		<div class="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
+			{
+				types.map((type) => (
+					<div class="card p-4">
+						<p class="text-2xl font-bold text-slate-900 dark:text-white">{formatNumber(counts[type] ?? 0, locale)}</p>
+						<p class="mt-1 text-sm font-semibold text-slate-700 dark:text-slate-200">{s.types[type as TldType]}</p>
+						<p class="mt-1 text-xs leading-relaxed text-slate-500 dark:text-slate-400">{s.typeDescriptions[type as TldType]}</p>
+					</div>
+				))
+			}
+		</div>
+
+		<div id="tld-browser" class="mt-10" data-showing={s.showing} data-total={total}>
+			<div class="flex flex-col gap-3 md:flex-row md:items-center">
+				<label class="relative flex-1">
+					<span class="sr-only">{t.common.search}</span>
+					<Icon name="search" class="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-slate-400" />
+					<input type="search" data-filter placeholder={s.filterPlaceholder} class="input pl-10" autocomplete="off" spellcheck="false" />
+				</label>
+				<div class="flex flex-wrap gap-1.5" role="group">
+					<button type="button" data-type="" aria-pressed="true" class="chip px-3 py-1.5 text-sm aria-pressed:border-brand-500 aria-pressed:bg-brand-50 aria-pressed:text-brand-700 dark:aria-pressed:bg-brand-500/15 dark:aria-pressed:text-brand-300">
+						{s.all}
+					</button>
+					{
+						types.map((type) => (
+							<button type="button" data-type={type} aria-pressed="false" class="chip px-3 py-1.5 text-sm aria-pressed:border-brand-500 aria-pressed:bg-brand-50 aria-pressed:text-brand-700 dark:aria-pressed:bg-brand-500/15 dark:aria-pressed:text-brand-300">
+								{s.types[type as TldType]}
+							</button>
+						))
+					}
+				</div>
+			</div>
+			<p class="mt-4 text-sm text-slate-500 dark:text-slate-400" data-count>{fmt(s.count, { n })}</p>
+			<div class="mt-3 overflow-x-auto rounded-2xl border border-slate-200 bg-white dark:border-white/10 dark:bg-slate-900/60">
+				<table class="w-full min-w-[36rem] text-left text-sm">
+					<thead class="sticky top-16 bg-slate-50 text-xs text-slate-500 uppercase dark:bg-slate-900 dark:text-slate-400">
+						<tr>
+							<th class="px-4 py-3 font-semibold">{s.columns.tld}</th>
+							<th class="px-4 py-3 font-semibold">{s.columns.type}</th>
+							<th class="px-4 py-3 font-semibold">{s.columns.manager}</th>
+						</tr>
+					</thead>
+					<tbody class="divide-y divide-slate-100 dark:divide-white/5">
+						{
+							rows.map((row) => (
+								<tr data-row data-t={row.type} data-s={row.search}>
+									<td class="px-4 py-2.5">
+										<span class="font-mono font-semibold text-slate-900 dark:text-white">.{row.tld}</span>
+										{row.tld !== row.ascii && <span class="ml-2 font-mono text-xs text-slate-400">.{row.ascii}</span>}
+									</td>
+									<td class="px-4 py-2.5 whitespace-nowrap text-slate-600 dark:text-slate-400">
+										{s.types[row.type]}
+										{row.brand && <span class="chip ml-1.5 px-1.5 py-0 text-[10px]">{s.brand}</span>}
+									</td>
+									<td class="px-4 py-2.5 text-slate-600 dark:text-slate-400">{row.manager || row.country}{row.manager && row.country && <span class="text-slate-400"> · {row.country}</span>}</td>
+								</tr>
+							))
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</BaseLayout>
+
+<script>
+	const root = document.querySelector<HTMLElement>('#tld-browser');
+	if (root) {
+		const rows = [...root.querySelectorAll<HTMLTableRowElement>('[data-row]')];
+		const filter = root.querySelector<HTMLInputElement>('[data-filter]')!;
+		const count = root.querySelector<HTMLElement>('[data-count]')!;
+		const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-type]')];
+		const template = root.dataset.showing ?? '{n} / {total}';
+		const total = root.dataset.total ?? String(rows.length);
+		let type = '';
+		const apply = () => {
+			const query = filter.value.trim().toLowerCase().replace(/^\./, '');
+			let visible = 0;
+			for (const row of rows) {
+				const show = (!type || row.dataset.t === type) && (!query || (row.dataset.s ?? '').includes(query));
+				row.hidden = !show;
+				if (show) visible++;
+			}
+			count.textContent = template.replace('{n}', visible.toLocaleString()).replace('{total}', Number(total).toLocaleString());
+		};
+		filter.addEventListener('input', apply);
+		for (const button of buttons) {
+			button.addEventListener('click', () => {
+				type = button.dataset.type ?? '';
+				buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+				apply();
+			});
+		}
+	}
+</script>

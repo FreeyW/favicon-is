@@ -1,0 +1,9293 @@
+{
+	"source": "global-tld-list",
+	"sourceUrl": "https://www.npmjs.com/package/global-tld-list",
+	"generatedAt": "2026-11-22",
+	"count": 1435,
+	"tlds": [
+		{
+			"tld": "aaa",
+			"ascii": "aaa",
+			"type": "generic",
+			"manager": "American Automobile Association, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "aarp",
+			"ascii": "aarp",
+			"type": "generic",
+			"manager": "AARP",
+			"brand": true
+		},
+		{
+			"tld": "abb",
+			"ascii": "abb",
+			"type": "generic",
+			"manager": "ABB Ltd",
+			"brand": true
+		},
+		{
+			"tld": "abbott",
+			"ascii": "abbott",
+			"type": "generic",
+			"manager": "Abbott Laboratories, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "abbvie",
+			"ascii": "abbvie",
+			"type": "generic",
+			"manager": "AbbVie Inc.",
+			"brand": true
+		},
+		{
+			"tld": "abc",
+			"ascii": "abc",
+			"type": "generic",
+			"manager": "Disney Enterprises, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "able",
+			"ascii": "able",
+			"type": "generic",
+			"manager": "Able Inc."
+		},
+		{
+			"tld": "abogado",
+			"ascii": "abogado",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "abudhabi",
+			"ascii": "abudhabi",
+			"type": "generic",
+			"manager": "Abu Dhabi Systems and Information Centre"
+		},
+		{
+			"tld": "ac",
+			"ascii": "ac",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AC"
+		},
+		{
+			"tld": "academy",
+			"ascii": "academy",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "accenture",
+			"ascii": "accenture",
+			"type": "generic",
+			"manager": "Accenture plc",
+			"brand": true
+		},
+		{
+			"tld": "accountant",
+			"ascii": "accountant",
+			"type": "generic",
+			"manager": "dot Accountant Limited"
+		},
+		{
+			"tld": "accountants",
+			"ascii": "accountants",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "aco",
+			"ascii": "aco",
+			"type": "generic",
+			"manager": "ACO Severin Ahlmann GmbH & Co. KG",
+			"brand": true
+		},
+		{
+			"tld": "actor",
+			"ascii": "actor",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "ad",
+			"ascii": "ad",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AD"
+		},
+		{
+			"tld": "ads",
+			"ascii": "ads",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "adult",
+			"ascii": "adult",
+			"type": "generic",
+			"manager": "ICM Registry AD LLC"
+		},
+		{
+			"tld": "ae",
+			"ascii": "ae",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AE"
+		},
+		{
+			"tld": "aeg",
+			"ascii": "aeg",
+			"type": "generic",
+			"manager": "Aktiebolaget Electrolux",
+			"brand": true
+		},
+		{
+			"tld": "aero",
+			"ascii": "aero",
+			"type": "sponsored",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "aetna",
+			"ascii": "aetna",
+			"type": "generic",
+			"manager": "Aetna Life Insurance Company",
+			"brand": true
+		},
+		{
+			"tld": "af",
+			"ascii": "af",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AF"
+		},
+		{
+			"tld": "afl",
+			"ascii": "afl",
+			"type": "generic",
+			"manager": "Australian Football League",
+			"brand": true
+		},
+		{
+			"tld": "africa",
+			"ascii": "africa",
+			"type": "generic",
+			"manager": "ZA Central Registry NPC trading as Registry.Africa"
+		},
+		{
+			"tld": "ag",
+			"ascii": "ag",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AG"
+		},
+		{
+			"tld": "agakhan",
+			"ascii": "agakhan",
+			"type": "generic",
+			"manager": "Fondation Aga Khan (Aga Khan Foundation)"
+		},
+		{
+			"tld": "agency",
+			"ascii": "agency",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ai",
+			"ascii": "ai",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AI"
+		},
+		{
+			"tld": "aig",
+			"ascii": "aig",
+			"type": "generic",
+			"manager": "American International Group, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "airbus",
+			"ascii": "airbus",
+			"type": "generic",
+			"manager": "Airbus S.A.S.",
+			"brand": true
+		},
+		{
+			"tld": "airforce",
+			"ascii": "airforce",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "airtel",
+			"ascii": "airtel",
+			"type": "generic",
+			"manager": "Bharti Airtel Limited",
+			"brand": true
+		},
+		{
+			"tld": "akdn",
+			"ascii": "akdn",
+			"type": "generic",
+			"manager": "Fondation Aga Khan (Aga Khan Foundation)"
+		},
+		{
+			"tld": "al",
+			"ascii": "al",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AL"
+		},
+		{
+			"tld": "alibaba",
+			"ascii": "alibaba",
+			"type": "generic",
+			"manager": "Alibaba Group Holding Limited",
+			"brand": true
+		},
+		{
+			"tld": "alipay",
+			"ascii": "alipay",
+			"type": "generic",
+			"manager": "Alibaba Group Holding Limited",
+			"brand": true
+		},
+		{
+			"tld": "allfinanz",
+			"ascii": "allfinanz",
+			"type": "generic",
+			"manager": "Allfinanz Deutsche Vermögensberatung Aktiengesellschaft"
+		},
+		{
+			"tld": "allstate",
+			"ascii": "allstate",
+			"type": "generic",
+			"manager": "Allstate Fire and Casualty Insurance Company",
+			"brand": true
+		},
+		{
+			"tld": "ally",
+			"ascii": "ally",
+			"type": "generic",
+			"manager": "Ally Financial Inc.",
+			"brand": true
+		},
+		{
+			"tld": "alsace",
+			"ascii": "alsace",
+			"type": "generic",
+			"manager": "Region Grand Est"
+		},
+		{
+			"tld": "alstom",
+			"ascii": "alstom",
+			"type": "generic",
+			"manager": "ALSTOM",
+			"brand": true
+		},
+		{
+			"tld": "am",
+			"ascii": "am",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AM"
+		},
+		{
+			"tld": "amazon",
+			"ascii": "amazon",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "americanexpress",
+			"ascii": "americanexpress",
+			"type": "generic",
+			"manager": "American Express Travel Related Services Company, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "americanfamily",
+			"ascii": "americanfamily",
+			"type": "generic",
+			"manager": "AmFam, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "amex",
+			"ascii": "amex",
+			"type": "generic",
+			"manager": "American Express Travel Related Services Company, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "amfam",
+			"ascii": "amfam",
+			"type": "generic",
+			"manager": "AmFam, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "amica",
+			"ascii": "amica",
+			"type": "generic",
+			"manager": "Amica Mutual Insurance Company",
+			"brand": true
+		},
+		{
+			"tld": "amsterdam",
+			"ascii": "amsterdam",
+			"type": "generic",
+			"manager": "Gemeente Amsterdam"
+		},
+		{
+			"tld": "analytics",
+			"ascii": "analytics",
+			"type": "generic",
+			"manager": "Campus IP LLC"
+		},
+		{
+			"tld": "android",
+			"ascii": "android",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "anquan",
+			"ascii": "anquan",
+			"type": "generic",
+			"manager": "Beijing Qihu Keji Co., Ltd."
+		},
+		{
+			"tld": "anz",
+			"ascii": "anz",
+			"type": "generic",
+			"manager": "Australia and New Zealand Banking Group Limited",
+			"brand": true
+		},
+		{
+			"tld": "ao",
+			"ascii": "ao",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AO"
+		},
+		{
+			"tld": "aol",
+			"ascii": "aol",
+			"type": "generic",
+			"manager": "AOL Media LLC",
+			"brand": true
+		},
+		{
+			"tld": "apartments",
+			"ascii": "apartments",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "app",
+			"ascii": "app",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "apple",
+			"ascii": "apple",
+			"type": "generic",
+			"manager": "Apple Inc.",
+			"brand": true
+		},
+		{
+			"tld": "aq",
+			"ascii": "aq",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AQ"
+		},
+		{
+			"tld": "aquarelle",
+			"ascii": "aquarelle",
+			"type": "generic",
+			"manager": "Aquarelle.com",
+			"brand": true
+		},
+		{
+			"tld": "ar",
+			"ascii": "ar",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AR"
+		},
+		{
+			"tld": "arab",
+			"ascii": "arab",
+			"type": "generic",
+			"manager": "League of Arab States"
+		},
+		{
+			"tld": "aramco",
+			"ascii": "aramco",
+			"type": "generic",
+			"manager": "Aramco Services Company"
+		},
+		{
+			"tld": "archi",
+			"ascii": "archi",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "army",
+			"ascii": "army",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "arpa",
+			"ascii": "arpa",
+			"type": "infrastructure",
+			"manager": ""
+		},
+		{
+			"tld": "art",
+			"ascii": "art",
+			"type": "generic",
+			"manager": "UK Creative Ideas Limited"
+		},
+		{
+			"tld": "arte",
+			"ascii": "arte",
+			"type": "generic",
+			"manager": "Association Relative à la Télévision Européenne G.E.I.E.",
+			"brand": true
+		},
+		{
+			"tld": "as",
+			"ascii": "as",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AS"
+		},
+		{
+			"tld": "asda",
+			"ascii": "asda",
+			"type": "generic",
+			"manager": "Asda Stores Limited",
+			"brand": true
+		},
+		{
+			"tld": "asia",
+			"ascii": "asia",
+			"type": "sponsored",
+			"manager": "DotAsia Organisation Limited"
+		},
+		{
+			"tld": "associates",
+			"ascii": "associates",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "at",
+			"ascii": "at",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AT"
+		},
+		{
+			"tld": "athleta",
+			"ascii": "athleta",
+			"type": "generic",
+			"manager": "The Gap, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "attorney",
+			"ascii": "attorney",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "au",
+			"ascii": "au",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AU"
+		},
+		{
+			"tld": "auction",
+			"ascii": "auction",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "audi",
+			"ascii": "audi",
+			"type": "generic",
+			"manager": "AUDI Aktiengesellschaft",
+			"brand": true
+		},
+		{
+			"tld": "audible",
+			"ascii": "audible",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "audio",
+			"ascii": "audio",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "auspost",
+			"ascii": "auspost",
+			"type": "generic",
+			"manager": "Australian Postal Corporation",
+			"brand": true
+		},
+		{
+			"tld": "author",
+			"ascii": "author",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "auto",
+			"ascii": "auto",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "autos",
+			"ascii": "autos",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "aw",
+			"ascii": "aw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AW"
+		},
+		{
+			"tld": "aws",
+			"ascii": "aws",
+			"type": "generic",
+			"manager": "AWS Registry LLC",
+			"brand": true
+		},
+		{
+			"tld": "ax",
+			"ascii": "ax",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AX"
+		},
+		{
+			"tld": "axa",
+			"ascii": "axa",
+			"type": "generic",
+			"manager": "AXA Group Operations SAS",
+			"brand": true
+		},
+		{
+			"tld": "az",
+			"ascii": "az",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AZ"
+		},
+		{
+			"tld": "azure",
+			"ascii": "azure",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "ba",
+			"ascii": "ba",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BA"
+		},
+		{
+			"tld": "baby",
+			"ascii": "baby",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "baidu",
+			"ascii": "baidu",
+			"type": "generic",
+			"manager": "Baidu, Inc."
+		},
+		{
+			"tld": "banamex",
+			"ascii": "banamex",
+			"type": "generic",
+			"manager": "Citigroup Inc.",
+			"brand": true
+		},
+		{
+			"tld": "band",
+			"ascii": "band",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "bank",
+			"ascii": "bank",
+			"type": "generic",
+			"manager": "fTLD Registry Services LLC"
+		},
+		{
+			"tld": "bar",
+			"ascii": "bar",
+			"type": "generic",
+			"manager": "Punto 2012 Sociedad Anonima Promotora de Inversion de Capital Variable"
+		},
+		{
+			"tld": "barcelona",
+			"ascii": "barcelona",
+			"type": "generic",
+			"manager": "Municipi de Barcelona"
+		},
+		{
+			"tld": "barclaycard",
+			"ascii": "barclaycard",
+			"type": "generic",
+			"manager": "Barclays Bank PLC",
+			"brand": true
+		},
+		{
+			"tld": "barclays",
+			"ascii": "barclays",
+			"type": "generic",
+			"manager": "Barclays Bank PLC",
+			"brand": true
+		},
+		{
+			"tld": "barefoot",
+			"ascii": "barefoot",
+			"type": "generic",
+			"manager": "Gallo Vineyards, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "bargains",
+			"ascii": "bargains",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "baseball",
+			"ascii": "baseball",
+			"type": "generic",
+			"manager": "MLB Advanced Media DH, LLC"
+		},
+		{
+			"tld": "basketball",
+			"ascii": "basketball",
+			"type": "generic",
+			"manager": "Fédération Internationale de Basketball (FIBA)"
+		},
+		{
+			"tld": "bauhaus",
+			"ascii": "bauhaus",
+			"type": "generic",
+			"manager": "Werkhaus GmbH",
+			"brand": true
+		},
+		{
+			"tld": "bayern",
+			"ascii": "bayern",
+			"type": "generic",
+			"manager": "Bayern Connect GmbH"
+		},
+		{
+			"tld": "bb",
+			"ascii": "bb",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BB"
+		},
+		{
+			"tld": "bbc",
+			"ascii": "bbc",
+			"type": "generic",
+			"manager": "British Broadcasting Corporation",
+			"brand": true
+		},
+		{
+			"tld": "bbt",
+			"ascii": "bbt",
+			"type": "generic",
+			"manager": "BB&T Corporation",
+			"brand": true
+		},
+		{
+			"tld": "bbva",
+			"ascii": "bbva",
+			"type": "generic",
+			"manager": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+			"brand": true
+		},
+		{
+			"tld": "bcg",
+			"ascii": "bcg",
+			"type": "generic",
+			"manager": "The Boston Consulting Group, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "bcn",
+			"ascii": "bcn",
+			"type": "generic",
+			"manager": "Municipi de Barcelona"
+		},
+		{
+			"tld": "bd",
+			"ascii": "bd",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BD"
+		},
+		{
+			"tld": "be",
+			"ascii": "be",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BE"
+		},
+		{
+			"tld": "beats",
+			"ascii": "beats",
+			"type": "generic",
+			"manager": "Beats Electronics, LLC",
+			"brand": true
+		},
+		{
+			"tld": "beauty",
+			"ascii": "beauty",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "beer",
+			"ascii": "beer",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "berlin",
+			"ascii": "berlin",
+			"type": "generic",
+			"manager": "dotBERLIN GmbH & Co. KG"
+		},
+		{
+			"tld": "best",
+			"ascii": "best",
+			"type": "generic",
+			"manager": "BestTLD Pty Ltd"
+		},
+		{
+			"tld": "bestbuy",
+			"ascii": "bestbuy",
+			"type": "generic",
+			"manager": "BBY Solutions, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "bet",
+			"ascii": "bet",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "bf",
+			"ascii": "bf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BF"
+		},
+		{
+			"tld": "bg",
+			"ascii": "bg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BG"
+		},
+		{
+			"tld": "bh",
+			"ascii": "bh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BH"
+		},
+		{
+			"tld": "bharti",
+			"ascii": "bharti",
+			"type": "generic",
+			"manager": "Bharti Enterprises (Holding) Private Limited",
+			"brand": true
+		},
+		{
+			"tld": "bi",
+			"ascii": "bi",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BI"
+		},
+		{
+			"tld": "bible",
+			"ascii": "bible",
+			"type": "generic",
+			"manager": "American Bible Society"
+		},
+		{
+			"tld": "bid",
+			"ascii": "bid",
+			"type": "generic",
+			"manager": "dot Bid Limited"
+		},
+		{
+			"tld": "bike",
+			"ascii": "bike",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "bing",
+			"ascii": "bing",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "bingo",
+			"ascii": "bingo",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "bio",
+			"ascii": "bio",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "biz",
+			"ascii": "biz",
+			"type": "generic-restricted",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "bj",
+			"ascii": "bj",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BJ"
+		},
+		{
+			"tld": "black",
+			"ascii": "black",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "blackfriday",
+			"ascii": "blackfriday",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "blockbuster",
+			"ascii": "blockbuster",
+			"type": "generic",
+			"manager": "Dish DBS Corporation",
+			"brand": true
+		},
+		{
+			"tld": "blog",
+			"ascii": "blog",
+			"type": "generic",
+			"manager": "Knock Knock WHOIS There, LLC"
+		},
+		{
+			"tld": "bloomberg",
+			"ascii": "bloomberg",
+			"type": "generic",
+			"manager": "Bloomberg IP Holdings LLC",
+			"brand": true
+		},
+		{
+			"tld": "blue",
+			"ascii": "blue",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "bm",
+			"ascii": "bm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BM"
+		},
+		{
+			"tld": "bms",
+			"ascii": "bms",
+			"type": "generic",
+			"manager": "Bristol-Myers Squibb Company",
+			"brand": true
+		},
+		{
+			"tld": "bmw",
+			"ascii": "bmw",
+			"type": "generic",
+			"manager": "Bayerische Motoren Werke Aktiengesellschaft",
+			"brand": true
+		},
+		{
+			"tld": "bn",
+			"ascii": "bn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BN"
+		},
+		{
+			"tld": "bnpparibas",
+			"ascii": "bnpparibas",
+			"type": "generic",
+			"manager": "BNP Paribas",
+			"brand": true
+		},
+		{
+			"tld": "bo",
+			"ascii": "bo",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BO"
+		},
+		{
+			"tld": "boats",
+			"ascii": "boats",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "boehringer",
+			"ascii": "boehringer",
+			"type": "generic",
+			"manager": "Boehringer Ingelheim International GmbH",
+			"brand": true
+		},
+		{
+			"tld": "bofa",
+			"ascii": "bofa",
+			"type": "generic",
+			"manager": "Bank of America Corporation",
+			"brand": true
+		},
+		{
+			"tld": "bom",
+			"ascii": "bom",
+			"type": "generic",
+			"manager": "Núcleo de Informação e Coordenação do Ponto BR - NIC.br"
+		},
+		{
+			"tld": "bond",
+			"ascii": "bond",
+			"type": "generic",
+			"manager": "ShortDot SA"
+		},
+		{
+			"tld": "boo",
+			"ascii": "boo",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "book",
+			"ascii": "book",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "booking",
+			"ascii": "booking",
+			"type": "generic",
+			"manager": "Booking.com B.V."
+		},
+		{
+			"tld": "bosch",
+			"ascii": "bosch",
+			"type": "generic",
+			"manager": "Robert Bosch GMBH",
+			"brand": true
+		},
+		{
+			"tld": "bostik",
+			"ascii": "bostik",
+			"type": "generic",
+			"manager": "Bostik SA",
+			"brand": true
+		},
+		{
+			"tld": "boston",
+			"ascii": "boston",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "bot",
+			"ascii": "bot",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "boutique",
+			"ascii": "boutique",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "box",
+			"ascii": "box",
+			"type": "generic",
+			"manager": "Intercap Registry Inc."
+		},
+		{
+			"tld": "br",
+			"ascii": "br",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BR"
+		},
+		{
+			"tld": "bradesco",
+			"ascii": "bradesco",
+			"type": "generic",
+			"manager": "Banco Bradesco S.A.",
+			"brand": true
+		},
+		{
+			"tld": "bridgestone",
+			"ascii": "bridgestone",
+			"type": "generic",
+			"manager": "Bridgestone Corporation",
+			"brand": true
+		},
+		{
+			"tld": "broadway",
+			"ascii": "broadway",
+			"type": "generic",
+			"manager": "Celebrate Broadway, Inc."
+		},
+		{
+			"tld": "broker",
+			"ascii": "broker",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "brother",
+			"ascii": "brother",
+			"type": "generic",
+			"manager": "Brother Industries, Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "brussels",
+			"ascii": "brussels",
+			"type": "generic",
+			"manager": "DNS.be vzw"
+		},
+		{
+			"tld": "bs",
+			"ascii": "bs",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BS"
+		},
+		{
+			"tld": "bt",
+			"ascii": "bt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BT"
+		},
+		{
+			"tld": "build",
+			"ascii": "build",
+			"type": "generic",
+			"manager": "Plan Bee LLC"
+		},
+		{
+			"tld": "builders",
+			"ascii": "builders",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "business",
+			"ascii": "business",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "buy",
+			"ascii": "buy",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "buzz",
+			"ascii": "buzz",
+			"type": "generic",
+			"manager": "DOTSTRATEGY CO."
+		},
+		{
+			"tld": "bv",
+			"ascii": "bv",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BV"
+		},
+		{
+			"tld": "bw",
+			"ascii": "bw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BW"
+		},
+		{
+			"tld": "by",
+			"ascii": "by",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BY"
+		},
+		{
+			"tld": "bz",
+			"ascii": "bz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BZ"
+		},
+		{
+			"tld": "bzh",
+			"ascii": "bzh",
+			"type": "generic",
+			"manager": "Association www.bzh"
+		},
+		{
+			"tld": "ca",
+			"ascii": "ca",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CA"
+		},
+		{
+			"tld": "cab",
+			"ascii": "cab",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cafe",
+			"ascii": "cafe",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cal",
+			"ascii": "cal",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "call",
+			"ascii": "call",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "calvinklein",
+			"ascii": "calvinklein",
+			"type": "generic",
+			"manager": "PVH gTLD Holdings LLC",
+			"brand": true
+		},
+		{
+			"tld": "cam",
+			"ascii": "cam",
+			"type": "generic",
+			"manager": "Cam Connecting SARL"
+		},
+		{
+			"tld": "camera",
+			"ascii": "camera",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "camp",
+			"ascii": "camp",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "canon",
+			"ascii": "canon",
+			"type": "generic",
+			"manager": "Canon Inc.",
+			"brand": true
+		},
+		{
+			"tld": "capetown",
+			"ascii": "capetown",
+			"type": "generic",
+			"manager": "ZA Central Registry NPC trading as ZA Central Registry"
+		},
+		{
+			"tld": "capital",
+			"ascii": "capital",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "capitalone",
+			"ascii": "capitalone",
+			"type": "generic",
+			"manager": "Capital One Financial Corporation",
+			"brand": true
+		},
+		{
+			"tld": "car",
+			"ascii": "car",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "caravan",
+			"ascii": "caravan",
+			"type": "generic",
+			"manager": "Caravan International, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "cards",
+			"ascii": "cards",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "care",
+			"ascii": "care",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "career",
+			"ascii": "career",
+			"type": "generic",
+			"manager": "dotCareer LLC"
+		},
+		{
+			"tld": "careers",
+			"ascii": "careers",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cars",
+			"ascii": "cars",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "casa",
+			"ascii": "casa",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "case",
+			"ascii": "case",
+			"type": "generic",
+			"manager": "Digity, LLC",
+			"brand": true
+		},
+		{
+			"tld": "cash",
+			"ascii": "cash",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "casino",
+			"ascii": "casino",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cat",
+			"ascii": "cat",
+			"type": "sponsored",
+			"manager": "Fundació puntCAT"
+		},
+		{
+			"tld": "catering",
+			"ascii": "catering",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "catholic",
+			"ascii": "catholic",
+			"type": "generic",
+			"manager": "Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)"
+		},
+		{
+			"tld": "cba",
+			"ascii": "cba",
+			"type": "generic",
+			"manager": "COMMONWEALTH BANK OF AUSTRALIA",
+			"brand": true
+		},
+		{
+			"tld": "cbn",
+			"ascii": "cbn",
+			"type": "generic",
+			"manager": "The Christian Broadcasting Network, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "cbre",
+			"ascii": "cbre",
+			"type": "generic",
+			"manager": "CBRE, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "cc",
+			"ascii": "cc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CC"
+		},
+		{
+			"tld": "cd",
+			"ascii": "cd",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CD"
+		},
+		{
+			"tld": "center",
+			"ascii": "center",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ceo",
+			"ascii": "ceo",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "cern",
+			"ascii": "cern",
+			"type": "generic",
+			"manager": "European Organization for Nuclear Research (\"CERN\")",
+			"brand": true
+		},
+		{
+			"tld": "cf",
+			"ascii": "cf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CF"
+		},
+		{
+			"tld": "cfa",
+			"ascii": "cfa",
+			"type": "generic",
+			"manager": "CFA Institute",
+			"brand": true
+		},
+		{
+			"tld": "cfd",
+			"ascii": "cfd",
+			"type": "generic",
+			"manager": "ShortDot SA"
+		},
+		{
+			"tld": "cg",
+			"ascii": "cg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CG"
+		},
+		{
+			"tld": "ch",
+			"ascii": "ch",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CH"
+		},
+		{
+			"tld": "chanel",
+			"ascii": "chanel",
+			"type": "generic",
+			"manager": "Chanel International B.V.",
+			"brand": true
+		},
+		{
+			"tld": "channel",
+			"ascii": "channel",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "charity",
+			"ascii": "charity",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "chase",
+			"ascii": "chase",
+			"type": "generic",
+			"manager": "JPMorgan Chase Bank, National Association",
+			"brand": true
+		},
+		{
+			"tld": "chat",
+			"ascii": "chat",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cheap",
+			"ascii": "cheap",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "chintai",
+			"ascii": "chintai",
+			"type": "generic",
+			"manager": "CHINTAI Corporation",
+			"brand": true
+		},
+		{
+			"tld": "christmas",
+			"ascii": "christmas",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "chrome",
+			"ascii": "chrome",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "church",
+			"ascii": "church",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ci",
+			"ascii": "ci",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CI"
+		},
+		{
+			"tld": "cipriani",
+			"ascii": "cipriani",
+			"type": "generic",
+			"manager": "Hotel Cipriani Srl",
+			"brand": true
+		},
+		{
+			"tld": "circle",
+			"ascii": "circle",
+			"type": "generic",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "cisco",
+			"ascii": "cisco",
+			"type": "generic",
+			"manager": "Cisco Technology, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "citadel",
+			"ascii": "citadel",
+			"type": "generic",
+			"manager": "Citadel Domain LLC",
+			"brand": true
+		},
+		{
+			"tld": "citi",
+			"ascii": "citi",
+			"type": "generic",
+			"manager": "Citigroup Inc.",
+			"brand": true
+		},
+		{
+			"tld": "citic",
+			"ascii": "citic",
+			"type": "generic",
+			"manager": "CITIC Group Corporation",
+			"brand": true
+		},
+		{
+			"tld": "city",
+			"ascii": "city",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ck",
+			"ascii": "ck",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CK"
+		},
+		{
+			"tld": "cl",
+			"ascii": "cl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CL"
+		},
+		{
+			"tld": "claims",
+			"ascii": "claims",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cleaning",
+			"ascii": "cleaning",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "click",
+			"ascii": "click",
+			"type": "generic",
+			"manager": "Waterford Limited"
+		},
+		{
+			"tld": "clinic",
+			"ascii": "clinic",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "clinique",
+			"ascii": "clinique",
+			"type": "generic",
+			"manager": "The Estée Lauder Companies Inc.",
+			"brand": true
+		},
+		{
+			"tld": "clothing",
+			"ascii": "clothing",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cloud",
+			"ascii": "cloud",
+			"type": "generic",
+			"manager": "Aruba PEC S.p.A."
+		},
+		{
+			"tld": "club",
+			"ascii": "club",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "clubmed",
+			"ascii": "clubmed",
+			"type": "generic",
+			"manager": "Club Méditerranée S.A.",
+			"brand": true
+		},
+		{
+			"tld": "cm",
+			"ascii": "cm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CM"
+		},
+		{
+			"tld": "cn",
+			"ascii": "cn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CN"
+		},
+		{
+			"tld": "co",
+			"ascii": "co",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CO"
+		},
+		{
+			"tld": "coach",
+			"ascii": "coach",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "codes",
+			"ascii": "codes",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "coffee",
+			"ascii": "coffee",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "college",
+			"ascii": "college",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "cologne",
+			"ascii": "cologne",
+			"type": "generic",
+			"manager": "domainworx Service & Management GmbH"
+		},
+		{
+			"tld": "com",
+			"ascii": "com",
+			"type": "generic",
+			"manager": "VeriSign, Inc."
+		},
+		{
+			"tld": "commbank",
+			"ascii": "commbank",
+			"type": "generic",
+			"manager": "COMMONWEALTH BANK OF AUSTRALIA",
+			"brand": true
+		},
+		{
+			"tld": "community",
+			"ascii": "community",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "company",
+			"ascii": "company",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "compare",
+			"ascii": "compare",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "computer",
+			"ascii": "computer",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "comsec",
+			"ascii": "comsec",
+			"type": "generic",
+			"manager": "VeriSign, Inc."
+		},
+		{
+			"tld": "condos",
+			"ascii": "condos",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "construction",
+			"ascii": "construction",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "consulting",
+			"ascii": "consulting",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "contact",
+			"ascii": "contact",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "contractors",
+			"ascii": "contractors",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cooking",
+			"ascii": "cooking",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "cool",
+			"ascii": "cool",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "coop",
+			"ascii": "coop",
+			"type": "sponsored",
+			"manager": "DotCooperation LLC"
+		},
+		{
+			"tld": "corsica",
+			"ascii": "corsica",
+			"type": "generic",
+			"manager": "Collectivité de Corse"
+		},
+		{
+			"tld": "country",
+			"ascii": "country",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC"
+		},
+		{
+			"tld": "coupon",
+			"ascii": "coupon",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "coupons",
+			"ascii": "coupons",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "courses",
+			"ascii": "courses",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "cpa",
+			"ascii": "cpa",
+			"type": "generic",
+			"manager": "American Institute of Certified Public Accountants"
+		},
+		{
+			"tld": "cr",
+			"ascii": "cr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CR"
+		},
+		{
+			"tld": "credit",
+			"ascii": "credit",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "creditcard",
+			"ascii": "creditcard",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "creditunion",
+			"ascii": "creditunion",
+			"type": "generic",
+			"manager": "DotCooperation LLC"
+		},
+		{
+			"tld": "cricket",
+			"ascii": "cricket",
+			"type": "generic",
+			"manager": "dot Cricket Limited"
+		},
+		{
+			"tld": "crown",
+			"ascii": "crown",
+			"type": "generic",
+			"manager": "Crown Equipment Corporation",
+			"brand": true
+		},
+		{
+			"tld": "crs",
+			"ascii": "crs",
+			"type": "generic",
+			"manager": "Federated Co-operatives Limited"
+		},
+		{
+			"tld": "cruise",
+			"ascii": "cruise",
+			"type": "generic",
+			"manager": "Viking River Cruises (Bermuda) Ltd."
+		},
+		{
+			"tld": "cruises",
+			"ascii": "cruises",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "cu",
+			"ascii": "cu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CU"
+		},
+		{
+			"tld": "cuisinella",
+			"ascii": "cuisinella",
+			"type": "generic",
+			"manager": "SCHMIDT GROUPE S.A.S.",
+			"brand": true
+		},
+		{
+			"tld": "cv",
+			"ascii": "cv",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CV"
+		},
+		{
+			"tld": "cw",
+			"ascii": "cw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CW"
+		},
+		{
+			"tld": "cx",
+			"ascii": "cx",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CX"
+		},
+		{
+			"tld": "cy",
+			"ascii": "cy",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CY"
+		},
+		{
+			"tld": "cymru",
+			"ascii": "cymru",
+			"type": "generic",
+			"manager": "Nominet UK"
+		},
+		{
+			"tld": "cyou",
+			"ascii": "cyou",
+			"type": "generic",
+			"manager": "ShortDot SA"
+		},
+		{
+			"tld": "cz",
+			"ascii": "cz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CZ"
+		},
+		{
+			"tld": "dad",
+			"ascii": "dad",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "dance",
+			"ascii": "dance",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "data",
+			"ascii": "data",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "date",
+			"ascii": "date",
+			"type": "generic",
+			"manager": "dot Date Limited"
+		},
+		{
+			"tld": "dating",
+			"ascii": "dating",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "datsun",
+			"ascii": "datsun",
+			"type": "generic",
+			"manager": "NISSAN MOTOR CO., LTD.",
+			"brand": true
+		},
+		{
+			"tld": "day",
+			"ascii": "day",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "dclk",
+			"ascii": "dclk",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "dds",
+			"ascii": "dds",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "de",
+			"ascii": "de",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DE"
+		},
+		{
+			"tld": "deal",
+			"ascii": "deal",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "dealer",
+			"ascii": "dealer",
+			"type": "generic",
+			"manager": "Intercap Registry Inc."
+		},
+		{
+			"tld": "deals",
+			"ascii": "deals",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "degree",
+			"ascii": "degree",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "delivery",
+			"ascii": "delivery",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "dell",
+			"ascii": "dell",
+			"type": "generic",
+			"manager": "Dell Inc.",
+			"brand": true
+		},
+		{
+			"tld": "deloitte",
+			"ascii": "deloitte",
+			"type": "generic",
+			"manager": "Deloitte Touche Tohmatsu",
+			"brand": true
+		},
+		{
+			"tld": "delta",
+			"ascii": "delta",
+			"type": "generic",
+			"manager": "Delta Air Lines, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "democrat",
+			"ascii": "democrat",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "dental",
+			"ascii": "dental",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "dentist",
+			"ascii": "dentist",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "desi",
+			"ascii": "desi",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "design",
+			"ascii": "design",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "dev",
+			"ascii": "dev",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "dhl",
+			"ascii": "dhl",
+			"type": "generic",
+			"manager": "Deutsche Post AG",
+			"brand": true
+		},
+		{
+			"tld": "diamonds",
+			"ascii": "diamonds",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "diet",
+			"ascii": "diet",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "digital",
+			"ascii": "digital",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "direct",
+			"ascii": "direct",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "directory",
+			"ascii": "directory",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "discount",
+			"ascii": "discount",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "discover",
+			"ascii": "discover",
+			"type": "generic",
+			"manager": "Discover Financial Services",
+			"brand": true
+		},
+		{
+			"tld": "dish",
+			"ascii": "dish",
+			"type": "generic",
+			"manager": "Dish DBS Corporation",
+			"brand": true
+		},
+		{
+			"tld": "diy",
+			"ascii": "diy",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC",
+			"brand": true
+		},
+		{
+			"tld": "dj",
+			"ascii": "dj",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DJ"
+		},
+		{
+			"tld": "dk",
+			"ascii": "dk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DK"
+		},
+		{
+			"tld": "dm",
+			"ascii": "dm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DM"
+		},
+		{
+			"tld": "dnp",
+			"ascii": "dnp",
+			"type": "generic",
+			"manager": "Dai Nippon Printing Co., Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "do",
+			"ascii": "do",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DO"
+		},
+		{
+			"tld": "docs",
+			"ascii": "docs",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "doctor",
+			"ascii": "doctor",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "dog",
+			"ascii": "dog",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "domains",
+			"ascii": "domains",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "dot",
+			"ascii": "dot",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "download",
+			"ascii": "download",
+			"type": "generic",
+			"manager": "dot Support Limited"
+		},
+		{
+			"tld": "drive",
+			"ascii": "drive",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "dtv",
+			"ascii": "dtv",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "dubai",
+			"ascii": "dubai",
+			"type": "generic",
+			"manager": "Dubai Smart Government Department"
+		},
+		{
+			"tld": "dupont",
+			"ascii": "dupont",
+			"type": "generic",
+			"manager": "DuPont Specialty Products USA, LLC",
+			"brand": true
+		},
+		{
+			"tld": "durban",
+			"ascii": "durban",
+			"type": "generic",
+			"manager": "ZA Central Registry NPC trading as ZA Central Registry"
+		},
+		{
+			"tld": "dvag",
+			"ascii": "dvag",
+			"type": "generic",
+			"manager": "Deutsche Vermögensberatung Aktiengesellschaft DVAG",
+			"brand": true
+		},
+		{
+			"tld": "dvr",
+			"ascii": "dvr",
+			"type": "generic",
+			"manager": "DISH Technologies L.L.C."
+		},
+		{
+			"tld": "dz",
+			"ascii": "dz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DZ"
+		},
+		{
+			"tld": "earth",
+			"ascii": "earth",
+			"type": "generic",
+			"manager": "Interlink Systems Innovation Institute K.K."
+		},
+		{
+			"tld": "eat",
+			"ascii": "eat",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "ec",
+			"ascii": "ec",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EC"
+		},
+		{
+			"tld": "eco",
+			"ascii": "eco",
+			"type": "generic",
+			"manager": "Big Room Inc."
+		},
+		{
+			"tld": "edeka",
+			"ascii": "edeka",
+			"type": "generic",
+			"manager": "EDEKA Verband kaufmännischer Genossenschaften e.V.",
+			"brand": true
+		},
+		{
+			"tld": "edu",
+			"ascii": "edu",
+			"type": "sponsored",
+			"manager": ""
+		},
+		{
+			"tld": "education",
+			"ascii": "education",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ee",
+			"ascii": "ee",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EE"
+		},
+		{
+			"tld": "eg",
+			"ascii": "eg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EG"
+		},
+		{
+			"tld": "email",
+			"ascii": "email",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "emerck",
+			"ascii": "emerck",
+			"type": "generic",
+			"manager": "Merck KGaA",
+			"brand": true
+		},
+		{
+			"tld": "energy",
+			"ascii": "energy",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "engineer",
+			"ascii": "engineer",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "engineering",
+			"ascii": "engineering",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "enterprises",
+			"ascii": "enterprises",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "epson",
+			"ascii": "epson",
+			"type": "generic",
+			"manager": "Seiko Epson Corporation",
+			"brand": true
+		},
+		{
+			"tld": "equipment",
+			"ascii": "equipment",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "er",
+			"ascii": "er",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ER"
+		},
+		{
+			"tld": "ericsson",
+			"ascii": "ericsson",
+			"type": "generic",
+			"manager": "Telefonaktiebolaget L M Ericsson",
+			"brand": true
+		},
+		{
+			"tld": "erni",
+			"ascii": "erni",
+			"type": "generic",
+			"manager": "ERNI Group Holding AG"
+		},
+		{
+			"tld": "es",
+			"ascii": "es",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ES"
+		},
+		{
+			"tld": "esq",
+			"ascii": "esq",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "estate",
+			"ascii": "estate",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "et",
+			"ascii": "et",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ET"
+		},
+		{
+			"tld": "eu",
+			"ascii": "eu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EU"
+		},
+		{
+			"tld": "eurovision",
+			"ascii": "eurovision",
+			"type": "generic",
+			"manager": "European Broadcasting Union (EBU)",
+			"brand": true
+		},
+		{
+			"tld": "eus",
+			"ascii": "eus",
+			"type": "generic",
+			"manager": "Puntueus Fundazioa"
+		},
+		{
+			"tld": "events",
+			"ascii": "events",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "exchange",
+			"ascii": "exchange",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "expert",
+			"ascii": "expert",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "exposed",
+			"ascii": "exposed",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "express",
+			"ascii": "express",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "extraspace",
+			"ascii": "extraspace",
+			"type": "generic",
+			"manager": "Extra Space Storage LLC",
+			"brand": true
+		},
+		{
+			"tld": "fage",
+			"ascii": "fage",
+			"type": "generic",
+			"manager": "Fage International S.A.",
+			"brand": true
+		},
+		{
+			"tld": "fail",
+			"ascii": "fail",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "fairwinds",
+			"ascii": "fairwinds",
+			"type": "generic",
+			"manager": "FairWinds Partners, LLC",
+			"brand": true
+		},
+		{
+			"tld": "faith",
+			"ascii": "faith",
+			"type": "generic",
+			"manager": "dot Faith Limited"
+		},
+		{
+			"tld": "family",
+			"ascii": "family",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "fan",
+			"ascii": "fan",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "fans",
+			"ascii": "fans",
+			"type": "generic",
+			"manager": "ZDNS International Limited"
+		},
+		{
+			"tld": "farm",
+			"ascii": "farm",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "farmers",
+			"ascii": "farmers",
+			"type": "generic",
+			"manager": "Farmers Insurance Exchange",
+			"brand": true
+		},
+		{
+			"tld": "fashion",
+			"ascii": "fashion",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "fast",
+			"ascii": "fast",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "fedex",
+			"ascii": "fedex",
+			"type": "generic",
+			"manager": "Federal Express Corporation",
+			"brand": true
+		},
+		{
+			"tld": "feedback",
+			"ascii": "feedback",
+			"type": "generic",
+			"manager": "Top Level Spectrum, Inc."
+		},
+		{
+			"tld": "ferrari",
+			"ascii": "ferrari",
+			"type": "generic",
+			"manager": "Fiat Chrysler Automobiles N.V.",
+			"brand": true
+		},
+		{
+			"tld": "ferrero",
+			"ascii": "ferrero",
+			"type": "generic",
+			"manager": "Ferrero Trading Lux S.A.",
+			"brand": true
+		},
+		{
+			"tld": "fi",
+			"ascii": "fi",
+			"type": "country-code",
+			"manager": "",
+			"cc": "FI"
+		},
+		{
+			"tld": "fidelity",
+			"ascii": "fidelity",
+			"type": "generic",
+			"manager": "Fidelity Brokerage Services LLC",
+			"brand": true
+		},
+		{
+			"tld": "fido",
+			"ascii": "fido",
+			"type": "generic",
+			"manager": "Rogers Communications Canada Inc.",
+			"brand": true
+		},
+		{
+			"tld": "film",
+			"ascii": "film",
+			"type": "generic",
+			"manager": "Motion Picture Domain Registry Pty Ltd"
+		},
+		{
+			"tld": "final",
+			"ascii": "final",
+			"type": "generic",
+			"manager": "Núcleo de Informação e Coordenação do Ponto BR - NIC.br"
+		},
+		{
+			"tld": "finance",
+			"ascii": "finance",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "financial",
+			"ascii": "financial",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "fire",
+			"ascii": "fire",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "firestone",
+			"ascii": "firestone",
+			"type": "generic",
+			"manager": "Bridgestone Licensing Services, Inc",
+			"brand": true
+		},
+		{
+			"tld": "firmdale",
+			"ascii": "firmdale",
+			"type": "generic",
+			"manager": "Firmdale Holdings Limited"
+		},
+		{
+			"tld": "fish",
+			"ascii": "fish",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "fishing",
+			"ascii": "fishing",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "fit",
+			"ascii": "fit",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "fitness",
+			"ascii": "fitness",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "fj",
+			"ascii": "fj",
+			"type": "country-code",
+			"manager": "",
+			"cc": "FJ"
+		},
+		{
+			"tld": "fk",
+			"ascii": "fk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "FK"
+		},
+		{
+			"tld": "flickr",
+			"ascii": "flickr",
+			"type": "generic",
+			"manager": "Flickr, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "flights",
+			"ascii": "flights",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "flir",
+			"ascii": "flir",
+			"type": "generic",
+			"manager": "FLIR Systems, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "florist",
+			"ascii": "florist",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "flowers",
+			"ascii": "flowers",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "fly",
+			"ascii": "fly",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "fm",
+			"ascii": "fm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "FM"
+		},
+		{
+			"tld": "fo",
+			"ascii": "fo",
+			"type": "country-code",
+			"manager": "",
+			"cc": "FO"
+		},
+		{
+			"tld": "foo",
+			"ascii": "foo",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "food",
+			"ascii": "food",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC",
+			"brand": true
+		},
+		{
+			"tld": "football",
+			"ascii": "football",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ford",
+			"ascii": "ford",
+			"type": "generic",
+			"manager": "Ford Motor Company",
+			"brand": true
+		},
+		{
+			"tld": "forex",
+			"ascii": "forex",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "forsale",
+			"ascii": "forsale",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "forum",
+			"ascii": "forum",
+			"type": "generic",
+			"manager": "Waterford Limited"
+		},
+		{
+			"tld": "foundation",
+			"ascii": "foundation",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "fox",
+			"ascii": "fox",
+			"type": "generic",
+			"manager": "FOX Registry, LLC",
+			"brand": true
+		},
+		{
+			"tld": "fr",
+			"ascii": "fr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "FR"
+		},
+		{
+			"tld": "free",
+			"ascii": "free",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "fresenius",
+			"ascii": "fresenius",
+			"type": "generic",
+			"manager": "Fresenius Immobilien-Verwaltungs-GmbH",
+			"brand": true
+		},
+		{
+			"tld": "frl",
+			"ascii": "frl",
+			"type": "generic",
+			"manager": "FRLregistry B.V."
+		},
+		{
+			"tld": "frogans",
+			"ascii": "frogans",
+			"type": "generic",
+			"manager": "OP3FT",
+			"brand": true
+		},
+		{
+			"tld": "frontier",
+			"ascii": "frontier",
+			"type": "generic",
+			"manager": "Frontier Communications Corporation",
+			"brand": true
+		},
+		{
+			"tld": "ftr",
+			"ascii": "ftr",
+			"type": "generic",
+			"manager": "Frontier Communications Corporation"
+		},
+		{
+			"tld": "fujitsu",
+			"ascii": "fujitsu",
+			"type": "generic",
+			"manager": "Fujitsu Limited",
+			"brand": true
+		},
+		{
+			"tld": "fun",
+			"ascii": "fun",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "fund",
+			"ascii": "fund",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "furniture",
+			"ascii": "furniture",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "futbol",
+			"ascii": "futbol",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "fyi",
+			"ascii": "fyi",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ga",
+			"ascii": "ga",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GA"
+		},
+		{
+			"tld": "gal",
+			"ascii": "gal",
+			"type": "generic",
+			"manager": "Asociación puntoGAL"
+		},
+		{
+			"tld": "gallery",
+			"ascii": "gallery",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gallo",
+			"ascii": "gallo",
+			"type": "generic",
+			"manager": "Gallo Vineyards, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "gallup",
+			"ascii": "gallup",
+			"type": "generic",
+			"manager": "Gallup, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "game",
+			"ascii": "game",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "games",
+			"ascii": "games",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "gap",
+			"ascii": "gap",
+			"type": "generic",
+			"manager": "The Gap, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "garden",
+			"ascii": "garden",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "gay",
+			"ascii": "gay",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "gb",
+			"ascii": "gb",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GB"
+		},
+		{
+			"tld": "gbiz",
+			"ascii": "gbiz",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "gd",
+			"ascii": "gd",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GD"
+		},
+		{
+			"tld": "gdn",
+			"ascii": "gdn",
+			"type": "generic",
+			"manager": "Joint Stock Company \"Navigation-information systems\""
+		},
+		{
+			"tld": "ge",
+			"ascii": "ge",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GE"
+		},
+		{
+			"tld": "gea",
+			"ascii": "gea",
+			"type": "generic",
+			"manager": "GEA Group Aktiengesellschaft",
+			"brand": true
+		},
+		{
+			"tld": "gent",
+			"ascii": "gent",
+			"type": "generic",
+			"manager": "Easyhost BV"
+		},
+		{
+			"tld": "genting",
+			"ascii": "genting",
+			"type": "generic",
+			"manager": "Resorts World Inc Pte. Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "george",
+			"ascii": "george",
+			"type": "generic",
+			"manager": "Wal-Mart Stores, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "gf",
+			"ascii": "gf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GF"
+		},
+		{
+			"tld": "gg",
+			"ascii": "gg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GG"
+		},
+		{
+			"tld": "ggee",
+			"ascii": "ggee",
+			"type": "generic",
+			"manager": "GMO Internet, Inc."
+		},
+		{
+			"tld": "gh",
+			"ascii": "gh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GH"
+		},
+		{
+			"tld": "gi",
+			"ascii": "gi",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GI"
+		},
+		{
+			"tld": "gift",
+			"ascii": "gift",
+			"type": "generic",
+			"manager": "DotGift, LLC"
+		},
+		{
+			"tld": "gifts",
+			"ascii": "gifts",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gives",
+			"ascii": "gives",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "giving",
+			"ascii": "giving",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "gl",
+			"ascii": "gl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GL"
+		},
+		{
+			"tld": "glass",
+			"ascii": "glass",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gle",
+			"ascii": "gle",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "global",
+			"ascii": "global",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "globo",
+			"ascii": "globo",
+			"type": "generic",
+			"manager": "Globo Comunicação e Participações S.A"
+		},
+		{
+			"tld": "gm",
+			"ascii": "gm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GM"
+		},
+		{
+			"tld": "gmail",
+			"ascii": "gmail",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "gmbh",
+			"ascii": "gmbh",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gmo",
+			"ascii": "gmo",
+			"type": "generic",
+			"manager": "GMO Internet, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "gmx",
+			"ascii": "gmx",
+			"type": "generic",
+			"manager": "1&1 Mail & Media GmbH",
+			"brand": true
+		},
+		{
+			"tld": "gn",
+			"ascii": "gn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GN"
+		},
+		{
+			"tld": "godaddy",
+			"ascii": "godaddy",
+			"type": "generic",
+			"manager": "Go Daddy East, LLC",
+			"brand": true
+		},
+		{
+			"tld": "gold",
+			"ascii": "gold",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "goldpoint",
+			"ascii": "goldpoint",
+			"type": "generic",
+			"manager": "YODOBASHI CAMERA CO.,LTD.",
+			"brand": true
+		},
+		{
+			"tld": "golf",
+			"ascii": "golf",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "goodyear",
+			"ascii": "goodyear",
+			"type": "generic",
+			"manager": "The Goodyear Tire & Rubber Company",
+			"brand": true
+		},
+		{
+			"tld": "goog",
+			"ascii": "goog",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "google",
+			"ascii": "google",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "gop",
+			"ascii": "gop",
+			"type": "generic",
+			"manager": "Republican State Leadership Committee, Inc."
+		},
+		{
+			"tld": "got",
+			"ascii": "got",
+			"type": "generic",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "gov",
+			"ascii": "gov",
+			"type": "sponsored",
+			"manager": ""
+		},
+		{
+			"tld": "gp",
+			"ascii": "gp",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GP"
+		},
+		{
+			"tld": "gq",
+			"ascii": "gq",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GQ"
+		},
+		{
+			"tld": "gr",
+			"ascii": "gr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GR"
+		},
+		{
+			"tld": "grainger",
+			"ascii": "grainger",
+			"type": "generic",
+			"manager": "Grainger Registry Services, LLC",
+			"brand": true
+		},
+		{
+			"tld": "graphics",
+			"ascii": "graphics",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gratis",
+			"ascii": "gratis",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "green",
+			"ascii": "green",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "gripe",
+			"ascii": "gripe",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "grocery",
+			"ascii": "grocery",
+			"type": "generic",
+			"manager": "Wal-Mart Stores, Inc."
+		},
+		{
+			"tld": "group",
+			"ascii": "group",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gs",
+			"ascii": "gs",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GS"
+		},
+		{
+			"tld": "gt",
+			"ascii": "gt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GT"
+		},
+		{
+			"tld": "gu",
+			"ascii": "gu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GU"
+		},
+		{
+			"tld": "gucci",
+			"ascii": "gucci",
+			"type": "generic",
+			"manager": "Guccio Gucci S.p.a.",
+			"brand": true
+		},
+		{
+			"tld": "guge",
+			"ascii": "guge",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "guide",
+			"ascii": "guide",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "guitars",
+			"ascii": "guitars",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "guru",
+			"ascii": "guru",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "gw",
+			"ascii": "gw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GW"
+		},
+		{
+			"tld": "gy",
+			"ascii": "gy",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GY"
+		},
+		{
+			"tld": "hair",
+			"ascii": "hair",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "hamburg",
+			"ascii": "hamburg",
+			"type": "generic",
+			"manager": "Hamburg Top-Level-Domain GmbH"
+		},
+		{
+			"tld": "hangout",
+			"ascii": "hangout",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "haus",
+			"ascii": "haus",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "hbo",
+			"ascii": "hbo",
+			"type": "generic",
+			"manager": "HBO Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "hdfc",
+			"ascii": "hdfc",
+			"type": "generic",
+			"manager": "HDFC BANK LIMITED",
+			"brand": true
+		},
+		{
+			"tld": "hdfcbank",
+			"ascii": "hdfcbank",
+			"type": "generic",
+			"manager": "HDFC BANK LIMITED",
+			"brand": true
+		},
+		{
+			"tld": "health",
+			"ascii": "health",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "healthcare",
+			"ascii": "healthcare",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "help",
+			"ascii": "help",
+			"type": "generic",
+			"manager": "Innovation service Limited"
+		},
+		{
+			"tld": "here",
+			"ascii": "here",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "hermes",
+			"ascii": "hermes",
+			"type": "generic",
+			"manager": "HERMES INTERNATIONAL",
+			"brand": true
+		},
+		{
+			"tld": "hiphop",
+			"ascii": "hiphop",
+			"type": "generic",
+			"manager": "Dot Hip Hop, LLC"
+		},
+		{
+			"tld": "hisamitsu",
+			"ascii": "hisamitsu",
+			"type": "generic",
+			"manager": "Hisamitsu Pharmaceutical Co.,Inc.",
+			"brand": true
+		},
+		{
+			"tld": "hitachi",
+			"ascii": "hitachi",
+			"type": "generic",
+			"manager": "Hitachi, Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "hiv",
+			"ascii": "hiv",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC"
+		},
+		{
+			"tld": "hk",
+			"ascii": "hk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HK"
+		},
+		{
+			"tld": "hkt",
+			"ascii": "hkt",
+			"type": "generic",
+			"manager": "PCCW-HKT DataCom Services Limited",
+			"brand": true
+		},
+		{
+			"tld": "hm",
+			"ascii": "hm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HM"
+		},
+		{
+			"tld": "hn",
+			"ascii": "hn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HN"
+		},
+		{
+			"tld": "hockey",
+			"ascii": "hockey",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "holdings",
+			"ascii": "holdings",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "holiday",
+			"ascii": "holiday",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "homedepot",
+			"ascii": "homedepot",
+			"type": "generic",
+			"manager": "Home Depot Product Authority, LLC",
+			"brand": true
+		},
+		{
+			"tld": "homegoods",
+			"ascii": "homegoods",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "homes",
+			"ascii": "homes",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "homesense",
+			"ascii": "homesense",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "honda",
+			"ascii": "honda",
+			"type": "generic",
+			"manager": "Honda Motor Co., Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "horse",
+			"ascii": "horse",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "hospital",
+			"ascii": "hospital",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "host",
+			"ascii": "host",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "hosting",
+			"ascii": "hosting",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "hot",
+			"ascii": "hot",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "hotels",
+			"ascii": "hotels",
+			"type": "generic",
+			"manager": "Booking.com B.V."
+		},
+		{
+			"tld": "hotmail",
+			"ascii": "hotmail",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "house",
+			"ascii": "house",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "how",
+			"ascii": "how",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "hr",
+			"ascii": "hr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HR"
+		},
+		{
+			"tld": "hsbc",
+			"ascii": "hsbc",
+			"type": "generic",
+			"manager": "HSBC Global Services (UK) Limited",
+			"brand": true
+		},
+		{
+			"tld": "ht",
+			"ascii": "ht",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HT"
+		},
+		{
+			"tld": "hu",
+			"ascii": "hu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HU"
+		},
+		{
+			"tld": "hughes",
+			"ascii": "hughes",
+			"type": "generic",
+			"manager": "Hughes Satellite Systems Corporation",
+			"brand": true
+		},
+		{
+			"tld": "hyatt",
+			"ascii": "hyatt",
+			"type": "generic",
+			"manager": "Hyatt GTLD, L.L.C.",
+			"brand": true
+		},
+		{
+			"tld": "hyundai",
+			"ascii": "hyundai",
+			"type": "generic",
+			"manager": "Hyundai Motor Company",
+			"brand": true
+		},
+		{
+			"tld": "ibm",
+			"ascii": "ibm",
+			"type": "generic",
+			"manager": "International Business Machines Corporation",
+			"brand": true
+		},
+		{
+			"tld": "icbc",
+			"ascii": "icbc",
+			"type": "generic",
+			"manager": "Industrial and Commercial Bank of China Limited",
+			"brand": true
+		},
+		{
+			"tld": "ice",
+			"ascii": "ice",
+			"type": "generic",
+			"manager": "IntercontinentalExchange, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "icu",
+			"ascii": "icu",
+			"type": "generic",
+			"manager": "ShortDot SA"
+		},
+		{
+			"tld": "id",
+			"ascii": "id",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ID"
+		},
+		{
+			"tld": "ie",
+			"ascii": "ie",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IE"
+		},
+		{
+			"tld": "ieee",
+			"ascii": "ieee",
+			"type": "generic",
+			"manager": "IEEE Global LLC",
+			"brand": true
+		},
+		{
+			"tld": "ifm",
+			"ascii": "ifm",
+			"type": "generic",
+			"manager": "ifm electronic gmbh",
+			"brand": true
+		},
+		{
+			"tld": "ikano",
+			"ascii": "ikano",
+			"type": "generic",
+			"manager": "Ikano S.A.",
+			"brand": true
+		},
+		{
+			"tld": "il",
+			"ascii": "il",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IL"
+		},
+		{
+			"tld": "im",
+			"ascii": "im",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IM"
+		},
+		{
+			"tld": "imamat",
+			"ascii": "imamat",
+			"type": "generic",
+			"manager": "Fondation Aga Khan (Aga Khan Foundation)"
+		},
+		{
+			"tld": "imdb",
+			"ascii": "imdb",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "immo",
+			"ascii": "immo",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "immobilien",
+			"ascii": "immobilien",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "in",
+			"ascii": "in",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "inc",
+			"ascii": "inc",
+			"type": "generic",
+			"manager": "Intercap Registry Inc."
+		},
+		{
+			"tld": "industries",
+			"ascii": "industries",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "infiniti",
+			"ascii": "infiniti",
+			"type": "generic",
+			"manager": "NISSAN MOTOR CO., LTD.",
+			"brand": true
+		},
+		{
+			"tld": "info",
+			"ascii": "info",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "ing",
+			"ascii": "ing",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "ink",
+			"ascii": "ink",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "institute",
+			"ascii": "institute",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "insurance",
+			"ascii": "insurance",
+			"type": "generic",
+			"manager": "fTLD Registry Services LLC"
+		},
+		{
+			"tld": "insure",
+			"ascii": "insure",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "int",
+			"ascii": "int",
+			"type": "sponsored",
+			"manager": ""
+		},
+		{
+			"tld": "international",
+			"ascii": "international",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "intuit",
+			"ascii": "intuit",
+			"type": "generic",
+			"manager": "Intuit Administrative Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "investments",
+			"ascii": "investments",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "io",
+			"ascii": "io",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IO"
+		},
+		{
+			"tld": "ipiranga",
+			"ascii": "ipiranga",
+			"type": "generic",
+			"manager": "Ipiranga Produtos de Petroleo S.A.",
+			"brand": true
+		},
+		{
+			"tld": "iq",
+			"ascii": "iq",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IQ"
+		},
+		{
+			"tld": "ir",
+			"ascii": "ir",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IR"
+		},
+		{
+			"tld": "irish",
+			"ascii": "irish",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "is",
+			"ascii": "is",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IS"
+		},
+		{
+			"tld": "ismaili",
+			"ascii": "ismaili",
+			"type": "generic",
+			"manager": "Fondation Aga Khan (Aga Khan Foundation)"
+		},
+		{
+			"tld": "ist",
+			"ascii": "ist",
+			"type": "generic",
+			"manager": "Istanbul Metropolitan Municipality"
+		},
+		{
+			"tld": "istanbul",
+			"ascii": "istanbul",
+			"type": "generic",
+			"manager": "Istanbul Metropolitan Municipality"
+		},
+		{
+			"tld": "it",
+			"ascii": "it",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IT"
+		},
+		{
+			"tld": "itau",
+			"ascii": "itau",
+			"type": "generic",
+			"manager": "Itau Unibanco Holding S.A.",
+			"brand": true
+		},
+		{
+			"tld": "itv",
+			"ascii": "itv",
+			"type": "generic",
+			"manager": "ITV Services Limited",
+			"brand": true
+		},
+		{
+			"tld": "jaguar",
+			"ascii": "jaguar",
+			"type": "generic",
+			"manager": "Jaguar Land Rover Ltd",
+			"brand": true
+		},
+		{
+			"tld": "java",
+			"ascii": "java",
+			"type": "generic",
+			"manager": "Oracle Corporation",
+			"brand": true
+		},
+		{
+			"tld": "jcb",
+			"ascii": "jcb",
+			"type": "generic",
+			"manager": "JCB Co., Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "je",
+			"ascii": "je",
+			"type": "country-code",
+			"manager": "",
+			"cc": "JE"
+		},
+		{
+			"tld": "jeep",
+			"ascii": "jeep",
+			"type": "generic",
+			"manager": "FCA US LLC.",
+			"brand": true
+		},
+		{
+			"tld": "jetzt",
+			"ascii": "jetzt",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "jewelry",
+			"ascii": "jewelry",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "jio",
+			"ascii": "jio",
+			"type": "generic",
+			"manager": "Reliance Industries Limited",
+			"brand": true
+		},
+		{
+			"tld": "jll",
+			"ascii": "jll",
+			"type": "generic",
+			"manager": "Jones Lang LaSalle Incorporated",
+			"brand": true
+		},
+		{
+			"tld": "jm",
+			"ascii": "jm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "JM"
+		},
+		{
+			"tld": "jmp",
+			"ascii": "jmp",
+			"type": "generic",
+			"manager": "Matrix IP LLC",
+			"brand": true
+		},
+		{
+			"tld": "jnj",
+			"ascii": "jnj",
+			"type": "generic",
+			"manager": "Johnson & Johnson Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "jo",
+			"ascii": "jo",
+			"type": "country-code",
+			"manager": "",
+			"cc": "JO"
+		},
+		{
+			"tld": "jobs",
+			"ascii": "jobs",
+			"type": "sponsored",
+			"manager": "Employ Media LLC"
+		},
+		{
+			"tld": "joburg",
+			"ascii": "joburg",
+			"type": "generic",
+			"manager": "ZA Central Registry NPC trading as ZA Central Registry"
+		},
+		{
+			"tld": "jot",
+			"ascii": "jot",
+			"type": "generic",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "joy",
+			"ascii": "joy",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "jp",
+			"ascii": "jp",
+			"type": "country-code",
+			"manager": "",
+			"cc": "JP"
+		},
+		{
+			"tld": "jpmorgan",
+			"ascii": "jpmorgan",
+			"type": "generic",
+			"manager": "JPMorgan Chase Bank, National Association",
+			"brand": true
+		},
+		{
+			"tld": "jprs",
+			"ascii": "jprs",
+			"type": "generic",
+			"manager": "Japan Registry Services Co., Ltd."
+		},
+		{
+			"tld": "juegos",
+			"ascii": "juegos",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "kaufen",
+			"ascii": "kaufen",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "kddi",
+			"ascii": "kddi",
+			"type": "generic",
+			"manager": "KDDI CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "ke",
+			"ascii": "ke",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KE"
+		},
+		{
+			"tld": "kerryhotels",
+			"ascii": "kerryhotels",
+			"type": "generic",
+			"manager": "Kerry Trading Co. Limited"
+		},
+		{
+			"tld": "kerryproperties",
+			"ascii": "kerryproperties",
+			"type": "generic",
+			"manager": "Kerry Trading Co. Limited"
+		},
+		{
+			"tld": "kfh",
+			"ascii": "kfh",
+			"type": "generic",
+			"manager": "Kuwait Finance House"
+		},
+		{
+			"tld": "kg",
+			"ascii": "kg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KG"
+		},
+		{
+			"tld": "kh",
+			"ascii": "kh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KH"
+		},
+		{
+			"tld": "ki",
+			"ascii": "ki",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KI"
+		},
+		{
+			"tld": "kia",
+			"ascii": "kia",
+			"type": "generic",
+			"manager": "KIA MOTORS CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "kids",
+			"ascii": "kids",
+			"type": "generic",
+			"manager": "DotKids Foundation Limited"
+		},
+		{
+			"tld": "kim",
+			"ascii": "kim",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "kindle",
+			"ascii": "kindle",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "kitchen",
+			"ascii": "kitchen",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "kiwi",
+			"ascii": "kiwi",
+			"type": "generic",
+			"manager": "DOT KIWI LIMITED"
+		},
+		{
+			"tld": "km",
+			"ascii": "km",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KM"
+		},
+		{
+			"tld": "kn",
+			"ascii": "kn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KN"
+		},
+		{
+			"tld": "koeln",
+			"ascii": "koeln",
+			"type": "generic",
+			"manager": "domainworx Service & Management GmbH"
+		},
+		{
+			"tld": "komatsu",
+			"ascii": "komatsu",
+			"type": "generic",
+			"manager": "Komatsu Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "kosher",
+			"ascii": "kosher",
+			"type": "generic",
+			"manager": "Kosher Marketing Assets LLC"
+		},
+		{
+			"tld": "kp",
+			"ascii": "kp",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KP"
+		},
+		{
+			"tld": "kpmg",
+			"ascii": "kpmg",
+			"type": "generic",
+			"manager": "KPMG International Cooperative (KPMG International Genossenschaft)",
+			"brand": true
+		},
+		{
+			"tld": "kpn",
+			"ascii": "kpn",
+			"type": "generic",
+			"manager": "Koninklijke KPN N.V.",
+			"brand": true
+		},
+		{
+			"tld": "kr",
+			"ascii": "kr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KR"
+		},
+		{
+			"tld": "krd",
+			"ascii": "krd",
+			"type": "generic",
+			"manager": "KRG Department of Information Technology"
+		},
+		{
+			"tld": "kred",
+			"ascii": "kred",
+			"type": "generic",
+			"manager": "KredTLD Pty Ltd"
+		},
+		{
+			"tld": "kuokgroup",
+			"ascii": "kuokgroup",
+			"type": "generic",
+			"manager": "Kerry Trading Co. Limited"
+		},
+		{
+			"tld": "kw",
+			"ascii": "kw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KW"
+		},
+		{
+			"tld": "ky",
+			"ascii": "ky",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KY"
+		},
+		{
+			"tld": "kyoto",
+			"ascii": "kyoto",
+			"type": "generic",
+			"manager": "Academic Institution: The University of Informatics"
+		},
+		{
+			"tld": "kz",
+			"ascii": "kz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KZ"
+		},
+		{
+			"tld": "la",
+			"ascii": "la",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LA"
+		},
+		{
+			"tld": "lacaixa",
+			"ascii": "lacaixa",
+			"type": "generic",
+			"manager": "Fundación Bancaria Caixa d’Estalvis i Pensions de Barcelona, “la Caixa”"
+		},
+		{
+			"tld": "lamborghini",
+			"ascii": "lamborghini",
+			"type": "generic",
+			"manager": "Automobili Lamborghini S.p.A.",
+			"brand": true
+		},
+		{
+			"tld": "lamer",
+			"ascii": "lamer",
+			"type": "generic",
+			"manager": "The Estée Lauder Companies Inc.",
+			"brand": true
+		},
+		{
+			"tld": "land",
+			"ascii": "land",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "landrover",
+			"ascii": "landrover",
+			"type": "generic",
+			"manager": "Jaguar Land Rover Ltd",
+			"brand": true
+		},
+		{
+			"tld": "lanxess",
+			"ascii": "lanxess",
+			"type": "generic",
+			"manager": "LANXESS Corporation",
+			"brand": true
+		},
+		{
+			"tld": "lasalle",
+			"ascii": "lasalle",
+			"type": "generic",
+			"manager": "Jones Lang LaSalle Incorporated"
+		},
+		{
+			"tld": "lat",
+			"ascii": "lat",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "latino",
+			"ascii": "latino",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "latrobe",
+			"ascii": "latrobe",
+			"type": "generic",
+			"manager": "La Trobe University",
+			"brand": true
+		},
+		{
+			"tld": "law",
+			"ascii": "law",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "lawyer",
+			"ascii": "lawyer",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "lb",
+			"ascii": "lb",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LB"
+		},
+		{
+			"tld": "lc",
+			"ascii": "lc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LC"
+		},
+		{
+			"tld": "lds",
+			"ascii": "lds",
+			"type": "generic",
+			"manager": "IRI Domain Management, LLC",
+			"brand": true
+		},
+		{
+			"tld": "lease",
+			"ascii": "lease",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "leclerc",
+			"ascii": "leclerc",
+			"type": "generic",
+			"manager": "A.C.D. LEC Association des Centres Distributeurs Edouard Leclerc",
+			"brand": true
+		},
+		{
+			"tld": "lefrak",
+			"ascii": "lefrak",
+			"type": "generic",
+			"manager": "LeFrak Organization, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "legal",
+			"ascii": "legal",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "lego",
+			"ascii": "lego",
+			"type": "generic",
+			"manager": "LEGO Juris A/S",
+			"brand": true
+		},
+		{
+			"tld": "lexus",
+			"ascii": "lexus",
+			"type": "generic",
+			"manager": "TOYOTA MOTOR CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "lgbt",
+			"ascii": "lgbt",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "li",
+			"ascii": "li",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LI"
+		},
+		{
+			"tld": "lidl",
+			"ascii": "lidl",
+			"type": "generic",
+			"manager": "Schwarz Domains und Services GmbH & Co. KG",
+			"brand": true
+		},
+		{
+			"tld": "life",
+			"ascii": "life",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "lifeinsurance",
+			"ascii": "lifeinsurance",
+			"type": "generic",
+			"manager": "American Council of Life Insurers"
+		},
+		{
+			"tld": "lifestyle",
+			"ascii": "lifestyle",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC"
+		},
+		{
+			"tld": "lighting",
+			"ascii": "lighting",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "like",
+			"ascii": "like",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "lilly",
+			"ascii": "lilly",
+			"type": "generic",
+			"manager": "Eli Lilly and Company",
+			"brand": true
+		},
+		{
+			"tld": "limited",
+			"ascii": "limited",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "limo",
+			"ascii": "limo",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "lincoln",
+			"ascii": "lincoln",
+			"type": "generic",
+			"manager": "Ford Motor Company",
+			"brand": true
+		},
+		{
+			"tld": "link",
+			"ascii": "link",
+			"type": "generic",
+			"manager": "Nova Registry Ltd"
+		},
+		{
+			"tld": "live",
+			"ascii": "live",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "living",
+			"ascii": "living",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC"
+		},
+		{
+			"tld": "lk",
+			"ascii": "lk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LK"
+		},
+		{
+			"tld": "llc",
+			"ascii": "llc",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "llp",
+			"ascii": "llp",
+			"type": "generic",
+			"manager": "Intercap Registry Inc."
+		},
+		{
+			"tld": "loan",
+			"ascii": "loan",
+			"type": "generic",
+			"manager": "dot Loan Limited"
+		},
+		{
+			"tld": "loans",
+			"ascii": "loans",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "locker",
+			"ascii": "locker",
+			"type": "generic",
+			"manager": "Orange Domains LLC"
+		},
+		{
+			"tld": "locus",
+			"ascii": "locus",
+			"type": "generic",
+			"manager": "Locus Analytics LLC",
+			"brand": true
+		},
+		{
+			"tld": "lol",
+			"ascii": "lol",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "london",
+			"ascii": "london",
+			"type": "generic",
+			"manager": "Dot London Domains Limited"
+		},
+		{
+			"tld": "lotte",
+			"ascii": "lotte",
+			"type": "generic",
+			"manager": "Lotte Holdings Co., Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "lotto",
+			"ascii": "lotto",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "love",
+			"ascii": "love",
+			"type": "generic",
+			"manager": "Waterford Limited"
+		},
+		{
+			"tld": "lpl",
+			"ascii": "lpl",
+			"type": "generic",
+			"manager": "LPL Holdings, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "lplfinancial",
+			"ascii": "lplfinancial",
+			"type": "generic",
+			"manager": "LPL Holdings, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "lr",
+			"ascii": "lr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LR"
+		},
+		{
+			"tld": "ls",
+			"ascii": "ls",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LS"
+		},
+		{
+			"tld": "lt",
+			"ascii": "lt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LT"
+		},
+		{
+			"tld": "ltd",
+			"ascii": "ltd",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "ltda",
+			"ascii": "ltda",
+			"type": "generic",
+			"manager": "InterNetX, Corp"
+		},
+		{
+			"tld": "lu",
+			"ascii": "lu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LU"
+		},
+		{
+			"tld": "lundbeck",
+			"ascii": "lundbeck",
+			"type": "generic",
+			"manager": "H. Lundbeck A/S",
+			"brand": true
+		},
+		{
+			"tld": "luxe",
+			"ascii": "luxe",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "luxury",
+			"ascii": "luxury",
+			"type": "generic",
+			"manager": "Luxury Partners, LLC"
+		},
+		{
+			"tld": "lv",
+			"ascii": "lv",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LV"
+		},
+		{
+			"tld": "ly",
+			"ascii": "ly",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LY"
+		},
+		{
+			"tld": "ma",
+			"ascii": "ma",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MA"
+		},
+		{
+			"tld": "madrid",
+			"ascii": "madrid",
+			"type": "generic",
+			"manager": "Comunidad de Madrid"
+		},
+		{
+			"tld": "maif",
+			"ascii": "maif",
+			"type": "generic",
+			"manager": "Mutuelle Assurance Instituteur France (MAIF)",
+			"brand": true
+		},
+		{
+			"tld": "maison",
+			"ascii": "maison",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "makeup",
+			"ascii": "makeup",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "man",
+			"ascii": "man",
+			"type": "generic",
+			"manager": "MAN Truck & Bus SE",
+			"brand": true
+		},
+		{
+			"tld": "management",
+			"ascii": "management",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "mango",
+			"ascii": "mango",
+			"type": "generic",
+			"manager": "PUNTO FA S.L."
+		},
+		{
+			"tld": "map",
+			"ascii": "map",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "market",
+			"ascii": "market",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "marketing",
+			"ascii": "marketing",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "markets",
+			"ascii": "markets",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "marriott",
+			"ascii": "marriott",
+			"type": "generic",
+			"manager": "Marriott Worldwide Corporation",
+			"brand": true
+		},
+		{
+			"tld": "marshalls",
+			"ascii": "marshalls",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "mattel",
+			"ascii": "mattel",
+			"type": "generic",
+			"manager": "Mattel IT Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "mba",
+			"ascii": "mba",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "mc",
+			"ascii": "mc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MC"
+		},
+		{
+			"tld": "mckinsey",
+			"ascii": "mckinsey",
+			"type": "generic",
+			"manager": "McKinsey Holdings, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "md",
+			"ascii": "md",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MD"
+		},
+		{
+			"tld": "me",
+			"ascii": "me",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ME"
+		},
+		{
+			"tld": "med",
+			"ascii": "med",
+			"type": "generic",
+			"manager": "Medistry LLC"
+		},
+		{
+			"tld": "media",
+			"ascii": "media",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "meet",
+			"ascii": "meet",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "melbourne",
+			"ascii": "melbourne",
+			"type": "generic",
+			"manager": "The Crown in right of the State of Victoria, represented by its Department of State Development, Business and Innovation"
+		},
+		{
+			"tld": "meme",
+			"ascii": "meme",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "memorial",
+			"ascii": "memorial",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "men",
+			"ascii": "men",
+			"type": "generic",
+			"manager": "Exclusive Registry Limited"
+		},
+		{
+			"tld": "menu",
+			"ascii": "menu",
+			"type": "generic",
+			"manager": "Dot Menu Registry, LLC"
+		},
+		{
+			"tld": "merck",
+			"ascii": "merck",
+			"type": "generic",
+			"manager": "Merck Registry Holdings, Inc."
+		},
+		{
+			"tld": "merckmsd",
+			"ascii": "merckmsd",
+			"type": "generic",
+			"manager": "MSD Registry Holdings, Inc."
+		},
+		{
+			"tld": "mg",
+			"ascii": "mg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MG"
+		},
+		{
+			"tld": "mh",
+			"ascii": "mh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MH"
+		},
+		{
+			"tld": "miami",
+			"ascii": "miami",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "microsoft",
+			"ascii": "microsoft",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "mil",
+			"ascii": "mil",
+			"type": "sponsored",
+			"manager": ""
+		},
+		{
+			"tld": "mini",
+			"ascii": "mini",
+			"type": "generic",
+			"manager": "Bayerische Motoren Werke Aktiengesellschaft",
+			"brand": true
+		},
+		{
+			"tld": "mint",
+			"ascii": "mint",
+			"type": "generic",
+			"manager": "Intuit Administrative Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "mit",
+			"ascii": "mit",
+			"type": "generic",
+			"manager": "Massachusetts Institute of Technology",
+			"brand": true
+		},
+		{
+			"tld": "mitsubishi",
+			"ascii": "mitsubishi",
+			"type": "generic",
+			"manager": "Mitsubishi Corporation",
+			"brand": true
+		},
+		{
+			"tld": "mk",
+			"ascii": "mk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MK"
+		},
+		{
+			"tld": "ml",
+			"ascii": "ml",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ML"
+		},
+		{
+			"tld": "mlb",
+			"ascii": "mlb",
+			"type": "generic",
+			"manager": "MLB Advanced Media DH, LLC",
+			"brand": true
+		},
+		{
+			"tld": "mls",
+			"ascii": "mls",
+			"type": "generic",
+			"manager": "The Canadian Real Estate Association"
+		},
+		{
+			"tld": "mm",
+			"ascii": "mm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MM"
+		},
+		{
+			"tld": "mma",
+			"ascii": "mma",
+			"type": "generic",
+			"manager": "MMA IARD"
+		},
+		{
+			"tld": "mn",
+			"ascii": "mn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MN"
+		},
+		{
+			"tld": "mo",
+			"ascii": "mo",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MO"
+		},
+		{
+			"tld": "mobi",
+			"ascii": "mobi",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "mobile",
+			"ascii": "mobile",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "moda",
+			"ascii": "moda",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "moe",
+			"ascii": "moe",
+			"type": "generic",
+			"manager": "Interlink Systems Innovation Institute K.K."
+		},
+		{
+			"tld": "moi",
+			"ascii": "moi",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "mom",
+			"ascii": "mom",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "monash",
+			"ascii": "monash",
+			"type": "generic",
+			"manager": "Monash University",
+			"brand": true
+		},
+		{
+			"tld": "money",
+			"ascii": "money",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "monster",
+			"ascii": "monster",
+			"type": "generic",
+			"manager": "XYZ.COM LLC",
+			"brand": true
+		},
+		{
+			"tld": "mormon",
+			"ascii": "mormon",
+			"type": "generic",
+			"manager": "IRI Domain Management, LLC",
+			"brand": true
+		},
+		{
+			"tld": "mortgage",
+			"ascii": "mortgage",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "moscow",
+			"ascii": "moscow",
+			"type": "generic",
+			"manager": "Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)"
+		},
+		{
+			"tld": "moto",
+			"ascii": "moto",
+			"type": "generic",
+			"manager": "Motorola Trademark Holdings, LLC",
+			"brand": true
+		},
+		{
+			"tld": "motorcycles",
+			"ascii": "motorcycles",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "mov",
+			"ascii": "mov",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "movie",
+			"ascii": "movie",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "mp",
+			"ascii": "mp",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MP"
+		},
+		{
+			"tld": "mq",
+			"ascii": "mq",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MQ"
+		},
+		{
+			"tld": "mr",
+			"ascii": "mr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MR"
+		},
+		{
+			"tld": "ms",
+			"ascii": "ms",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MS"
+		},
+		{
+			"tld": "msd",
+			"ascii": "msd",
+			"type": "generic",
+			"manager": "MSD Registry Holdings, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "mt",
+			"ascii": "mt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MT"
+		},
+		{
+			"tld": "mtn",
+			"ascii": "mtn",
+			"type": "generic",
+			"manager": "MTN Dubai Limited",
+			"brand": true
+		},
+		{
+			"tld": "mtr",
+			"ascii": "mtr",
+			"type": "generic",
+			"manager": "MTR Corporation Limited",
+			"brand": true
+		},
+		{
+			"tld": "mu",
+			"ascii": "mu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MU"
+		},
+		{
+			"tld": "museum",
+			"ascii": "museum",
+			"type": "sponsored",
+			"manager": "Museum Domain Management Association (MuseDoma)"
+		},
+		{
+			"tld": "music",
+			"ascii": "music",
+			"type": "generic",
+			"manager": "DotMusic Limited"
+		},
+		{
+			"tld": "mv",
+			"ascii": "mv",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MV"
+		},
+		{
+			"tld": "mw",
+			"ascii": "mw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MW"
+		},
+		{
+			"tld": "mx",
+			"ascii": "mx",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MX"
+		},
+		{
+			"tld": "my",
+			"ascii": "my",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MY"
+		},
+		{
+			"tld": "mz",
+			"ascii": "mz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MZ"
+		},
+		{
+			"tld": "na",
+			"ascii": "na",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NA"
+		},
+		{
+			"tld": "nab",
+			"ascii": "nab",
+			"type": "generic",
+			"manager": "National Australia Bank Limited",
+			"brand": true
+		},
+		{
+			"tld": "nagoya",
+			"ascii": "nagoya",
+			"type": "generic",
+			"manager": "GMO Registry, Inc."
+		},
+		{
+			"tld": "name",
+			"ascii": "name",
+			"type": "generic-restricted",
+			"manager": "VeriSign, Inc."
+		},
+		{
+			"tld": "navy",
+			"ascii": "navy",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "nba",
+			"ascii": "nba",
+			"type": "generic",
+			"manager": "NBA REGISTRY, LLC",
+			"brand": true
+		},
+		{
+			"tld": "nc",
+			"ascii": "nc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NC"
+		},
+		{
+			"tld": "ne",
+			"ascii": "ne",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NE"
+		},
+		{
+			"tld": "nec",
+			"ascii": "nec",
+			"type": "generic",
+			"manager": "NEC Corporation",
+			"brand": true
+		},
+		{
+			"tld": "net",
+			"ascii": "net",
+			"type": "generic",
+			"manager": "VeriSign, Inc."
+		},
+		{
+			"tld": "netbank",
+			"ascii": "netbank",
+			"type": "generic",
+			"manager": "COMMONWEALTH BANK OF AUSTRALIA",
+			"brand": true
+		},
+		{
+			"tld": "netflix",
+			"ascii": "netflix",
+			"type": "generic",
+			"manager": "Netflix, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "network",
+			"ascii": "network",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "neustar",
+			"ascii": "neustar",
+			"type": "generic",
+			"manager": "NeuStar, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "new",
+			"ascii": "new",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "news",
+			"ascii": "news",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "next",
+			"ascii": "next",
+			"type": "generic",
+			"manager": "Next plc",
+			"brand": true
+		},
+		{
+			"tld": "nextdirect",
+			"ascii": "nextdirect",
+			"type": "generic",
+			"manager": "Next plc",
+			"brand": true
+		},
+		{
+			"tld": "nexus",
+			"ascii": "nexus",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "nf",
+			"ascii": "nf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NF"
+		},
+		{
+			"tld": "nfl",
+			"ascii": "nfl",
+			"type": "generic",
+			"manager": "NFL Reg Ops LLC",
+			"brand": true
+		},
+		{
+			"tld": "ng",
+			"ascii": "ng",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NG"
+		},
+		{
+			"tld": "ngo",
+			"ascii": "ngo",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "nhk",
+			"ascii": "nhk",
+			"type": "generic",
+			"manager": "Japan Broadcasting Corporation (NHK)",
+			"brand": true
+		},
+		{
+			"tld": "ni",
+			"ascii": "ni",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NI"
+		},
+		{
+			"tld": "nico",
+			"ascii": "nico",
+			"type": "generic",
+			"manager": "DWANGO Co., Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "nike",
+			"ascii": "nike",
+			"type": "generic",
+			"manager": "NIKE, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "nikon",
+			"ascii": "nikon",
+			"type": "generic",
+			"manager": "NIKON CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "ninja",
+			"ascii": "ninja",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "nissan",
+			"ascii": "nissan",
+			"type": "generic",
+			"manager": "NISSAN MOTOR CO., LTD.",
+			"brand": true
+		},
+		{
+			"tld": "nissay",
+			"ascii": "nissay",
+			"type": "generic",
+			"manager": "Nippon Life Insurance Company",
+			"brand": true
+		},
+		{
+			"tld": "nl",
+			"ascii": "nl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NL"
+		},
+		{
+			"tld": "no",
+			"ascii": "no",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NO"
+		},
+		{
+			"tld": "nokia",
+			"ascii": "nokia",
+			"type": "generic",
+			"manager": "Nokia Corporation",
+			"brand": true
+		},
+		{
+			"tld": "norton",
+			"ascii": "norton",
+			"type": "generic",
+			"manager": "Gen Digital Inc.",
+			"brand": true
+		},
+		{
+			"tld": "now",
+			"ascii": "now",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "nowruz",
+			"ascii": "nowruz",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "nowtv",
+			"ascii": "nowtv",
+			"type": "generic",
+			"manager": "Starbucks (HK) Limited",
+			"brand": true
+		},
+		{
+			"tld": "np",
+			"ascii": "np",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NP"
+		},
+		{
+			"tld": "nr",
+			"ascii": "nr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NR"
+		},
+		{
+			"tld": "nra",
+			"ascii": "nra",
+			"type": "generic",
+			"manager": "National Rifle Association of America",
+			"brand": true
+		},
+		{
+			"tld": "nrw",
+			"ascii": "nrw",
+			"type": "generic",
+			"manager": "Minds + Machines GmbH"
+		},
+		{
+			"tld": "ntt",
+			"ascii": "ntt",
+			"type": "generic",
+			"manager": "NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "nu",
+			"ascii": "nu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NU"
+		},
+		{
+			"tld": "nyc",
+			"ascii": "nyc",
+			"type": "generic",
+			"manager": "The City of New York by and through the New York City Department of Information Technology & Telecommunications"
+		},
+		{
+			"tld": "nz",
+			"ascii": "nz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "NZ"
+		},
+		{
+			"tld": "obi",
+			"ascii": "obi",
+			"type": "generic",
+			"manager": "OBI Group Holding SE & Co. KGaA",
+			"brand": true
+		},
+		{
+			"tld": "observer",
+			"ascii": "observer",
+			"type": "generic",
+			"manager": "Fegistry, LLC"
+		},
+		{
+			"tld": "office",
+			"ascii": "office",
+			"type": "generic",
+			"manager": "Microsoft Corporation"
+		},
+		{
+			"tld": "okinawa",
+			"ascii": "okinawa",
+			"type": "generic",
+			"manager": "BRregistry, Inc."
+		},
+		{
+			"tld": "olayan",
+			"ascii": "olayan",
+			"type": "generic",
+			"manager": "Competrol (Luxembourg) Sarl"
+		},
+		{
+			"tld": "olayangroup",
+			"ascii": "olayangroup",
+			"type": "generic",
+			"manager": "Competrol (Luxembourg) Sarl"
+		},
+		{
+			"tld": "ollo",
+			"ascii": "ollo",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "om",
+			"ascii": "om",
+			"type": "country-code",
+			"manager": "",
+			"cc": "OM"
+		},
+		{
+			"tld": "omega",
+			"ascii": "omega",
+			"type": "generic",
+			"manager": "The Swatch Group Ltd",
+			"brand": true
+		},
+		{
+			"tld": "one",
+			"ascii": "one",
+			"type": "generic",
+			"manager": "One.com A/S"
+		},
+		{
+			"tld": "ong",
+			"ascii": "ong",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "onl",
+			"ascii": "onl",
+			"type": "generic",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "online",
+			"ascii": "online",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "ooo",
+			"ascii": "ooo",
+			"type": "generic",
+			"manager": "INFIBEAM AVENUES LIMITED"
+		},
+		{
+			"tld": "open",
+			"ascii": "open",
+			"type": "generic",
+			"manager": "American Express Travel Related Services Company, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "oracle",
+			"ascii": "oracle",
+			"type": "generic",
+			"manager": "Oracle Corporation",
+			"brand": true
+		},
+		{
+			"tld": "orange",
+			"ascii": "orange",
+			"type": "generic",
+			"manager": "Orange Brand Services Limited",
+			"brand": true
+		},
+		{
+			"tld": "org",
+			"ascii": "org",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "organic",
+			"ascii": "organic",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "origins",
+			"ascii": "origins",
+			"type": "generic",
+			"manager": "The Estée Lauder Companies Inc.",
+			"brand": true
+		},
+		{
+			"tld": "osaka",
+			"ascii": "osaka",
+			"type": "generic",
+			"manager": "Osaka Registry Co., Ltd."
+		},
+		{
+			"tld": "otsuka",
+			"ascii": "otsuka",
+			"type": "generic",
+			"manager": "Otsuka Holdings Co., Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "ott",
+			"ascii": "ott",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "ovh",
+			"ascii": "ovh",
+			"type": "generic",
+			"manager": "MédiaBC"
+		},
+		{
+			"tld": "pa",
+			"ascii": "pa",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PA"
+		},
+		{
+			"tld": "page",
+			"ascii": "page",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "panasonic",
+			"ascii": "panasonic",
+			"type": "generic",
+			"manager": "Panasonic Holdings Corporation",
+			"brand": true
+		},
+		{
+			"tld": "paris",
+			"ascii": "paris",
+			"type": "generic",
+			"manager": "City of Paris"
+		},
+		{
+			"tld": "pars",
+			"ascii": "pars",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "partners",
+			"ascii": "partners",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "parts",
+			"ascii": "parts",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "party",
+			"ascii": "party",
+			"type": "generic",
+			"manager": "Blue Sky Registry Limited"
+		},
+		{
+			"tld": "pay",
+			"ascii": "pay",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "pccw",
+			"ascii": "pccw",
+			"type": "generic",
+			"manager": "PCCW Enterprises Limited",
+			"brand": true
+		},
+		{
+			"tld": "pe",
+			"ascii": "pe",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PE"
+		},
+		{
+			"tld": "pet",
+			"ascii": "pet",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "pf",
+			"ascii": "pf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PF"
+		},
+		{
+			"tld": "pfizer",
+			"ascii": "pfizer",
+			"type": "generic",
+			"manager": "Pfizer Inc.",
+			"brand": true
+		},
+		{
+			"tld": "pg",
+			"ascii": "pg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PG"
+		},
+		{
+			"tld": "ph",
+			"ascii": "ph",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PH"
+		},
+		{
+			"tld": "pharmacy",
+			"ascii": "pharmacy",
+			"type": "generic",
+			"manager": "National Association of Boards of Pharmacy"
+		},
+		{
+			"tld": "phd",
+			"ascii": "phd",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "philips",
+			"ascii": "philips",
+			"type": "generic",
+			"manager": "Koninklijke Philips N.V.",
+			"brand": true
+		},
+		{
+			"tld": "phone",
+			"ascii": "phone",
+			"type": "generic",
+			"manager": "Dish DBS Corporation"
+		},
+		{
+			"tld": "photo",
+			"ascii": "photo",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "photography",
+			"ascii": "photography",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "photos",
+			"ascii": "photos",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "physio",
+			"ascii": "physio",
+			"type": "generic",
+			"manager": "PhysBiz Pty Ltd"
+		},
+		{
+			"tld": "pics",
+			"ascii": "pics",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "pictet",
+			"ascii": "pictet",
+			"type": "generic",
+			"manager": "Banque Pictet & Cie SA",
+			"brand": true
+		},
+		{
+			"tld": "pictures",
+			"ascii": "pictures",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "pid",
+			"ascii": "pid",
+			"type": "generic",
+			"manager": "Top Level Spectrum, Inc."
+		},
+		{
+			"tld": "pin",
+			"ascii": "pin",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "ping",
+			"ascii": "ping",
+			"type": "generic",
+			"manager": "Ping Registry Provider, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "pink",
+			"ascii": "pink",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "pioneer",
+			"ascii": "pioneer",
+			"type": "generic",
+			"manager": "Pioneer Corporation",
+			"brand": true
+		},
+		{
+			"tld": "pizza",
+			"ascii": "pizza",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "pk",
+			"ascii": "pk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PK"
+		},
+		{
+			"tld": "pl",
+			"ascii": "pl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PL"
+		},
+		{
+			"tld": "place",
+			"ascii": "place",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "play",
+			"ascii": "play",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "playstation",
+			"ascii": "playstation",
+			"type": "generic",
+			"manager": "Sony Interactive Entertainment Inc.",
+			"brand": true
+		},
+		{
+			"tld": "plumbing",
+			"ascii": "plumbing",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "plus",
+			"ascii": "plus",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "pm",
+			"ascii": "pm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PM"
+		},
+		{
+			"tld": "pn",
+			"ascii": "pn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PN"
+		},
+		{
+			"tld": "pnc",
+			"ascii": "pnc",
+			"type": "generic",
+			"manager": "PNC Domain Co., LLC",
+			"brand": true
+		},
+		{
+			"tld": "pohl",
+			"ascii": "pohl",
+			"type": "generic",
+			"manager": "Deutsche Vermögensberatung Aktiengesellschaft DVAG"
+		},
+		{
+			"tld": "poker",
+			"ascii": "poker",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "politie",
+			"ascii": "politie",
+			"type": "generic",
+			"manager": "Politie Nederland"
+		},
+		{
+			"tld": "porn",
+			"ascii": "porn",
+			"type": "generic",
+			"manager": "ICM Registry PN LLC"
+		},
+		{
+			"tld": "post",
+			"ascii": "post",
+			"type": "sponsored",
+			"manager": "Universal Postal Union"
+		},
+		{
+			"tld": "pr",
+			"ascii": "pr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PR"
+		},
+		{
+			"tld": "praxi",
+			"ascii": "praxi",
+			"type": "generic",
+			"manager": "Praxi S.p.A.",
+			"brand": true
+		},
+		{
+			"tld": "press",
+			"ascii": "press",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "prime",
+			"ascii": "prime",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "pro",
+			"ascii": "pro",
+			"type": "generic-restricted",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "prod",
+			"ascii": "prod",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "productions",
+			"ascii": "productions",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "prof",
+			"ascii": "prof",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "progressive",
+			"ascii": "progressive",
+			"type": "generic",
+			"manager": "Progressive Casualty Insurance Company",
+			"brand": true
+		},
+		{
+			"tld": "promo",
+			"ascii": "promo",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "properties",
+			"ascii": "properties",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "property",
+			"ascii": "property",
+			"type": "generic",
+			"manager": "Digital Property Infrastructure Limited"
+		},
+		{
+			"tld": "protection",
+			"ascii": "protection",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "pru",
+			"ascii": "pru",
+			"type": "generic",
+			"manager": "Prudential Financial, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "prudential",
+			"ascii": "prudential",
+			"type": "generic",
+			"manager": "Prudential Financial, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "ps",
+			"ascii": "ps",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PS"
+		},
+		{
+			"tld": "pt",
+			"ascii": "pt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PT"
+		},
+		{
+			"tld": "pub",
+			"ascii": "pub",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "pw",
+			"ascii": "pw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PW"
+		},
+		{
+			"tld": "pwc",
+			"ascii": "pwc",
+			"type": "generic",
+			"manager": "PricewaterhouseCoopers LLP",
+			"brand": true
+		},
+		{
+			"tld": "py",
+			"ascii": "py",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PY"
+		},
+		{
+			"tld": "qa",
+			"ascii": "qa",
+			"type": "country-code",
+			"manager": "",
+			"cc": "QA"
+		},
+		{
+			"tld": "qpon",
+			"ascii": "qpon",
+			"type": "generic",
+			"manager": "dotQPON LLC"
+		},
+		{
+			"tld": "quebec",
+			"ascii": "quebec",
+			"type": "generic",
+			"manager": "PointQuébec Inc"
+		},
+		{
+			"tld": "quest",
+			"ascii": "quest",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "racing",
+			"ascii": "racing",
+			"type": "generic",
+			"manager": "Premier Registry Limited"
+		},
+		{
+			"tld": "radio",
+			"ascii": "radio",
+			"type": "generic",
+			"manager": "Digity, LLC"
+		},
+		{
+			"tld": "re",
+			"ascii": "re",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RE"
+		},
+		{
+			"tld": "read",
+			"ascii": "read",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "realestate",
+			"ascii": "realestate",
+			"type": "generic",
+			"manager": "dotRealEstate LLC"
+		},
+		{
+			"tld": "realtor",
+			"ascii": "realtor",
+			"type": "generic",
+			"manager": "Real Estate Domains LLC"
+		},
+		{
+			"tld": "realty",
+			"ascii": "realty",
+			"type": "generic",
+			"manager": "Waterford Limited"
+		},
+		{
+			"tld": "recipes",
+			"ascii": "recipes",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "red",
+			"ascii": "red",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "redumbrella",
+			"ascii": "redumbrella",
+			"type": "generic",
+			"manager": "Travelers TLD, LLC"
+		},
+		{
+			"tld": "rehab",
+			"ascii": "rehab",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "reise",
+			"ascii": "reise",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "reisen",
+			"ascii": "reisen",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "reit",
+			"ascii": "reit",
+			"type": "generic",
+			"manager": "National Association of Real Estate Investment Trusts, Inc."
+		},
+		{
+			"tld": "reliance",
+			"ascii": "reliance",
+			"type": "generic",
+			"manager": "Reliance Industries Limited",
+			"brand": true
+		},
+		{
+			"tld": "ren",
+			"ascii": "ren",
+			"type": "generic",
+			"manager": "ZDNS International Limited"
+		},
+		{
+			"tld": "rent",
+			"ascii": "rent",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "rentals",
+			"ascii": "rentals",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "repair",
+			"ascii": "repair",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "report",
+			"ascii": "report",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "republican",
+			"ascii": "republican",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "rest",
+			"ascii": "rest",
+			"type": "generic",
+			"manager": "Punto 2012 Sociedad Anonima Promotora de Inversion de Capital Variable"
+		},
+		{
+			"tld": "restaurant",
+			"ascii": "restaurant",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "review",
+			"ascii": "review",
+			"type": "generic",
+			"manager": "dot Review Limited"
+		},
+		{
+			"tld": "reviews",
+			"ascii": "reviews",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "rexroth",
+			"ascii": "rexroth",
+			"type": "generic",
+			"manager": "Robert Bosch GMBH",
+			"brand": true
+		},
+		{
+			"tld": "rich",
+			"ascii": "rich",
+			"type": "generic",
+			"manager": "iRegistry GmbH"
+		},
+		{
+			"tld": "richardli",
+			"ascii": "richardli",
+			"type": "generic",
+			"manager": "Pacific Century Asset Management (HK) Limited"
+		},
+		{
+			"tld": "ricoh",
+			"ascii": "ricoh",
+			"type": "generic",
+			"manager": "Ricoh Company, Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "ril",
+			"ascii": "ril",
+			"type": "generic",
+			"manager": "Reliance Industries Limited",
+			"brand": true
+		},
+		{
+			"tld": "rio",
+			"ascii": "rio",
+			"type": "generic",
+			"manager": "Empresa Municipal de Informática SA - IPLANRIO"
+		},
+		{
+			"tld": "rip",
+			"ascii": "rip",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "ro",
+			"ascii": "ro",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RO"
+		},
+		{
+			"tld": "rocks",
+			"ascii": "rocks",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "rodeo",
+			"ascii": "rodeo",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "rogers",
+			"ascii": "rogers",
+			"type": "generic",
+			"manager": "Rogers Communications Canada Inc.",
+			"brand": true
+		},
+		{
+			"tld": "room",
+			"ascii": "room",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "rs",
+			"ascii": "rs",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RS"
+		},
+		{
+			"tld": "rsvp",
+			"ascii": "rsvp",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "ru",
+			"ascii": "ru",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RU"
+		},
+		{
+			"tld": "rugby",
+			"ascii": "rugby",
+			"type": "generic",
+			"manager": "World Rugby Strategic Developments Limited"
+		},
+		{
+			"tld": "ruhr",
+			"ascii": "ruhr",
+			"type": "generic",
+			"manager": "dotSaarland GmbH"
+		},
+		{
+			"tld": "run",
+			"ascii": "run",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "rw",
+			"ascii": "rw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RW"
+		},
+		{
+			"tld": "rwe",
+			"ascii": "rwe",
+			"type": "generic",
+			"manager": "RWE AG",
+			"brand": true
+		},
+		{
+			"tld": "ryukyu",
+			"ascii": "ryukyu",
+			"type": "generic",
+			"manager": "BRregistry, Inc."
+		},
+		{
+			"tld": "sa",
+			"ascii": "sa",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SA"
+		},
+		{
+			"tld": "saarland",
+			"ascii": "saarland",
+			"type": "generic",
+			"manager": "dotSaarland GmbH"
+		},
+		{
+			"tld": "safe",
+			"ascii": "safe",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "safety",
+			"ascii": "safety",
+			"type": "generic",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "sakura",
+			"ascii": "sakura",
+			"type": "generic",
+			"manager": "SAKURA Internet Inc."
+		},
+		{
+			"tld": "sale",
+			"ascii": "sale",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "salon",
+			"ascii": "salon",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "samsclub",
+			"ascii": "samsclub",
+			"type": "generic",
+			"manager": "Wal-Mart Stores, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "samsung",
+			"ascii": "samsung",
+			"type": "generic",
+			"manager": "SAMSUNG SDS CO., LTD"
+		},
+		{
+			"tld": "sandvik",
+			"ascii": "sandvik",
+			"type": "generic",
+			"manager": "Sandvik AB",
+			"brand": true
+		},
+		{
+			"tld": "sandvikcoromant",
+			"ascii": "sandvikcoromant",
+			"type": "generic",
+			"manager": "Sandvik AB",
+			"brand": true
+		},
+		{
+			"tld": "sanofi",
+			"ascii": "sanofi",
+			"type": "generic",
+			"manager": "Sanofi",
+			"brand": true
+		},
+		{
+			"tld": "sap",
+			"ascii": "sap",
+			"type": "generic",
+			"manager": "SAP AG",
+			"brand": true
+		},
+		{
+			"tld": "sarl",
+			"ascii": "sarl",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "sas",
+			"ascii": "sas",
+			"type": "generic",
+			"manager": "Research IP LLC",
+			"brand": true
+		},
+		{
+			"tld": "save",
+			"ascii": "save",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "saxo",
+			"ascii": "saxo",
+			"type": "generic",
+			"manager": "Saxo Bank A/S",
+			"brand": true
+		},
+		{
+			"tld": "sb",
+			"ascii": "sb",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SB"
+		},
+		{
+			"tld": "sbi",
+			"ascii": "sbi",
+			"type": "generic",
+			"manager": "STATE BANK OF INDIA",
+			"brand": true
+		},
+		{
+			"tld": "sbs",
+			"ascii": "sbs",
+			"type": "generic",
+			"manager": "ShortDot SA",
+			"brand": true
+		},
+		{
+			"tld": "sc",
+			"ascii": "sc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SC"
+		},
+		{
+			"tld": "scb",
+			"ascii": "scb",
+			"type": "generic",
+			"manager": "The Siam Commercial Bank Public Company Limited (\"SCB\")",
+			"brand": true
+		},
+		{
+			"tld": "schaeffler",
+			"ascii": "schaeffler",
+			"type": "generic",
+			"manager": "Schaeffler Technologies AG & Co. KG",
+			"brand": true
+		},
+		{
+			"tld": "schmidt",
+			"ascii": "schmidt",
+			"type": "generic",
+			"manager": "SCHMIDT GROUPE S.A.S.",
+			"brand": true
+		},
+		{
+			"tld": "scholarships",
+			"ascii": "scholarships",
+			"type": "generic",
+			"manager": "Scholarships.com, LLC"
+		},
+		{
+			"tld": "school",
+			"ascii": "school",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "schule",
+			"ascii": "schule",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "schwarz",
+			"ascii": "schwarz",
+			"type": "generic",
+			"manager": "Schwarz Domains und Services GmbH & Co. KG",
+			"brand": true
+		},
+		{
+			"tld": "science",
+			"ascii": "science",
+			"type": "generic",
+			"manager": "dot Science Limited"
+		},
+		{
+			"tld": "scot",
+			"ascii": "scot",
+			"type": "generic",
+			"manager": "Dot Scot Registry Limited"
+		},
+		{
+			"tld": "sd",
+			"ascii": "sd",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SD"
+		},
+		{
+			"tld": "se",
+			"ascii": "se",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SE"
+		},
+		{
+			"tld": "search",
+			"ascii": "search",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "seat",
+			"ascii": "seat",
+			"type": "generic",
+			"manager": "SEAT, S.A. (Sociedad Unipersonal)",
+			"brand": true
+		},
+		{
+			"tld": "secure",
+			"ascii": "secure",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "security",
+			"ascii": "security",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "seek",
+			"ascii": "seek",
+			"type": "generic",
+			"manager": "Seek Limited",
+			"brand": true
+		},
+		{
+			"tld": "select",
+			"ascii": "select",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "sener",
+			"ascii": "sener",
+			"type": "generic",
+			"manager": "Sener Ingeniería y Sistemas, S.A.",
+			"brand": true
+		},
+		{
+			"tld": "services",
+			"ascii": "services",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "seven",
+			"ascii": "seven",
+			"type": "generic",
+			"manager": "Seven West Media Ltd",
+			"brand": true
+		},
+		{
+			"tld": "sew",
+			"ascii": "sew",
+			"type": "generic",
+			"manager": "SEW-EURODRIVE GmbH & Co KG",
+			"brand": true
+		},
+		{
+			"tld": "sex",
+			"ascii": "sex",
+			"type": "generic",
+			"manager": "ICM Registry SX LLC"
+		},
+		{
+			"tld": "sexy",
+			"ascii": "sexy",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC"
+		},
+		{
+			"tld": "sfr",
+			"ascii": "sfr",
+			"type": "generic",
+			"manager": "Societe Francaise du Radiotelephone - SFR",
+			"brand": true
+		},
+		{
+			"tld": "sg",
+			"ascii": "sg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SG"
+		},
+		{
+			"tld": "sh",
+			"ascii": "sh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SH"
+		},
+		{
+			"tld": "shangrila",
+			"ascii": "shangrila",
+			"type": "generic",
+			"manager": "Shangri‐La International Hotel Management Limited",
+			"brand": true
+		},
+		{
+			"tld": "sharp",
+			"ascii": "sharp",
+			"type": "generic",
+			"manager": "Sharp Corporation",
+			"brand": true
+		},
+		{
+			"tld": "shell",
+			"ascii": "shell",
+			"type": "generic",
+			"manager": "Shell Information Technology International Inc",
+			"brand": true
+		},
+		{
+			"tld": "shia",
+			"ascii": "shia",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "shiksha",
+			"ascii": "shiksha",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "shoes",
+			"ascii": "shoes",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "shop",
+			"ascii": "shop",
+			"type": "generic",
+			"manager": "GMO Registry, Inc."
+		},
+		{
+			"tld": "shopping",
+			"ascii": "shopping",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "shouji",
+			"ascii": "shouji",
+			"type": "generic",
+			"manager": "Beijing Qihu Keji Co., Ltd."
+		},
+		{
+			"tld": "show",
+			"ascii": "show",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "si",
+			"ascii": "si",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SI"
+		},
+		{
+			"tld": "silk",
+			"ascii": "silk",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "sina",
+			"ascii": "sina",
+			"type": "generic",
+			"manager": "Sina Corporation",
+			"brand": true
+		},
+		{
+			"tld": "singles",
+			"ascii": "singles",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "site",
+			"ascii": "site",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "sj",
+			"ascii": "sj",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SJ"
+		},
+		{
+			"tld": "sk",
+			"ascii": "sk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SK"
+		},
+		{
+			"tld": "ski",
+			"ascii": "ski",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "skin",
+			"ascii": "skin",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "sky",
+			"ascii": "sky",
+			"type": "generic",
+			"manager": "Sky UK Limited",
+			"brand": true
+		},
+		{
+			"tld": "skype",
+			"ascii": "skype",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "sl",
+			"ascii": "sl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SL"
+		},
+		{
+			"tld": "sling",
+			"ascii": "sling",
+			"type": "generic",
+			"manager": "DISH Technologies L.L.C.",
+			"brand": true
+		},
+		{
+			"tld": "sm",
+			"ascii": "sm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SM"
+		},
+		{
+			"tld": "smart",
+			"ascii": "smart",
+			"type": "generic",
+			"manager": "Smart Communications, Inc. (SMART)",
+			"brand": true
+		},
+		{
+			"tld": "smile",
+			"ascii": "smile",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "sn",
+			"ascii": "sn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SN"
+		},
+		{
+			"tld": "sncf",
+			"ascii": "sncf",
+			"type": "generic",
+			"manager": "Société Nationale SNCF",
+			"brand": true
+		},
+		{
+			"tld": "so",
+			"ascii": "so",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SO"
+		},
+		{
+			"tld": "soccer",
+			"ascii": "soccer",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "social",
+			"ascii": "social",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "softbank",
+			"ascii": "softbank",
+			"type": "generic",
+			"manager": "SoftBank Group Corp.",
+			"brand": true
+		},
+		{
+			"tld": "software",
+			"ascii": "software",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "sohu",
+			"ascii": "sohu",
+			"type": "generic",
+			"manager": "Sohu.com Limited"
+		},
+		{
+			"tld": "solar",
+			"ascii": "solar",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "solutions",
+			"ascii": "solutions",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "song",
+			"ascii": "song",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "sony",
+			"ascii": "sony",
+			"type": "generic",
+			"manager": "Sony Group Corporation",
+			"brand": true
+		},
+		{
+			"tld": "soy",
+			"ascii": "soy",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "spa",
+			"ascii": "spa",
+			"type": "generic",
+			"manager": "Asia Spa and Wellness Promotion Council Limited"
+		},
+		{
+			"tld": "space",
+			"ascii": "space",
+			"type": "generic",
+			"manager": "Squarespace Registry LLC"
+		},
+		{
+			"tld": "sport",
+			"ascii": "sport",
+			"type": "generic",
+			"manager": "SportAccord"
+		},
+		{
+			"tld": "spot",
+			"ascii": "spot",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "sr",
+			"ascii": "sr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SR"
+		},
+		{
+			"tld": "srl",
+			"ascii": "srl",
+			"type": "generic",
+			"manager": "InterNetX, Corp"
+		},
+		{
+			"tld": "ss",
+			"ascii": "ss",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SS"
+		},
+		{
+			"tld": "st",
+			"ascii": "st",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ST"
+		},
+		{
+			"tld": "stada",
+			"ascii": "stada",
+			"type": "generic",
+			"manager": "STADA Arzneimittel AG",
+			"brand": true
+		},
+		{
+			"tld": "staples",
+			"ascii": "staples",
+			"type": "generic",
+			"manager": "Staples, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "star",
+			"ascii": "star",
+			"type": "generic",
+			"manager": "JioStar India Private Limited"
+		},
+		{
+			"tld": "statebank",
+			"ascii": "statebank",
+			"type": "generic",
+			"manager": "STATE BANK OF INDIA",
+			"brand": true
+		},
+		{
+			"tld": "statefarm",
+			"ascii": "statefarm",
+			"type": "generic",
+			"manager": "State Farm Mutual Automobile Insurance Company",
+			"brand": true
+		},
+		{
+			"tld": "stc",
+			"ascii": "stc",
+			"type": "generic",
+			"manager": "Saudi Telecom Company"
+		},
+		{
+			"tld": "stcgroup",
+			"ascii": "stcgroup",
+			"type": "generic",
+			"manager": "Saudi Telecom Company"
+		},
+		{
+			"tld": "stockholm",
+			"ascii": "stockholm",
+			"type": "generic",
+			"manager": "Stockholms kommun"
+		},
+		{
+			"tld": "storage",
+			"ascii": "storage",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "store",
+			"ascii": "store",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "stream",
+			"ascii": "stream",
+			"type": "generic",
+			"manager": "dot Stream Limited"
+		},
+		{
+			"tld": "studio",
+			"ascii": "studio",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "study",
+			"ascii": "study",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "style",
+			"ascii": "style",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "su",
+			"ascii": "su",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SU"
+		},
+		{
+			"tld": "sucks",
+			"ascii": "sucks",
+			"type": "generic",
+			"manager": "Vox Populi Registry Ltd."
+		},
+		{
+			"tld": "supplies",
+			"ascii": "supplies",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "supply",
+			"ascii": "supply",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "support",
+			"ascii": "support",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "surf",
+			"ascii": "surf",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "surgery",
+			"ascii": "surgery",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "suzuki",
+			"ascii": "suzuki",
+			"type": "generic",
+			"manager": "SUZUKI MOTOR CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "sv",
+			"ascii": "sv",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SV"
+		},
+		{
+			"tld": "swatch",
+			"ascii": "swatch",
+			"type": "generic",
+			"manager": "The Swatch Group Ltd",
+			"brand": true
+		},
+		{
+			"tld": "swiss",
+			"ascii": "swiss",
+			"type": "generic",
+			"manager": "Swiss Confederation"
+		},
+		{
+			"tld": "sx",
+			"ascii": "sx",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SX"
+		},
+		{
+			"tld": "sy",
+			"ascii": "sy",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SY"
+		},
+		{
+			"tld": "sydney",
+			"ascii": "sydney",
+			"type": "generic",
+			"manager": "State of New South Wales, Department of Premier and Cabinet"
+		},
+		{
+			"tld": "systems",
+			"ascii": "systems",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "sz",
+			"ascii": "sz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SZ"
+		},
+		{
+			"tld": "tab",
+			"ascii": "tab",
+			"type": "generic",
+			"manager": "Tabcorp Holdings Limited",
+			"brand": true
+		},
+		{
+			"tld": "taipei",
+			"ascii": "taipei",
+			"type": "generic",
+			"manager": "Taipei City Government"
+		},
+		{
+			"tld": "talk",
+			"ascii": "talk",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "taobao",
+			"ascii": "taobao",
+			"type": "generic",
+			"manager": "Alibaba Group Holding Limited",
+			"brand": true
+		},
+		{
+			"tld": "target",
+			"ascii": "target",
+			"type": "generic",
+			"manager": "Target Domain Holdings, LLC",
+			"brand": true
+		},
+		{
+			"tld": "tatamotors",
+			"ascii": "tatamotors",
+			"type": "generic",
+			"manager": "Tata Motors Ltd",
+			"brand": true
+		},
+		{
+			"tld": "tatar",
+			"ascii": "tatar",
+			"type": "generic",
+			"manager": "Limited Liability Company \"Coordination Center of Regional Domain of Tatarstan Republic\""
+		},
+		{
+			"tld": "tattoo",
+			"ascii": "tattoo",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "tax",
+			"ascii": "tax",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "taxi",
+			"ascii": "taxi",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tc",
+			"ascii": "tc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TC"
+		},
+		{
+			"tld": "tci",
+			"ascii": "tci",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "td",
+			"ascii": "td",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TD"
+		},
+		{
+			"tld": "tdk",
+			"ascii": "tdk",
+			"type": "generic",
+			"manager": "TDK Corporation",
+			"brand": true
+		},
+		{
+			"tld": "team",
+			"ascii": "team",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tech",
+			"ascii": "tech",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "technology",
+			"ascii": "technology",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tel",
+			"ascii": "tel",
+			"type": "sponsored",
+			"manager": "Telnames Limited"
+		},
+		{
+			"tld": "temasek",
+			"ascii": "temasek",
+			"type": "generic",
+			"manager": "Temasek Holdings (Private) Limited",
+			"brand": true
+		},
+		{
+			"tld": "tennis",
+			"ascii": "tennis",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "teva",
+			"ascii": "teva",
+			"type": "generic",
+			"manager": "Teva Pharmaceutical Industries Limited",
+			"brand": true
+		},
+		{
+			"tld": "tf",
+			"ascii": "tf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TF"
+		},
+		{
+			"tld": "tg",
+			"ascii": "tg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TG"
+		},
+		{
+			"tld": "th",
+			"ascii": "th",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TH"
+		},
+		{
+			"tld": "thd",
+			"ascii": "thd",
+			"type": "generic",
+			"manager": "Home Depot Product Authority, LLC"
+		},
+		{
+			"tld": "theater",
+			"ascii": "theater",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "theatre",
+			"ascii": "theatre",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "tiaa",
+			"ascii": "tiaa",
+			"type": "generic",
+			"manager": "Teachers Insurance and Annuity Association of America",
+			"brand": true
+		},
+		{
+			"tld": "tickets",
+			"ascii": "tickets",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "tienda",
+			"ascii": "tienda",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tips",
+			"ascii": "tips",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tires",
+			"ascii": "tires",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tirol",
+			"ascii": "tirol",
+			"type": "generic",
+			"manager": "punkt Tirol GmbH"
+		},
+		{
+			"tld": "tj",
+			"ascii": "tj",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TJ"
+		},
+		{
+			"tld": "tjmaxx",
+			"ascii": "tjmaxx",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "tjx",
+			"ascii": "tjx",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "tk",
+			"ascii": "tk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TK"
+		},
+		{
+			"tld": "tkmaxx",
+			"ascii": "tkmaxx",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "tl",
+			"ascii": "tl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TL"
+		},
+		{
+			"tld": "tm",
+			"ascii": "tm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TM"
+		},
+		{
+			"tld": "tmall",
+			"ascii": "tmall",
+			"type": "generic",
+			"manager": "Alibaba Group Holding Limited",
+			"brand": true
+		},
+		{
+			"tld": "tn",
+			"ascii": "tn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TN"
+		},
+		{
+			"tld": "to",
+			"ascii": "to",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TO"
+		},
+		{
+			"tld": "today",
+			"ascii": "today",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tokyo",
+			"ascii": "tokyo",
+			"type": "generic",
+			"manager": "GMO Registry, Inc."
+		},
+		{
+			"tld": "tools",
+			"ascii": "tools",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "top",
+			"ascii": "top",
+			"type": "generic",
+			"manager": "Hong Kong Zhongze International Limited"
+		},
+		{
+			"tld": "toray",
+			"ascii": "toray",
+			"type": "generic",
+			"manager": "Toray Industries, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "toshiba",
+			"ascii": "toshiba",
+			"type": "generic",
+			"manager": "TOSHIBA Corporation",
+			"brand": true
+		},
+		{
+			"tld": "total",
+			"ascii": "total",
+			"type": "generic",
+			"manager": "TotalEnergies SE",
+			"brand": true
+		},
+		{
+			"tld": "tours",
+			"ascii": "tours",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "town",
+			"ascii": "town",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "toyota",
+			"ascii": "toyota",
+			"type": "generic",
+			"manager": "TOYOTA MOTOR CORPORATION",
+			"brand": true
+		},
+		{
+			"tld": "toys",
+			"ascii": "toys",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "tr",
+			"ascii": "tr",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TR"
+		},
+		{
+			"tld": "trade",
+			"ascii": "trade",
+			"type": "generic",
+			"manager": "Elite Registry Limited"
+		},
+		{
+			"tld": "trading",
+			"ascii": "trading",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "training",
+			"ascii": "training",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "travel",
+			"ascii": "travel",
+			"type": "sponsored",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "travelers",
+			"ascii": "travelers",
+			"type": "generic",
+			"manager": "Travelers TLD, LLC",
+			"brand": true
+		},
+		{
+			"tld": "travelersinsurance",
+			"ascii": "travelersinsurance",
+			"type": "generic",
+			"manager": "Travelers TLD, LLC"
+		},
+		{
+			"tld": "trust",
+			"ascii": "trust",
+			"type": "generic",
+			"manager": "Internet Naming Company LLC"
+		},
+		{
+			"tld": "trv",
+			"ascii": "trv",
+			"type": "generic",
+			"manager": "Travelers TLD, LLC"
+		},
+		{
+			"tld": "tt",
+			"ascii": "tt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TT"
+		},
+		{
+			"tld": "tube",
+			"ascii": "tube",
+			"type": "generic",
+			"manager": "Latin American Telecom LLC"
+		},
+		{
+			"tld": "tui",
+			"ascii": "tui",
+			"type": "generic",
+			"manager": "TUI AG",
+			"brand": true
+		},
+		{
+			"tld": "tunes",
+			"ascii": "tunes",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "tushu",
+			"ascii": "tushu",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "tv",
+			"ascii": "tv",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TV"
+		},
+		{
+			"tld": "tvs",
+			"ascii": "tvs",
+			"type": "generic",
+			"manager": "T V SUNDRAM IYENGAR  & SONS LIMITED"
+		},
+		{
+			"tld": "tw",
+			"ascii": "tw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TW"
+		},
+		{
+			"tld": "tz",
+			"ascii": "tz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TZ"
+		},
+		{
+			"tld": "ua",
+			"ascii": "ua",
+			"type": "country-code",
+			"manager": "",
+			"cc": "UA"
+		},
+		{
+			"tld": "ubank",
+			"ascii": "ubank",
+			"type": "generic",
+			"manager": "National Australia Bank Limited",
+			"brand": true
+		},
+		{
+			"tld": "ubs",
+			"ascii": "ubs",
+			"type": "generic",
+			"manager": "UBS AG",
+			"brand": true
+		},
+		{
+			"tld": "ug",
+			"ascii": "ug",
+			"type": "country-code",
+			"manager": "",
+			"cc": "UG"
+		},
+		{
+			"tld": "uk",
+			"ascii": "uk",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GB"
+		},
+		{
+			"tld": "unicom",
+			"ascii": "unicom",
+			"type": "generic",
+			"manager": "China United Network Communications Corporation Limited",
+			"brand": true
+		},
+		{
+			"tld": "university",
+			"ascii": "university",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "uno",
+			"ascii": "uno",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "uol",
+			"ascii": "uol",
+			"type": "generic",
+			"manager": "UBN INTERNET LTDA.",
+			"brand": true
+		},
+		{
+			"tld": "ups",
+			"ascii": "ups",
+			"type": "generic",
+			"manager": "UPS Market Driver, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "us",
+			"ascii": "us",
+			"type": "country-code",
+			"manager": "",
+			"cc": "US"
+		},
+		{
+			"tld": "uy",
+			"ascii": "uy",
+			"type": "country-code",
+			"manager": "",
+			"cc": "UY"
+		},
+		{
+			"tld": "uz",
+			"ascii": "uz",
+			"type": "country-code",
+			"manager": "",
+			"cc": "UZ"
+		},
+		{
+			"tld": "va",
+			"ascii": "va",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VA"
+		},
+		{
+			"tld": "vacations",
+			"ascii": "vacations",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "vana",
+			"ascii": "vana",
+			"type": "generic",
+			"manager": "D3 Registry LLC"
+		},
+		{
+			"tld": "vanguard",
+			"ascii": "vanguard",
+			"type": "generic",
+			"manager": "The Vanguard Group, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "vc",
+			"ascii": "vc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VC"
+		},
+		{
+			"tld": "ve",
+			"ascii": "ve",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VE"
+		},
+		{
+			"tld": "vegas",
+			"ascii": "vegas",
+			"type": "generic",
+			"manager": "Dot Vegas, Inc."
+		},
+		{
+			"tld": "ventures",
+			"ascii": "ventures",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "verisign",
+			"ascii": "verisign",
+			"type": "generic",
+			"manager": "VeriSign, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "versicherung",
+			"ascii": "versicherung",
+			"type": "generic",
+			"manager": "tldbox GmbH"
+		},
+		{
+			"tld": "vet",
+			"ascii": "vet",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "vg",
+			"ascii": "vg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VG"
+		},
+		{
+			"tld": "vi",
+			"ascii": "vi",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VI"
+		},
+		{
+			"tld": "viajes",
+			"ascii": "viajes",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "video",
+			"ascii": "video",
+			"type": "generic",
+			"manager": "Dog Beach, LLC"
+		},
+		{
+			"tld": "vig",
+			"ascii": "vig",
+			"type": "generic",
+			"manager": "VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe",
+			"brand": true
+		},
+		{
+			"tld": "viking",
+			"ascii": "viking",
+			"type": "generic",
+			"manager": "Viking River Cruises (Bermuda) Ltd.",
+			"brand": true
+		},
+		{
+			"tld": "villas",
+			"ascii": "villas",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "vin",
+			"ascii": "vin",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "vip",
+			"ascii": "vip",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "virgin",
+			"ascii": "virgin",
+			"type": "generic",
+			"manager": "Virgin Enterprises Limited",
+			"brand": true
+		},
+		{
+			"tld": "visa",
+			"ascii": "visa",
+			"type": "generic",
+			"manager": "Visa Worldwide Pte. Limited",
+			"brand": true
+		},
+		{
+			"tld": "vision",
+			"ascii": "vision",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "viva",
+			"ascii": "viva",
+			"type": "generic",
+			"manager": "Saudi Telecom Company"
+		},
+		{
+			"tld": "vivo",
+			"ascii": "vivo",
+			"type": "generic",
+			"manager": "Telefonica Brasil S.A.",
+			"brand": true
+		},
+		{
+			"tld": "vlaanderen",
+			"ascii": "vlaanderen",
+			"type": "generic",
+			"manager": "DNS.be vzw"
+		},
+		{
+			"tld": "vn",
+			"ascii": "vn",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VN"
+		},
+		{
+			"tld": "vodka",
+			"ascii": "vodka",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "volvo",
+			"ascii": "volvo",
+			"type": "generic",
+			"manager": "Volvo Holding Sverige Aktiebolag",
+			"brand": true
+		},
+		{
+			"tld": "vote",
+			"ascii": "vote",
+			"type": "generic",
+			"manager": "Monolith Registry LLC"
+		},
+		{
+			"tld": "voting",
+			"ascii": "voting",
+			"type": "generic",
+			"manager": "Valuetainment Corp."
+		},
+		{
+			"tld": "voto",
+			"ascii": "voto",
+			"type": "generic",
+			"manager": "Monolith Registry LLC"
+		},
+		{
+			"tld": "voyage",
+			"ascii": "voyage",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "vu",
+			"ascii": "vu",
+			"type": "country-code",
+			"manager": "",
+			"cc": "VU"
+		},
+		{
+			"tld": "wales",
+			"ascii": "wales",
+			"type": "generic",
+			"manager": "Nominet UK"
+		},
+		{
+			"tld": "walmart",
+			"ascii": "walmart",
+			"type": "generic",
+			"manager": "Wal-Mart Stores, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "walter",
+			"ascii": "walter",
+			"type": "generic",
+			"manager": "Sandvik AB",
+			"brand": true
+		},
+		{
+			"tld": "wang",
+			"ascii": "wang",
+			"type": "generic",
+			"manager": "Zodiac Wang Limited"
+		},
+		{
+			"tld": "wanggou",
+			"ascii": "wanggou",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "watch",
+			"ascii": "watch",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "watches",
+			"ascii": "watches",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "weather",
+			"ascii": "weather",
+			"type": "generic",
+			"manager": "The Weather Company, LLC"
+		},
+		{
+			"tld": "weatherchannel",
+			"ascii": "weatherchannel",
+			"type": "generic",
+			"manager": "The Weather Company, LLC",
+			"brand": true
+		},
+		{
+			"tld": "web",
+			"ascii": "web",
+			"type": "generic",
+			"manager": "VeriSign, Inc."
+		},
+		{
+			"tld": "webcam",
+			"ascii": "webcam",
+			"type": "generic",
+			"manager": "dot Webcam Limited"
+		},
+		{
+			"tld": "weber",
+			"ascii": "weber",
+			"type": "generic",
+			"manager": "Saint-Gobain Weber SA",
+			"brand": true
+		},
+		{
+			"tld": "website",
+			"ascii": "website",
+			"type": "generic",
+			"manager": "Radix Technologies Inc SEZC"
+		},
+		{
+			"tld": "wed",
+			"ascii": "wed",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "wedding",
+			"ascii": "wedding",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "weibo",
+			"ascii": "weibo",
+			"type": "generic",
+			"manager": "Sina Corporation"
+		},
+		{
+			"tld": "weir",
+			"ascii": "weir",
+			"type": "generic",
+			"manager": "Weir Group IP Limited",
+			"brand": true
+		},
+		{
+			"tld": "wf",
+			"ascii": "wf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "WF"
+		},
+		{
+			"tld": "whoswho",
+			"ascii": "whoswho",
+			"type": "generic",
+			"manager": "Who's Who Registry"
+		},
+		{
+			"tld": "wien",
+			"ascii": "wien",
+			"type": "generic",
+			"manager": "domainworx Service & Management GmbH"
+		},
+		{
+			"tld": "wiki",
+			"ascii": "wiki",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "williamhill",
+			"ascii": "williamhill",
+			"type": "generic",
+			"manager": "William Hill Organization Limited",
+			"brand": true
+		},
+		{
+			"tld": "win",
+			"ascii": "win",
+			"type": "generic",
+			"manager": "First Registry Limited"
+		},
+		{
+			"tld": "windows",
+			"ascii": "windows",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "wine",
+			"ascii": "wine",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "winners",
+			"ascii": "winners",
+			"type": "generic",
+			"manager": "The TJX Companies, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "wme",
+			"ascii": "wme",
+			"type": "generic",
+			"manager": "William Morris Endeavor Entertainment, LLC",
+			"brand": true
+		},
+		{
+			"tld": "woodside",
+			"ascii": "woodside",
+			"type": "generic",
+			"manager": "Woodside Petroleum Limited",
+			"brand": true
+		},
+		{
+			"tld": "work",
+			"ascii": "work",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "works",
+			"ascii": "works",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "world",
+			"ascii": "world",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "wow",
+			"ascii": "wow",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "ws",
+			"ascii": "ws",
+			"type": "country-code",
+			"manager": "",
+			"cc": "WS"
+		},
+		{
+			"tld": "wtc",
+			"ascii": "wtc",
+			"type": "generic",
+			"manager": "World Trade Centers Association, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "wtf",
+			"ascii": "wtf",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "xbox",
+			"ascii": "xbox",
+			"type": "generic",
+			"manager": "Microsoft Corporation",
+			"brand": true
+		},
+		{
+			"tld": "xerox",
+			"ascii": "xerox",
+			"type": "generic",
+			"manager": "Xerox DNHC LLC",
+			"brand": true
+		},
+		{
+			"tld": "xin",
+			"ascii": "xin",
+			"type": "generic",
+			"manager": "Elegant Leader Limited"
+		},
+		{
+			"tld": "कॉम",
+			"ascii": "xn--11b4c3d",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "セール",
+			"ascii": "xn--1ck2e1b",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "佛山",
+			"ascii": "xn--1qqw23a",
+			"type": "generic",
+			"manager": "Guangzhou YU Wei Information Technology Co., Ltd."
+		},
+		{
+			"tld": "ಭಾರತ",
+			"ascii": "xn--2scrj9c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "慈善",
+			"ascii": "xn--30rr7y",
+			"type": "generic",
+			"manager": "Excellent First Limited"
+		},
+		{
+			"tld": "集团",
+			"ascii": "xn--3bst00m",
+			"type": "generic",
+			"manager": "Eagle Horizon Limited"
+		},
+		{
+			"tld": "在线",
+			"ascii": "xn--3ds443g",
+			"type": "generic",
+			"manager": "Beijing TLD Registry Technology Limited"
+		},
+		{
+			"tld": "한국",
+			"ascii": "xn--3e0b707e",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KR"
+		},
+		{
+			"tld": "ଭାରତ",
+			"ascii": "xn--3hcrj9c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "点看",
+			"ascii": "xn--3pxu8k",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "คอม",
+			"ascii": "xn--42c2d9a",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "ভাৰত",
+			"ascii": "xn--45br5cyl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "ভারত",
+			"ascii": "xn--45brj9c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "八卦",
+			"ascii": "xn--45q11c",
+			"type": "generic",
+			"manager": "Zodiac Gemini Ltd"
+		},
+		{
+			"tld": "ישראל",
+			"ascii": "xn--4dbrk0ce",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IL"
+		},
+		{
+			"tld": "موقع",
+			"ascii": "xn--4gbrim",
+			"type": "generic",
+			"manager": "Helium TLDs Ltd"
+		},
+		{
+			"tld": "বাংলা",
+			"ascii": "xn--54b7fta0cc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BD"
+		},
+		{
+			"tld": "公益",
+			"ascii": "xn--55qw42g",
+			"type": "generic",
+			"manager": "China Organizational Name Administration Center"
+		},
+		{
+			"tld": "公司",
+			"ascii": "xn--55qx5d",
+			"type": "generic",
+			"manager": "China Internet Network Information Center (CNNIC)"
+		},
+		{
+			"tld": "香格里拉",
+			"ascii": "xn--5su34j936bgsg",
+			"type": "generic",
+			"manager": "Shangri‐La International Hotel Management Limited",
+			"brand": true
+		},
+		{
+			"tld": "网站",
+			"ascii": "xn--5tzm5g",
+			"type": "generic",
+			"manager": "Jolly Host, LLC"
+		},
+		{
+			"tld": "移动",
+			"ascii": "xn--6frz82g",
+			"type": "generic",
+			"manager": "Identity Digital Domains Limited"
+		},
+		{
+			"tld": "我爱你",
+			"ascii": "xn--6qq986b3xl",
+			"type": "generic",
+			"manager": "Tycoon Treasure Limited"
+		},
+		{
+			"tld": "москва",
+			"ascii": "xn--80adxhks",
+			"type": "generic",
+			"manager": "Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)"
+		},
+		{
+			"tld": "қаз",
+			"ascii": "xn--80ao21a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "KZ"
+		},
+		{
+			"tld": "католик",
+			"ascii": "xn--80aqecdr1a",
+			"type": "generic",
+			"manager": "Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)"
+		},
+		{
+			"tld": "онлайн",
+			"ascii": "xn--80asehdb",
+			"type": "generic",
+			"manager": "CORE Association"
+		},
+		{
+			"tld": "сайт",
+			"ascii": "xn--80aswg",
+			"type": "generic",
+			"manager": "CORE Association"
+		},
+		{
+			"tld": "联通",
+			"ascii": "xn--8y0a063a",
+			"type": "generic",
+			"manager": "China United Network Communications Corporation Limited",
+			"brand": true
+		},
+		{
+			"tld": "срб",
+			"ascii": "xn--90a3ac",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RS"
+		},
+		{
+			"tld": "бг",
+			"ascii": "xn--90ae",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BG"
+		},
+		{
+			"tld": "бел",
+			"ascii": "xn--90ais",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BY"
+		},
+		{
+			"tld": "קום",
+			"ascii": "xn--9dbq2a",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "时尚",
+			"ascii": "xn--9et52u",
+			"type": "generic",
+			"manager": "RISE VICTORY LIMITED"
+		},
+		{
+			"tld": "微博",
+			"ascii": "xn--9krt00a",
+			"type": "generic",
+			"manager": "Sina Corporation",
+			"brand": true
+		},
+		{
+			"tld": "淡马锡",
+			"ascii": "xn--b4w605ferd",
+			"type": "generic",
+			"manager": "Temasek Holdings (Private) Limited",
+			"brand": true
+		},
+		{
+			"tld": "ファッション",
+			"ascii": "xn--bck1b9a5dre4c",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "орг",
+			"ascii": "xn--c1avg",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "नेट",
+			"ascii": "xn--c2br7g",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "ストア",
+			"ascii": "xn--cck2b3b",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "アマゾン",
+			"ascii": "xn--cckwcxetd",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "삼성",
+			"ascii": "xn--cg4bki",
+			"type": "generic",
+			"manager": "SAMSUNG SDS CO., LTD"
+		},
+		{
+			"tld": "சிங்கப்பூர்",
+			"ascii": "xn--clchc0ea0b2g2a9gcd",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SG"
+		},
+		{
+			"tld": "商标",
+			"ascii": "xn--czr694b",
+			"type": "generic",
+			"manager": "Internet DotTrademark Organisation Limited"
+		},
+		{
+			"tld": "商店",
+			"ascii": "xn--czrs0t",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "商城",
+			"ascii": "xn--czru2d",
+			"type": "generic",
+			"manager": "Zodiac Aquarius Limited"
+		},
+		{
+			"tld": "дети",
+			"ascii": "xn--d1acj3b",
+			"type": "generic",
+			"manager": "The Foundation for Network Initiatives “The Smart Internet”"
+		},
+		{
+			"tld": "мкд",
+			"ascii": "xn--d1alf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MK"
+		},
+		{
+			"tld": "ею",
+			"ascii": "xn--e1a4c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EU"
+		},
+		{
+			"tld": "ポイント",
+			"ascii": "xn--eckvdtc9d",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "新闻",
+			"ascii": "xn--efvy88h",
+			"type": "generic",
+			"manager": "Guangzhou YU Wei Information Technology Co., Ltd."
+		},
+		{
+			"tld": "家電",
+			"ascii": "xn--fct429k",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "كوم",
+			"ascii": "xn--fhbei",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "中文网",
+			"ascii": "xn--fiq228c5hs",
+			"type": "generic",
+			"manager": "Beijing TLD Registry Technology Limited"
+		},
+		{
+			"tld": "中信",
+			"ascii": "xn--fiq64b",
+			"type": "generic",
+			"manager": "CITIC Group Corporation",
+			"brand": true
+		},
+		{
+			"tld": "中国",
+			"ascii": "xn--fiqs8s",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CN"
+		},
+		{
+			"tld": "中國",
+			"ascii": "xn--fiqz9s",
+			"type": "country-code",
+			"manager": "",
+			"cc": "CN"
+		},
+		{
+			"tld": "娱乐",
+			"ascii": "xn--fjq720a",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "谷歌",
+			"ascii": "xn--flw351e",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "భారత్",
+			"ascii": "xn--fpcrj9c3d",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "ලංකා",
+			"ascii": "xn--fzc2c9e2c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LK"
+		},
+		{
+			"tld": "電訊盈科",
+			"ascii": "xn--fzys8d69uvgm",
+			"type": "generic",
+			"manager": "PCCW Enterprises Limited",
+			"brand": true
+		},
+		{
+			"tld": "购物",
+			"ascii": "xn--g2xx48c",
+			"type": "generic",
+			"manager": "Nawang Heli(Xiamen) Network Service Co., LTD."
+		},
+		{
+			"tld": "クラウド",
+			"ascii": "xn--gckr3f0f",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "ભારત",
+			"ascii": "xn--gecrj9c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "通販",
+			"ascii": "xn--gk3at1e",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "भारतम्",
+			"ascii": "xn--h2breg3eve",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "भारत",
+			"ascii": "xn--h2brj9c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "भारोत",
+			"ascii": "xn--h2brj9c8c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "网店",
+			"ascii": "xn--hxt814e",
+			"type": "generic",
+			"manager": "Zodiac Taurus Limited"
+		},
+		{
+			"tld": "संगठन",
+			"ascii": "xn--i1b6b1a6a2e",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "餐厅",
+			"ascii": "xn--imr513n",
+			"type": "generic",
+			"manager": "Internet DotTrademark Organisation Limited"
+		},
+		{
+			"tld": "网络",
+			"ascii": "xn--io0a7i",
+			"type": "generic",
+			"manager": "China Internet Network Information Center (CNNIC)"
+		},
+		{
+			"tld": "ком",
+			"ascii": "xn--j1aef",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "укр",
+			"ascii": "xn--j1amh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "UA"
+		},
+		{
+			"tld": "香港",
+			"ascii": "xn--j6w193g",
+			"type": "country-code",
+			"manager": "",
+			"cc": "HK"
+		},
+		{
+			"tld": "亚马逊",
+			"ascii": "xn--jlq480n2rg",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "食品",
+			"ascii": "xn--jvr189m",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "飞利浦",
+			"ascii": "xn--kcrx77d1x4a",
+			"type": "generic",
+			"manager": "Koninklijke Philips N.V.",
+			"brand": true
+		},
+		{
+			"tld": "台湾",
+			"ascii": "xn--kprw13d",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TW"
+		},
+		{
+			"tld": "台灣",
+			"ascii": "xn--kpry57d",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TW"
+		},
+		{
+			"tld": "手机",
+			"ascii": "xn--kput3i",
+			"type": "generic",
+			"manager": "Beijing RITT-Net Technology Development Co., Ltd"
+		},
+		{
+			"tld": "мон",
+			"ascii": "xn--l1acc",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MN"
+		},
+		{
+			"tld": "الجزائر",
+			"ascii": "xn--lgbbat1ad8j",
+			"type": "country-code",
+			"manager": "",
+			"cc": "DZ"
+		},
+		{
+			"tld": "عمان",
+			"ascii": "xn--mgb9awbf",
+			"type": "country-code",
+			"manager": "",
+			"cc": "OM"
+		},
+		{
+			"tld": "ارامكو",
+			"ascii": "xn--mgba3a3ejt",
+			"type": "generic",
+			"manager": "Aramco Services Company"
+		},
+		{
+			"tld": "ایران",
+			"ascii": "xn--mgba3a4f16a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IR"
+		},
+		{
+			"tld": "العليان",
+			"ascii": "xn--mgba7c0bbn0a",
+			"type": "generic",
+			"manager": "Competrol (Luxembourg) Sarl"
+		},
+		{
+			"tld": "امارات",
+			"ascii": "xn--mgbaam7a8h",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AE"
+		},
+		{
+			"tld": "بازار",
+			"ascii": "xn--mgbab2bd",
+			"type": "generic",
+			"manager": "CORE Association"
+		},
+		{
+			"tld": "موريتانيا",
+			"ascii": "xn--mgbah1a3hjkrd",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MR"
+		},
+		{
+			"tld": "پاکستان",
+			"ascii": "xn--mgbai9azgqp6j",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PK"
+		},
+		{
+			"tld": "الاردن",
+			"ascii": "xn--mgbayh7gpa",
+			"type": "country-code",
+			"manager": "",
+			"cc": "JO"
+		},
+		{
+			"tld": "بارت",
+			"ascii": "xn--mgbbh1a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "بھارت",
+			"ascii": "xn--mgbbh1a71e",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "المغرب",
+			"ascii": "xn--mgbc0a9azcg",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MA"
+		},
+		{
+			"tld": "ابوظبي",
+			"ascii": "xn--mgbca7dzdo",
+			"type": "generic",
+			"manager": "Abu Dhabi Systems and Information Centre"
+		},
+		{
+			"tld": "البحرين",
+			"ascii": "xn--mgbcpq6gpa1a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "BH"
+		},
+		{
+			"tld": "السعودية",
+			"ascii": "xn--mgberp4a5d4ar",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SA"
+		},
+		{
+			"tld": "ڀارت",
+			"ascii": "xn--mgbgu82a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "كاثوليك",
+			"ascii": "xn--mgbi4ecexp",
+			"type": "generic",
+			"manager": "Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)"
+		},
+		{
+			"tld": "سودان",
+			"ascii": "xn--mgbpl2fh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SD"
+		},
+		{
+			"tld": "همراه",
+			"ascii": "xn--mgbt3dhd",
+			"type": "generic",
+			"manager": ""
+		},
+		{
+			"tld": "عراق",
+			"ascii": "xn--mgbtx2b",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IQ"
+		},
+		{
+			"tld": "مليسيا",
+			"ascii": "xn--mgbx4cd0ab",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MY"
+		},
+		{
+			"tld": "澳門",
+			"ascii": "xn--mix891f",
+			"type": "country-code",
+			"manager": "",
+			"cc": "MO"
+		},
+		{
+			"tld": "닷컴",
+			"ascii": "xn--mk1bu44c",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "政府",
+			"ascii": "xn--mxtq1m",
+			"type": "generic",
+			"manager": "Net-Chinese Co., Ltd."
+		},
+		{
+			"tld": "شبكة",
+			"ascii": "xn--ngbc5azd",
+			"type": "generic",
+			"manager": "International Domain Registry Pty. Ltd."
+		},
+		{
+			"tld": "بيتك",
+			"ascii": "xn--ngbe9e0a",
+			"type": "generic",
+			"manager": "Kuwait Finance House"
+		},
+		{
+			"tld": "عرب",
+			"ascii": "xn--ngbrx",
+			"type": "generic",
+			"manager": "League of Arab States"
+		},
+		{
+			"tld": "გე",
+			"ascii": "xn--node",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GE"
+		},
+		{
+			"tld": "机构",
+			"ascii": "xn--nqv7f",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "组织机构",
+			"ascii": "xn--nqv7fs00ema",
+			"type": "generic",
+			"manager": "Public Interest Registry"
+		},
+		{
+			"tld": "健康",
+			"ascii": "xn--nyqy26a",
+			"type": "generic",
+			"manager": "Stable Tone Limited"
+		},
+		{
+			"tld": "ไทย",
+			"ascii": "xn--o3cw4h",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TH"
+		},
+		{
+			"tld": "سورية",
+			"ascii": "xn--ogbpf8fl",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SY"
+		},
+		{
+			"tld": "招聘",
+			"ascii": "xn--otu796d",
+			"type": "generic",
+			"manager": "Jiang Yu Liang Cai Technology Company Limited"
+		},
+		{
+			"tld": "рус",
+			"ascii": "xn--p1acf",
+			"type": "generic",
+			"manager": "Rusnames Limited"
+		},
+		{
+			"tld": "рф",
+			"ascii": "xn--p1ai",
+			"type": "country-code",
+			"manager": "",
+			"cc": "RU"
+		},
+		{
+			"tld": "تونس",
+			"ascii": "xn--pgbs0dh",
+			"type": "country-code",
+			"manager": "",
+			"cc": "TN"
+		},
+		{
+			"tld": "大拿",
+			"ascii": "xn--pssy2u",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "ລາວ",
+			"ascii": "xn--q7ce6a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LA"
+		},
+		{
+			"tld": "みんな",
+			"ascii": "xn--q9jyb4c",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "グーグル",
+			"ascii": "xn--qcka1pmc",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "ευ",
+			"ascii": "xn--qxa6a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EU"
+		},
+		{
+			"tld": "ελ",
+			"ascii": "xn--qxam",
+			"type": "country-code",
+			"manager": "",
+			"cc": "GR"
+		},
+		{
+			"tld": "世界",
+			"ascii": "xn--rhqv96g",
+			"type": "generic",
+			"manager": "Stable Tone Limited"
+		},
+		{
+			"tld": "書籍",
+			"ascii": "xn--rovu88b",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "ഭാരതം",
+			"ascii": "xn--rvc1e0am3e",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "ਭਾਰਤ",
+			"ascii": "xn--s9brj9c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "网址",
+			"ascii": "xn--ses554g",
+			"type": "generic",
+			"manager": "KNET Co., Ltd."
+		},
+		{
+			"tld": "닷넷",
+			"ascii": "xn--t60b56a",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "コム",
+			"ascii": "xn--tckwe",
+			"type": "generic",
+			"manager": "VeriSign Sarl"
+		},
+		{
+			"tld": "天主教",
+			"ascii": "xn--tiq49xqyj",
+			"type": "generic",
+			"manager": "Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)"
+		},
+		{
+			"tld": "游戏",
+			"ascii": "xn--unup4y",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "vermögensberater",
+			"ascii": "xn--vermgensberater-ctb",
+			"type": "generic",
+			"manager": "Deutsche Vermögensberatung Aktiengesellschaft DVAG"
+		},
+		{
+			"tld": "vermögensberatung",
+			"ascii": "xn--vermgensberatung-pwb",
+			"type": "generic",
+			"manager": "Deutsche Vermögensberatung Aktiengesellschaft DVAG"
+		},
+		{
+			"tld": "企业",
+			"ascii": "xn--vhquv",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "信息",
+			"ascii": "xn--vuq861b",
+			"type": "generic",
+			"manager": "Beijing Tele-info Technology Co., Ltd."
+		},
+		{
+			"tld": "嘉里大酒店",
+			"ascii": "xn--w4r85el8fhu5dnra",
+			"type": "generic",
+			"manager": "Kerry Trading Co. Limited"
+		},
+		{
+			"tld": "嘉里",
+			"ascii": "xn--w4rs40l",
+			"type": "generic",
+			"manager": "Kerry Trading Co. Limited",
+			"brand": true
+		},
+		{
+			"tld": "مصر",
+			"ascii": "xn--wgbh1c",
+			"type": "country-code",
+			"manager": "",
+			"cc": "EG"
+		},
+		{
+			"tld": "قطر",
+			"ascii": "xn--wgbl6a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "QA"
+		},
+		{
+			"tld": "广东",
+			"ascii": "xn--xhq521b",
+			"type": "generic",
+			"manager": "Guangzhou YU Wei Information Technology Co., Ltd."
+		},
+		{
+			"tld": "இலங்கை",
+			"ascii": "xn--xkc2al3hye2a",
+			"type": "country-code",
+			"manager": "",
+			"cc": "LK"
+		},
+		{
+			"tld": "இந்தியா",
+			"ascii": "xn--xkc2dl3a5ee0h",
+			"type": "country-code",
+			"manager": "",
+			"cc": "IN"
+		},
+		{
+			"tld": "հայ",
+			"ascii": "xn--y9a3aq",
+			"type": "country-code",
+			"manager": "",
+			"cc": "AM"
+		},
+		{
+			"tld": "新加坡",
+			"ascii": "xn--yfro4i67o",
+			"type": "country-code",
+			"manager": "",
+			"cc": "SG"
+		},
+		{
+			"tld": "فلسطين",
+			"ascii": "xn--ygbi2ammx",
+			"type": "country-code",
+			"manager": "",
+			"cc": "PS"
+		},
+		{
+			"tld": "政务",
+			"ascii": "xn--zfr164b",
+			"type": "generic",
+			"manager": "China Organizational Name Administration Center"
+		},
+		{
+			"tld": "xxx",
+			"ascii": "xxx",
+			"type": "sponsored",
+			"manager": "ICM Registry LLC"
+		},
+		{
+			"tld": "xyz",
+			"ascii": "xyz",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "yachts",
+			"ascii": "yachts",
+			"type": "generic",
+			"manager": "XYZ.COM LLC"
+		},
+		{
+			"tld": "yahoo",
+			"ascii": "yahoo",
+			"type": "generic",
+			"manager": "Yahoo Inc.",
+			"brand": true
+		},
+		{
+			"tld": "yamaxun",
+			"ascii": "yamaxun",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "yandex",
+			"ascii": "yandex",
+			"type": "generic",
+			"manager": "YANDEX, LLC",
+			"brand": true
+		},
+		{
+			"tld": "ye",
+			"ascii": "ye",
+			"type": "country-code",
+			"manager": "",
+			"cc": "YE"
+		},
+		{
+			"tld": "yodobashi",
+			"ascii": "yodobashi",
+			"type": "generic",
+			"manager": "YODOBASHI CAMERA CO.,LTD.",
+			"brand": true
+		},
+		{
+			"tld": "yoga",
+			"ascii": "yoga",
+			"type": "generic",
+			"manager": "Registry Services, LLC"
+		},
+		{
+			"tld": "yokohama",
+			"ascii": "yokohama",
+			"type": "generic",
+			"manager": "GMO Registry, Inc."
+		},
+		{
+			"tld": "you",
+			"ascii": "you",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "youtube",
+			"ascii": "youtube",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc.",
+			"brand": true
+		},
+		{
+			"tld": "yt",
+			"ascii": "yt",
+			"type": "country-code",
+			"manager": "",
+			"cc": "YT"
+		},
+		{
+			"tld": "yun",
+			"ascii": "yun",
+			"type": "generic",
+			"manager": "Beijing Qihu Keji Co., Ltd."
+		},
+		{
+			"tld": "za",
+			"ascii": "za",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ZA"
+		},
+		{
+			"tld": "zappos",
+			"ascii": "zappos",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc.",
+			"brand": true
+		},
+		{
+			"tld": "zara",
+			"ascii": "zara",
+			"type": "generic",
+			"manager": "Industria de Diseño Textil, S.A. (INDITEX, S.A.)",
+			"brand": true
+		},
+		{
+			"tld": "zero",
+			"ascii": "zero",
+			"type": "generic",
+			"manager": "Amazon Registry Services, Inc."
+		},
+		{
+			"tld": "zip",
+			"ascii": "zip",
+			"type": "generic",
+			"manager": "Charleston Road Registry Inc."
+		},
+		{
+			"tld": "zm",
+			"ascii": "zm",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ZM"
+		},
+		{
+			"tld": "zone",
+			"ascii": "zone",
+			"type": "generic",
+			"manager": "Binky Moon, LLC"
+		},
+		{
+			"tld": "zuerich",
+			"ascii": "zuerich",
+			"type": "generic",
+			"manager": "Kanton Zürich (Canton of Zurich)"
+		},
+		{
+			"tld": "zw",
+			"ascii": "zw",
+			"type": "country-code",
+			"manager": "",
+			"cc": "ZW"
+		}
+	]
+}

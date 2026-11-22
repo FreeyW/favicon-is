@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import FaqList from '../../components/FaqList.astro';
+import Icon from '../../components/Icon.astro';
+import { LOCALES, absoluteUrl, localeStaticPaths, localizePath, useTranslations, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+	return localeStaticPaths();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const f = t.faq;
+const faqPage = {
+	'@type': 'FAQPage',
+	'@id': `${absoluteUrl(localizePath(locale, '/faq/'))}#faq`,
+	inLanguage: LOCALES[locale].htmlLang,
+	mainEntity: f.items.map((item) => ({
+		'@type': 'Question',
+		name: item.q,
+		acceptedAnswer: { '@type': 'Answer', text: item.a.join(' ') },
+	})),
+};
+---
+
+<BaseLayout locale={locale} title={f.metaTitle} description={f.metaDescription} path="/faq/" breadcrumbs={[{ name: t.nav.faq, path: '/faq/' }]} jsonLd={[faqPage]}>
+	<PageHeader locale={locale} title={f.title} intro={f.intro} breadcrumbs={[{ name: t.nav.faq, path: '/faq/' }]} />
+	<div class="container-page grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_18rem]">
+		<FaqList items={f.items} />
+		<aside class="space-y-4">
+			{
+				[
+					{ href: '/docs/', label: t.nav.docs, icon: 'book' as const },
+					{ href: '/examples/', label: t.nav.examples, icon: 'code' as const },
+					{ href: '/checker/', label: t.nav.checker, icon: 'scan' as const },
+					{ href: '/guides/', label: t.nav.guides, icon: 'list' as const },
+				].map((link) => (
+					<a href={localizePath(locale, link.href)} class="card flex items-center gap-3 p-4 font-medium text-slate-900 transition hover:border-brand-300 dark:text-white">
+						<Icon name={link.icon} class="size-5 text-brand-500" />
+						{link.label}
+						<Icon name="arrowRight" class="ml-auto size-4 text-slate-400" />
+					</a>
+				))
+			}
+		</aside>
+	</div>
+</BaseLayout>

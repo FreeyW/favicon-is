@@ -1,0 +1,14 @@
+---
+/** No-JS fallback for the lookup form: /site/?domain=example.com → /site/example.com/ */
+import { localeFromParam, localizePath } from '../../../i18n';
+import { normalizeDomain } from '../../../lib/domain';
+
+export const prerender = false;
+
+const locale = localeFromParam(Astro.params.lang);
+if (!locale) return new Response(null, { status: 404 });
+const input = Astro.url.searchParams.get('domain') ?? '';
+const normalized = normalizeDomain(input);
+if (normalized.ok) return Astro.redirect(localizePath(locale, `/site/${normalized.domain}/`), 302);
+return Astro.redirect(`${localizePath(locale, '/')}${input ? `?q=${encodeURIComponent(input)}` : ''}`, 302);
+---
