@@ -1,0 +1,27 @@
+---
+import { localizePath, type Locale } from '../i18n';
+import { siteName } from '../data/popular';
+
+interface Props {
+	locale: Locale;
+	domain: string;
+	compact?: boolean;
+}
+
+const { locale, domain, compact = false } = Astro.props;
+const name = siteName(domain);
+---
+
+<a
+	href={localizePath(locale, `/site/${domain}/`)}
+	class="group card flex items-center gap-3 p-3 transition hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-md dark:hover:border-brand-500/40"
+	title={`${name} favicon`}
+>
+	<span class="icon-tile size-10 shrink-0">
+		<img src={`/${domain}?size=64`} alt={`${name} favicon`} width="24" height="24" class="size-6" loading="lazy" decoding="async" />
+	</span>
+	<span class="min-w-0">
+		<span class="block truncate text-sm font-semibold text-slate-900 group-hover:text-brand-700 dark:text-white dark:group-hover:text-brand-300">{name}</span>
+		{!compact && <span class="block truncate text-xs text-slate-500 dark:text-slate-400">{domain}</span>}
+	</span>
+</a>

@@ -1,0 +1,182 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'PingFang SC', 'Hiragino Sans', 'Microsoft YaHei', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans Devanagari', sans-serif;
+	--font-mono: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+	--color-brand-50: oklch(0.97 0.02 230);
+	--color-brand-100: oklch(0.94 0.04 230);
+	--color-brand-200: oklch(0.88 0.08 230);
+	--color-brand-300: oklch(0.81 0.12 230);
+	--color-brand-400: oklch(0.74 0.15 232);
+	--color-brand-500: oklch(0.69 0.16 235);
+	--color-brand-600: oklch(0.6 0.17 245);
+	--color-brand-700: oklch(0.51 0.16 250);
+	--color-brand-800: oklch(0.43 0.13 252);
+	--color-brand-900: oklch(0.37 0.1 255);
+	--color-brand-950: oklch(0.27 0.07 258);
+
+	--animate-marquee: marquee 60s linear infinite;
+	--animate-fade-in: fade-in 0.4s ease-out both;
+
+	@keyframes marquee {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(-50%);
+		}
+	}
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+			transform: translateY(4px);
+		}
+		to {
+			opacity: 1;
+			transform: none;
+		}
+	}
+}
+
+:lang(zh-Hant) {
+	--font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif;
+}
+:lang(ja) {
+	--font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', Meiryo, 'Noto Sans JP', sans-serif;
+}
+:lang(ko) {
+	--font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+}
+
+/* Phrase-aware line breaking for CJK headings (Chromium: auto-phrase; Korean uses spaces). */
+:lang(ja) :where(h1, h2, h3, p.text-lg, p.text-xl),
+:lang(zh-Hans) :where(h1, h2, h3),
+:lang(zh-Hant) :where(h1, h2, h3) {
+	word-break: auto-phrase;
+	line-break: strict;
+}
+:lang(ko) :where(h1, h2, h3, p, li, a, span, dd) {
+	word-break: keep-all;
+}
+
+@layer base {
+	html {
+		-webkit-text-size-adjust: 100%;
+		text-rendering: optimizeLegibility;
+		scroll-padding-top: 5rem;
+		color-scheme: light;
+	}
+	html.dark {
+		color-scheme: dark;
+	}
+	body {
+		@apply bg-white font-sans text-slate-700 antialiased dark:bg-slate-950 dark:text-slate-300;
+		font-feature-settings: 'cv11', 'ss01';
+	}
+	:where(h1, h2, h3, h4) {
+		@apply text-slate-900 dark:text-white;
+		text-wrap: balance;
+	}
+	::selection {
+		@apply bg-brand-200 text-slate-900;
+	}
+	:focus-visible {
+		@apply outline-2 outline-offset-2 outline-brand-500;
+	}
+	summary::-webkit-details-marker {
+		display: none;
+	}
+}
+
+@utility container-page {
+	@apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+@utility card {
+	@apply rounded-2xl border border-slate-200/80 bg-white shadow-sm shadow-slate-900/5 dark:border-white/10 dark:bg-slate-900/60 dark:shadow-none;
+}
+
+@utility btn {
+	@apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus-visible:outline-2 disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+@utility btn-primary {
+	@apply btn bg-slate-900 text-white shadow-sm hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200;
+}
+
+@utility btn-brand {
+	@apply btn bg-brand-600 text-white shadow-sm shadow-brand-600/20 hover:bg-brand-700;
+}
+
+@utility btn-ghost {
+	@apply btn border border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:bg-white/10;
+}
+
+@utility input {
+	@apply w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-base text-slate-900 shadow-sm outline-none transition placeholder:text-slate-400 focus:border-brand-400 focus:ring-4 focus:ring-brand-500/15 dark:border-white/10 dark:bg-slate-900 dark:text-white dark:placeholder:text-slate-500;
+}
+
+@utility eyebrow {
+	@apply text-sm font-semibold tracking-wide text-brand-600 dark:text-brand-400;
+}
+
+@utility section-title {
+	@apply text-3xl font-bold tracking-tight sm:text-4xl;
+}
+
+@utility section-subtitle {
+	@apply mt-3 text-lg text-slate-600 dark:text-slate-400;
+}
+
+@utility chip {
+	@apply inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-2.5 py-0.5 text-xs font-medium text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-300;
+}
+
+@utility icon-tile {
+	@apply flex items-center justify-center rounded-xl border border-slate-200/80 bg-white shadow-sm dark:border-white/10 dark:bg-slate-800/80;
+}
+
+@utility bg-grid {
+	background-image:
+		linear-gradient(to right, rgb(148 163 184 / 0.12) 1px, transparent 1px),
+		linear-gradient(to bottom, rgb(148 163 184 / 0.12) 1px, transparent 1px);
+	background-size: 44px 44px;
+}
+
+@utility prose-site {
+	@apply prose prose-slate max-w-none dark:prose-invert prose-headings:scroll-mt-24 prose-headings:font-bold prose-headings:tracking-tight prose-a:text-brand-600 prose-a:no-underline hover:prose-a:underline dark:prose-a:text-brand-400 prose-code:rounded-md prose-code:bg-slate-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:font-medium prose-code:before:content-none prose-code:after:content-none dark:prose-code:bg-white/10 prose-pre:rounded-xl prose-pre:border prose-pre:border-slate-200 dark:prose-pre:border-white/10 prose-table:text-sm prose-th:text-left prose-img:rounded-xl;
+}
+
+/* Shiki dual themes: light colours inline, dark colours via CSS variables. */
+.astro-code,
+.astro-code span {
+	background-color: transparent;
+}
+.dark .astro-code,
+.dark .astro-code span {
+	color: var(--shiki-dark) !important;
+	font-style: var(--shiki-dark-font-style) !important;
+	font-weight: var(--shiki-dark-font-weight) !important;
+}
+pre.astro-code {
+	@apply overflow-x-auto p-4 text-[13px] leading-relaxed;
+	background-color: var(--color-slate-50) !important;
+}
+.dark pre.astro-code {
+	background-color: var(--color-slate-900) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}

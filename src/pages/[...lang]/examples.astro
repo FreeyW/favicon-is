@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import CodeBlock from '../../components/CodeBlock.astro';
+import Icon from '../../components/Icon.astro';
+import { LOCALES, absoluteUrl, localeStaticPaths, localizePath, useTranslations, type Locale } from '../../i18n';
+import { SITE_URL } from '../../site.config';
+
+export function getStaticPaths() {
+	return localeStaticPaths();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const e = t.examples;
+const copy = { copyLabel: t.common.copy, copiedLabel: t.common.copied };
+
+const snippets: { key: keyof typeof e.items; lang: string; code: string }[] = [
+	{
+		key: 'html',
+		lang: 'html',
+		code: `<img src="${SITE_URL}/github.com" width="32" height="32" alt="GitHub" loading="lazy">
+
+<!-- High resolution for retina screens -->
+<img src="${SITE_URL}/github.com?larger=true" width="64" height="64" alt="GitHub">`,
+	},
+	{
+		key: 'markdown',
+		lang: 'md',
+		code: `![GitHub](${SITE_URL}/github.com?size=32) [GitHub](https://github.com)`,
+	},
+	{
+		key: 'css',
+		lang: 'css',
+		code: `a[href^="https://github.com"]::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.35em;
+  vertical-align: -0.125em;
+  background: url("${SITE_URL}/github.com?size=32") center / contain no-repeat;
+}`,
+	},
+	{
+		key: 'javascript',
+		lang: 'js',
+		code: `document.querySelectorAll('a[href^="http"]').forEach((link) => {
+  const { hostname } = new URL(link.href);
+  const icon = document.createElement('img');
+  icon.src = \`${SITE_URL}/\${hostname}?size=32\`;
+  icon.width = icon.height = 16;
+  icon.alt = '';
+  icon.loading = 'lazy';
+  icon.style.marginRight = '0.35em';
+  link.prepend(icon);
+});`,
+	},
+	{
+		key: 'react',
+		lang: 'jsx',
+		code: `export function Favicon({ domain, size = 16 }) {
+  return (
+    <img
+      src={\`${SITE_URL}/\${domain}?size=\${size * 2}\`}
+      width={size}
+      height={size}
+      alt=""
+      loading="lazy"
+      onError={(event) => {
+        event.currentTarget.src = '${SITE_URL}/default-favicon.svg';
+      }}
+    />
+  );
+}
+
+// <Favicon domain="github.com" />`,
+	},
+	{
+		key: 'vue',
+		lang: 'vue',
+		code: `<script setup>
+defineProps({
+  domain: { type: String, required: true },
+  size: { type: Number, default: 16 },
+});
+</script>
+
+<template>
+  <img
+    :src="\`${SITE_URL}/\${domain}?size=\${size * 2}\`"
+    :width="size"
+    :height="size"
+    alt=""
+    loading="lazy"
+  />
+</template>`,
+	},
+	{
+		key: 'python',
+		lang: 'python',
+		code: `import pathlib
+import urllib.request
+
+domains = ["github.com", "wikipedia.org", "python.org"]
+out = pathlib.Path("icons")
+out.mkdir(exist_ok=True)
+
+for domain in domains:
+    with urllib.request.urlopen(f"${SITE_URL}/{domain}?larger=true") as response:
+        ext = {"image/png": "png", "image/x-icon": "ico", "image/svg+xml": "svg"}.get(
+            response.headers.get_content_type(), "img"
+        )
+        (out / f"{domain}.{ext}").write_bytes(response.read())
+        print(domain, response.headers["X-Source"])`,
+	},
+	{
+		key: 'php',
+		lang: 'php',
+		code: `<?php
+$domain = parse_url($link, PHP_URL_HOST);
+$src = '${SITE_URL}/' . rawurlencode($domain) . '?size=32';
+?>
+<img src="<?= htmlspecialchars($src) ?>" width="16" height="16" alt="">`,
+	},
+	{
+		key: 'go',
+		lang: 'go',
+		code: `package main
+
+import (
+	"io"
+	"net/http"
+	"os"
+)
+
+func main() {
+	resp, err := http.Get("${SITE_URL}/go.dev?larger=true")
+	if err != nil {
+		panic(err)
+	}
+	defer resp.Body.Close()
+
+	file, err := os.Create("go.dev.png")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	if _, err := io.Copy(file, resp.Body); err != nil {
+		panic(err)
+	}
+}`,
+	},
+	{
+		key: 'curl',
+		lang: 'bash',
+		code: `# Inspect the response headers
+curl -I ${SITE_URL}/github.com
+
+# Save a 64 px icon
+curl -o github.png "${SITE_URL}/github.com?size=64"`,
+	},
+];
+
+const howTo = {
+	'@type': 'HowTo',
+	name: e.title,
+	description: e.metaDescription,
+	inLanguage: LOCALES[locale].htmlLang,
+	url: absoluteUrl(localizePath(locale, '/examples/')),
+	step: snippets.map((snippet, index) => ({
+		'@type': 'HowToStep',
+		position: index + 1,
+		name: e.items[snippet.key].title,
+		text: e.items[snippet.key].description,
+		url: `${absoluteUrl(localizePath(locale, '/examples/'))}#${snippet.key}`,
+	})),
+};
+---
+
+<BaseLayout locale={locale} title={e.metaTitle} description={e.metaDescription} path="/examples/" breadcrumbs={[{ name: t.nav.examples, path: '/examples/' }]} jsonLd={[howTo]}>
+	<PageHeader locale={locale} title={e.title} intro={e.intro} breadcrumbs={[{ name: t.nav.examples, path: '/examples/' }]}>
+		<div class="mt-8 flex flex-wrap gap-2">
+			{
+				snippets.map((snippet) => (
+					<a href={`#${snippet.key}`} class="chip px-3 py-1 text-sm hover:border-brand-300 hover:text-slate-900 dark:hover:text-white">
+						{e.items[snippet.key].title}
+					</a>
+				))
+			}
+		</div>
+	</PageHeader>
+
+	<div class="container-page grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_18rem]">
+		<div class="space-y-12">
+			{
+				snippets.map((snippet) => (
+					<section id={snippet.key} class="scroll-mt-24">
+						<h2 class="text-xl font-bold tracking-tight">{e.items[snippet.key].title}</h2>
+						<p class="mt-2 text-slate-600 dark:text-slate-400">{e.items[snippet.key].description}</p>
+						<CodeBlock code={snippet.code} lang={snippet.lang} title={e.items[snippet.key].title} class="mt-4" {...copy} />
+					</section>
+				))
+			}
+		</div>
+		<aside>
+			<div class="card sticky top-24 p-6">
+				<h2 class="flex items-center gap-2 text-base font-semibold">
+					<Icon name="sparkles" class="size-4 text-brand-500" />
+					{e.tipsTitle}
+				</h2>
+				<ul class="mt-4 space-y-3 text-sm text-slate-600 dark:text-slate-400">
+					{
+						e.tips.map((tip) => (
+							<li class="flex gap-2">
+								<Icon name="check" class="mt-0.5 size-4 shrink-0 text-emerald-500" />
+								<span>{tip}</span>
+							</li>
+						))
+					}
+				</ul>
+				<a href={localizePath(locale, '/docs/')} class="btn-ghost mt-6 w-full">
+					<Icon name="book" class="size-4" />
+					{t.nav.docs}
+				</a>
+			</div>
+		</aside>
+	</div>
+</BaseLayout>

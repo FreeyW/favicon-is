@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FaviconLookup from '../components/FaviconLookup.astro';
+import Icon from '../components/Icon.astro';
+import { LOCALES, LOCALE_CODES, localizePath, useTranslations } from '../i18n';
+
+const locale = 'en' as const;
+const t = useTranslations(locale);
+---
+
+<BaseLayout locale={locale} title={t.notFound.metaTitle} description={t.notFound.description} path="/404/" noindex alternates={false}>
+	<section class="relative overflow-hidden">
+		<div class="bg-grid pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_75%)]"></div>
+		<div class="container-page relative py-24 text-center">
+			<p class="font-mono text-sm font-semibold text-brand-600 dark:text-brand-400">404</p>
+			<h1 class="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">{t.notFound.title}</h1>
+			<p class="mx-auto mt-4 max-w-xl text-lg text-slate-600 dark:text-slate-400">{t.notFound.description}</p>
+			<a href="/" class="btn-primary mt-8">
+				<Icon name="arrowRight" class="size-4 rotate-180" />
+				{t.notFound.back}
+			</a>
+			<div class="mx-auto mt-14 max-w-xl text-left">
+				<p class="mb-3 text-sm font-medium text-slate-600 dark:text-slate-400">{t.notFound.tryTool}</p>
+				<FaviconLookup locale={locale} mode="navigate" size="md" />
+			</div>
+			<ul class="mx-auto mt-14 flex max-w-2xl flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
+				{
+					LOCALE_CODES.map((code) => (
+						<li>
+							<a href={localizePath(code, '/')} lang={LOCALES[code].htmlLang} class="text-slate-500 hover:text-slate-900 dark:hover:text-white">
+								{LOCALES[code].name}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</section>
+</BaseLayout>

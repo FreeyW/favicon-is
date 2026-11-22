@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import SiteTile from '../../components/SiteTile.astro';
+import { LOCALES, absoluteUrl, fmt, localeStaticPaths, localizePath, useTranslations, type Locale } from '../../i18n';
+import { POPULAR_CATEGORIES, POPULAR_DOMAINS, siteName, type PopularCategory } from '../../data/popular';
+
+export function getStaticPaths() {
+	return localeStaticPaths();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const p = t.popular;
+const categories = Object.keys(POPULAR_CATEGORIES) as PopularCategory[];
+const description = fmt(p.metaDescription, { n: POPULAR_DOMAINS.length });
+
+const collection = {
+	'@type': 'CollectionPage',
+	name: p.title,
+	description,
+	inLanguage: LOCALES[locale].htmlLang,
+	url: absoluteUrl(localizePath(locale, '/popular/')),
+	mainEntity: {
+		'@type': 'ItemList',
+		numberOfItems: POPULAR_DOMAINS.length,
+		itemListElement: POPULAR_DOMAINS.map((domain, index) => ({
+			'@type': 'ListItem',
+			position: index + 1,
+			name: `${siteName(domain)} favicon`,
+			url: absoluteUrl(localizePath(locale, `/site/${domain}/`)),
+		})),
+	},
+};
+---
+
+<BaseLayout locale={locale} title={p.metaTitle} description={description} path="/popular/" breadcrumbs={[{ name: t.nav.popular, path: '/popular/' }]} jsonLd={[collection]}>
+	<PageHeader locale={locale} title={p.title} intro={p.intro} breadcrumbs={[{ name: t.nav.popular, path: '/popular/' }]}>
+		<nav class="mt-8 flex flex-wrap gap-2" aria-label={p.title}>
+			{
+				categories.map((key) => (
+					<a href={`#${key}`} class="chip px-3 py-1 text-sm hover:border-brand-300 hover:text-slate-900 dark:hover:text-white">
+						{p.categories[key]}
+						<span class="text-slate-400">{POPULAR_CATEGORIES[key].length}</span>
+					</a>
+				))
+			}
+		</nav>
+	</PageHeader>
+
+	<div class="container-page space-y-14 py-12">
+		{
+			categories.map((key) => (
+				<section id={key} class="scroll-mt-24">
+					<h2 class="text-xl font-bold tracking-tight">{p.categories[key]}</h2>
+					<div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+						{POPULAR_CATEGORIES[key].map((domain) => (
+							<SiteTile locale={locale} domain={domain} />
+						))}
+					</div>
+				</section>
+			))
+		}
+	</div>
+</BaseLayout>

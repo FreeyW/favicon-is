@@ -1,0 +1,14 @@
+{
+	"name": "Favicon.is – Free Favicon API",
+	"short_name": "Favicon.is",
+	"description": "Get any website's favicon with a single URL.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#2bb5ff",
+	"icons": [
+		{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "/favicon.png", "sizes": "256x256", "type": "image/png" },
+		{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+	]
+}
