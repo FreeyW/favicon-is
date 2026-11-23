@@ -77,7 +77,6 @@ const dict: Dict = {
 		moreTools: '更多免费工具',
 		rights: '© {year} Favicon.is。保留所有权利。',
 		inspired: '灵感来自 Favicon.im',
-		poweredBy: '基于 Cloudflare Workers 和 R2 运行',
 		products: {
 			ip: '免费 IP 地址查询工具',
 			tim: '最短的短网址服务',
