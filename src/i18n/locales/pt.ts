@@ -77,7 +77,6 @@ const dict: Dict = {
 		moreTools: 'Mais ferramentas gratuitas',
 		rights: '© {year} Favicon.is. Todos os direitos reservados.',
 		inspired: 'Inspirado no Favicon.im',
-		poweredBy: 'Roda no Cloudflare Workers e R2',
 		products: {
 			ip: 'Ferramenta gratuita de consulta de endereço IP',
 			tim: 'O encurtador de URL mais curto',

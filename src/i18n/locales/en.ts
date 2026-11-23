@@ -80,7 +80,6 @@ const en = {
 		moreTools: 'More free tools',
 		rights: '© {year} Favicon.is. All rights reserved.',
 		inspired: 'Inspired by Favicon.im',
-		poweredBy: 'Runs on Cloudflare Workers and R2',
 		products: {
 			ip: 'Free IP address lookup tool',
 			tim: 'The shortest URL shortener',

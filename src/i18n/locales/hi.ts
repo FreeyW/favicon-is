@@ -77,7 +77,6 @@ const dict: Dict = {
 		moreTools: 'और मुफ़्त टूल',
 		rights: '© {year} Favicon.is। सर्वाधिकार सुरक्षित।',
 		inspired: 'Favicon.im से प्रेरित',
-		poweredBy: 'Cloudflare Workers और R2 पर चलता है',
 		products: {
 			ip: 'मुफ़्त IP एड्रेस लुकअप टूल',
 			tim: 'सबसे छोटा URL शॉर्टनर',

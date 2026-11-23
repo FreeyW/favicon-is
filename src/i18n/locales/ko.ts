@@ -77,7 +77,6 @@ const dict: Dict = {
 		moreTools: '더 많은 무료 도구',
 		rights: '© {year} Favicon.is. All rights reserved.',
 		inspired: 'Favicon.im에서 영감을 받았습니다',
-		poweredBy: 'Cloudflare Workers와 R2로 운영',
 		products: {
 			ip: '무료 IP 주소 조회 도구',
 			tim: '가장 짧은 URL 단축 서비스',

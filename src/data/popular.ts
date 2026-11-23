@@ -105,4 +105,4 @@ export function relatedDomains(domain: string, count = 12): string[] {
 }
 
 /** Shown on the home page. */
-export const FEATURED_DOMAINS = ['google.com', 'youtube.com', 'github.com', 'wikipedia.org', 'amazon.com', 'netflix.com', 'reddit.com', 'x.com', 'instagram.com', 'linkedin.com', 'apple.com', 'microsoft.com', 'spotify.com', 'stackoverflow.com', 'figma.com', 'notion.so', 'discord.com', 'cloudflare.com', 'twitch.tv', 'airbnb.com', 'paypal.com', 'bbc.com', 't.im'];
+export const FEATURED_DOMAINS = ['google.com', 'youtube.com', 'github.com', 'wikipedia.org', 'amazon.com', 'netflix.com', 'reddit.com', 'x.com', 'instagram.com', 'linkedin.com', 'apple.com', 'microsoft.com', 'spotify.com', 'stackoverflow.com', 'figma.com', 'notion.so', 'discord.com', 'cloudflare.com', 'twitch.tv', 'airbnb.com', 'paypal.com', 'bbc.com', 'slack.com', 't.im'];
